@@ -81,10 +81,11 @@ Reproduce our internal analyses:
 
 ```bash
 # PCA shift analysis
-python analysis/pca_shift_analysis.py \
+python analysis/analyse_PCA_Shift.py \
     --base_model Qwen3-14B-Base \
     --fine_tuned_models models/unireason_*/ \
-    --tasks math,other_reasoning,non_reasoning
+    --task_type math,other_reasoning,non_reasoning \
+    --k 100(query numbers)
 
 # Token distribution analysis  
 python analysis/token_analysis.py \
