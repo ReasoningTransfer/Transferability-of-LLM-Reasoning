@@ -34,7 +34,7 @@ This generates a `.json` file (such as `{model_name}_pca_shift.json`) containing
 
 ### 2. Visualize the Results
 
-Launch Jupyter Notebook and open `pictures.ipynb`. You can adjust parameters like `target_benchmarks`, `files`, or `result_distance` to view PCA plots from different perspectives.
+Launch Jupyter Notebook and open `PCA_shift_visualization.ipynb`. You can adjust parameters like `target_benchmarks`, `files`, or `result_distance` to view PCA plots from different perspectives.
 
 Tip: Small changes in these parameters can reveal different aspects of your model’s internal changes.
 
