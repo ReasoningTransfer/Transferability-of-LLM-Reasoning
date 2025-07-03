@@ -1,6 +1,6 @@
 ## 🔬 Exploring Model Transferability with PCA Shift
 
-PCA Shift allows you to explore how different training strategies—such as supervised fine-tuning (SFT) and reinforcement learning (RL)—reshape your model’s internal feature space. While SFT can boost reasoning on tasks like math or code, it often narrows general-domain ability and limits knowledge transfer. RL, in contrast, typically promotes broader generalization. Through PCA shift analysis, you can visualize and quantify how your model’s internal structure evolves, helping you determine whether improvements are genuinely transferable or come at the expense of overall versatility.
+PCA Shift allows you to explore how different training strategies—such as supervised fine-tuning (SFT) and reinforcement learning (RL)—reshape your model’s internal feature space. While SFT can boost reasoning on tasks like math, it often narrows general-domain ability and limits knowledge transfer. RL, in contrast, typically promotes broader generalization. Through PCA shift analysis, you can visualize and quantify how your model’s internal structure evolves, helping you determine whether improvements are genuinely transferable or come at the expense of overall versatility.
 
 ---
 
