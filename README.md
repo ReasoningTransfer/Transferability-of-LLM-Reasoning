@@ -37,28 +37,6 @@ This repository contains the code, data, and evaluation framework for our compre
 - **Token Distribution**: RL selectively shifts task-relevant tokens, SFT perturbs many irrelevant ones
 - **KL Divergence**: RL shows minimal distribution drift from base models
 
-## 🚀 Installation
-
-```bash
-# Clone the repository
-git clone https://github.com/ReasoningTransfer/Transferability-of-LLM-Reasoning.git
-cd Transferability-of-LLM-Reasoning
-
-# Create conda environment
-conda create -n reasoning-transfer python=3.10
-conda activate reasoning-transfer
-
-# Install dependencies
-pip install -r requirements.txt
-
-# Install the package
-pip install -e .
-```
-
-## ⚡ Quick Start
-
-
-## 📊 Evaluation
 
 ### Benchmark Categories
 
@@ -67,48 +45,6 @@ pip install -e .
 | **Math Reasoning** | MATH-500, AIME24/25, OlympiadBench | Pure mathematical problem solving |
 | **Other Reasoning** | GPQA-Diamond, LiveCodeBench, ACPBench, HeadQA | Scientific QA, coding, planning |
 | **Non-Reasoning** | CoQA, IFEval, HaluEval, MC-TACO | Conversational QA, instruction following |
-
-### Run Full Evaluation Suite
-
-```bash
-# Evaluate a single model
-
-
-
-## Analysis Tools
-
-Reproduce our internal analyses:
-
-```bash
-# PCA shift analysis
-python analysis/analyse_PCA_Shift.py \
-    --base_model Qwen3-14B-Base \
-    --fine_tuned_models models/unireason_*/ \
-    --task_type math,other_reasoning,non_reasoning \
-    --k 100(query numbers)
-
-# Token distribution analysis  
-python analysis/token_analysis.py \
-    --models models/unireason_*/ \
-    --base_model Qwen3-14B-Base \
-    --generate_wordclouds
-```
-
-## 📊 Pre-trained Models
-
-Access our trained models via Hugging Face:
-
-```python
-from transformers import AutoModelForCausalLM, AutoTokenizer
-
-# UniReason SFT model
-model = AutoModelForCausalLM.from_pretrained("ReasoningTransferability/UniReason-Qwen3-14B-SFT")
-
-# UniReason RL model  
-model = AutoModelForCausalLM.from_pretrained("ReasoningTransferability/UniReason-Qwen3-14B-RL")
-
-tokenizer = AutoTokenizer.from_pretrained("ReasoningTransferability/UniReason-Qwen3-14B-RL")
-```
 
 
 ## 📄 Citation
