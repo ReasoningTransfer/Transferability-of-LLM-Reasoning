@@ -1,6 +1,6 @@
 # Does Math Reasoning Improve General LLM Capabilities? Understanding Transferability of LLM Reasoning
 
-[![arXiv](https://img.shields.io/badge/arXiv-2025.XXXX-b31b1b.svg)](https://arxiv.org/abs/XXXX.XXXXX)
+[![arXiv](https://img.shields.io/badge/arXiv-2025.00432-b31b1b.svg)](https://arxiv.org/abs/2507.00432)
 [![Hugging Face](https://img.shields.io/badge/🤗%20Hugging%20Face-Models-yellow)](https://huggingface.co/ReasoningTransferability)
 [![GitHub](https://img.shields.io/badge/GitHub-Code-blue)](https://github.com/ReasoningTransfer/Transferability-of-LLM-Reasoning)
 
@@ -55,7 +55,7 @@ If you find this work useful, please cite our paper:
 @article{huan2025math,
   title={Does Math Reasoning Improve General LLM Capabilities? Understanding Transferability of LLM Reasoning},
   author={Huan, Maggie and Li, Yuetai and Zheng, Tuney and Xu, Xiaoyu and Kim, Seungone and Du, Minxin and Poovendran, Radha and Neubig, Graham and Yue, Xiang},
-  journal={arXiv preprint arXiv:XXXX.XXXXX},
+  journal={arXiv preprint arXiv:2507.00432},
   year={2025}
 }
 ```
