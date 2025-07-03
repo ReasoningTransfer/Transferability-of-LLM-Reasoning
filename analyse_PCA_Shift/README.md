@@ -11,7 +11,7 @@ PCA Shift allows you to explore how different training strategies—such as supe
 Open `PCA_shift.sh` in your favorite text editor and adjust the parameters:
 
 * `K`: Number of queries for PCA (e.g., 100)
-* `TASKS`: Dataset types (such as `MATH500`, `Livecodebench`, `TruthfulQA`)
+* `TASKS`: Dataset types (such as `MATH500`, `Livecodebench`)
 * `base_models`, `fine_tuned_models`: Names of the models before and after training
 
 Example in `PCA_shift.sh`:
