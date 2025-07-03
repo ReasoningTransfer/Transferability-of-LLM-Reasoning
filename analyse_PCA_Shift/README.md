@@ -57,9 +57,6 @@ This plot shows how the model’s internal representations differ under various 
 ### 5. Key Findings
 
 * RL-based fine-tuning best preserves general-domain representations and reduces forgetting.
-* Larger models are more stable, but scaling alone is not sufficient for generalization.
-* Qwen models are especially sensitive to reasoning-focused pre-training data.
-* Only RL consistently supports knowledge transfer without sacrificing general performance.
 
 ---
 
