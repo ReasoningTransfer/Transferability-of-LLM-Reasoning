@@ -164,7 +164,7 @@ def load_model(path):
     return model.eval()
 
 # === Function to compute centroid L2 distances ===
-def compute_centroid_distance(df, states=["step1"]):
+def compute_centroid_distance(df, states=["Updated"]):
     """
     Compute L2 distance between the centroid of 'Original' state and each specified state.
     """
