@@ -64,6 +64,7 @@ The script automatically handles different model configurations:
   - Qwen2.5-7B-Instruct
   - Qwen2.5-Math-7B-Instruct  
   - Qwen-2.5-Math-7B-SimpleRL-Zoo
+- **For other models**: Change Model Length `max_output_length=xxx`
 
 Execute the evaluation script:
 ```bash
