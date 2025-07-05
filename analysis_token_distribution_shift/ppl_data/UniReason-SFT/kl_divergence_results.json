@@ -1,0 +1,11 @@
+[
+  {
+    "generation_model": "UniReason-SFT",
+    "task": "ifeval",
+    "tested_model": "Qwen3-14B-base",
+    "kl_divergence": 0.23559810639974693,
+    "num_data_points": 100,
+    "total_tokens": 164994,
+    "avg_tokens_per_data_point": 1649.94
+  }
+]
