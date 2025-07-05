@@ -1,0 +1,12 @@
+group: halueval
+task:
+  - halueval_qa
+  - halueval_summarization
+  - halueval_dialogue
+aggregate_metric_list:
+  - aggregation: mean
+    metric: exact_match
+    weight_by_size: true
+    filter_list: custom-extract
+metadata:
+  version: 2.0

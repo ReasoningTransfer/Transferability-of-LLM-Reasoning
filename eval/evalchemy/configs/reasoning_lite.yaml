@@ -1,0 +1,12 @@
+annotator_model: gpt-4o-mini-2024-07-18
+tasks:
+  - task_name: AIME24
+    batch_size: 32
+  - task_name: AMC23
+    batch_size: 32
+  - task_name: BigCodeBench
+    batch_size: 32
+  - task_name: HumanEval
+    batch_size: 32
+  - task_name: MBPP
+    batch_size: 16

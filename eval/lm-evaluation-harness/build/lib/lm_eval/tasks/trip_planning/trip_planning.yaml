@@ -1,0 +1,51 @@
+# lm_eval/tasks/trip_planning/trip_planning.yaml
+
+tag:
+  - trip_planning
+
+task: trip_planning
+
+dataset_path: json
+dataset_name: null
+dataset_kwargs:
+  trust_remote_code: true
+
+  data_files: 
+    train: "/map-vepfs/ziyu/reasoning_tr/lm-evaluation-harness/lm_eval/tasks/trip_planning/trip_planning_s.jsonl"
+    validation: "/map-vepfs/ziyu/reasoning_tr/lm-evaluation-harness/lm_eval/tasks/trip_planning/trip_planning_s.jsonl"
+    test: "/map-vepfs/ziyu/reasoning_tr/lm-evaluation-harness/lm_eval/tasks/trip_planning/trip_planning_s.jsonl"
+
+process_docs: !function utils.process_docs
+training_split: train
+validation_split: test
+test_split: test
+
+# 定义 prompt 模板，利用 Jinja2 语法构造输入文本。这里我们以 5-shot prompt 为例，
+# 同时在 prompt 中展示了城市和停留时间信息，方便后续评分。
+doc_to_text: |
+  {{prompt_5shot}}
+
+
+# 修改 doc_to_target，让它返回一个包含多个字段的结构（这里用 JSON 格式表示）。
+# 这样 metric 函数可以通过反序列化获取到 cities、durations 等信息。
+doc_to_target: |
+  {
+    "cities": "{{cities}}",
+    "durations": "{{durations}}"
+  }
+# doc_to_target: "{{cities}}, {{durations}}"
+
+# 定义任务的评估指标，这里引用自定义的 metric 函数，
+# 它会解析模型生成的响应（pred_5shot_pro）并与 references 中的内容比较。!function utils.trip_planning_metric
+metric_list:
+  - metric: !function utils.trip_planning_metric
+    aggregation: mean
+    higher_is_better: true
+
+metadata:
+  version: 0
+description: >
+  Trip Planning Task:
+  Given a set of cities to visit and the planned durations (both formatted with '**' as delimiter),
+  the model is required to generate a trip plan that exactly matches the ground-truth plan.
+  The evaluation is done via an exact-match metric computed by parsing the model response.

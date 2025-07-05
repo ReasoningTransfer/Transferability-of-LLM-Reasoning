@@ -1,0 +1,8 @@
+group: naturalplan
+task:
+  - calendar_scheduling
+  - meeting_planning
+  - trip_planning
+
+metadata:
+  version: 1.0

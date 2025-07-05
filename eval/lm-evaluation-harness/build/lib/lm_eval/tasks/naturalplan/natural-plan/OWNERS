@@ -1,0 +1,4 @@
+# Third party requirements enforce having two owners.
+stevenzheng
+swaroopmishra
+file: //depot/google3/third_party/deepmind/OWNERS.deepmind

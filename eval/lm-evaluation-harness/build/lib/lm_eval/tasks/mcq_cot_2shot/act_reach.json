@@ -1,0 +1,882 @@
+[
+  {
+    "id": 6622905800496884581,
+    "group": "reachable_action_mc",
+    "context": "This is a ferry domain, where the task is to transport cars from their start to their goal locations, using a ferry. Each location is accessible by ferry from each other location. The cars can be debarked or boarded, and the ferry can carry only one car at a time. There are 2 locations and 10 cars, numbered consecutively. Currently, the ferry is at l1, with the car c3 on board. The cars are at locations as follows: c9, c2, c6, c8, c0, and c1 are at l0; c7, c4, and c5 are at l1.",
+    "question": "Which of the following actions can eventually be applied? A. sail from location c2 to location l1. B. unload the car c7 from the ferry to location l0. C. unload the car c3 from the ferry to location c7. D. unload the car c8 from the ferry to location c3.",
+    "choices": {
+      "text": [
+        "sail from location c2 to location l1",
+        "unload the car c7 from the ferry to location l0",
+        "unload the car c3 from the ferry to location c7",
+        "unload the car c8 from the ferry to location c3"
+      ],
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    "query": "Which action is reachable from this state?",
+    "answer": "B"
+  },
+  {
+    "id": 7997404780415709120,
+    "group": "reachable_action_mc",
+    "context": "This is a ferry domain, where the task is to transport cars from their start to their goal locations, using a ferry. Each location is accessible by ferry from each other location. The cars can be debarked or boarded, and the ferry can carry only one car at a time. There are 2 locations and 10 cars, numbered consecutively. Currently, the ferry is at l0 location and it is empty. The cars are at locations as follows: c9 and c2 are at l1; c4, c5, c7, c3, c6, c0, c8, and c1 are at l0.",
+    "question": "Which of the following actions can eventually be applied? A. board the car l0 at the location l1. B. board the car c9 at the location l1. C. travel by sea from location c8 to location c5. D. travel by sea from location c8 to location c0.",
+    "choices": {
+      "text": [
+        "board the car l0 at the location l1",
+        "board the car c9 at the location l1",
+        "travel by sea from location c8 to location c5",
+        "travel by sea from location c8 to location c0"
+      ],
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    "query": "Which action is reachable from this state?",
+    "answer": "B"
+  },
+  {
+    "id": -6232981174094679728,
+    "group": "reachable_action_mc",
+    "context": "This is a ferry domain, where the task is to transport cars from their start to their goal locations, using a ferry. Each location is accessible by ferry from each other location. The cars can be debarked or boarded, and the ferry can carry only one car at a time. There are 2 locations and 10 cars, numbered consecutively. Currently, the ferry is at l0, with the car c3 on board. The cars are at locations as follows: c9, c4, c8, c6, c0, and c1 are at l0; c2, c7, and c5 are at l1.",
+    "question": "Which of the following actions can eventually be applied? A. board car l0 at location c4. B. debark car c4 to location l1 from the ferry. C. board car c3 at location c6. D. debark car c9 to location c6 from the ferry.",
+    "choices": {
+      "text": [
+        "board car l0 at location c4",
+        "debark car c4 to location l1 from the ferry",
+        "board car c3 at location c6",
+        "debark car c9 to location c6 from the ferry"
+      ],
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    "query": "Which action is reachable from this state?",
+    "answer": "B"
+  },
+  {
+    "id": -5080950710486112977,
+    "group": "reachable_action_mc",
+    "context": "This is a ferry domain, where the task is to transport cars from their start to their goal locations, using a ferry. Each location is accessible by ferry from each other location. The cars can be debarked or boarded, and the ferry can carry only one car at a time. There are 2 locations and 10 cars, numbered consecutively. Currently, the ferry is at l1, with the car c9 on board. The cars are at locations as follows: c4, c7, c3, c8, c6, and c0 are at l0; c1, c2, and c5 are at l1.",
+    "question": "Which of the following actions can eventually be applied? A. debark car c3 to location c7 from the ferry. B. sail from location c2 to location c7. C. sail from location l0 to location l1. D. debark car l0 to location l1 from the ferry.",
+    "choices": {
+      "text": [
+        "debark car c3 to location c7 from the ferry",
+        "sail from location c2 to location c7",
+        "sail from location l0 to location l1",
+        "debark car l0 to location l1 from the ferry"
+      ],
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    "query": "Which action is reachable from this state?",
+    "answer": "C"
+  },
+  {
+    "id": 2498859198207962934,
+    "group": "reachable_action_mc",
+    "context": "This is a ferry domain, where the task is to transport cars from their start to their goal locations, using a ferry. Each location is accessible by ferry from each other location. The cars can be debarked or boarded, and the ferry can carry only one car at a time. There are 2 locations and 20 cars, numbered consecutively. Currently, the ferry is at l0, with the car c17 on board. The cars are at locations as follows: c1, c18, c11, c19, c12, c7, c16, c4, c5, and c14 are at l1; c15, c6, c8, c13, c2, c3, c9, c10, and c0 are at l0.",
+    "question": "Which of the following actions can eventually be applied? A. unload the car c13 from the ferry to location l1. B. load the car l1 at location l0 on to the ferry. C. load the car c19 at location c9 on to the ferry. D. load the car c1 at location c8 on to the ferry.",
+    "choices": {
+      "text": [
+        "unload the car c13 from the ferry to location l1",
+        "load the car l1 at location l0 on to the ferry",
+        "load the car c19 at location c9 on to the ferry",
+        "load the car c1 at location c8 on to the ferry"
+      ],
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    "query": "Which action is reachable from this state?",
+    "answer": "A"
+  },
+  {
+    "id": -3447395839344558671,
+    "group": "reachable_action_mc",
+    "context": "There are several cities, each containing several locations, some of which are airports. There are also trucks, which can drive within a single city, and airplanes, which can fly between airports. The goal is to get some packages from various locations to various new locations. There are 2 trucks and 1 airplane, as well as 4 packages. There are 4 locations across 2 cities. The locations are in cities as follows: l0-1 and l0-0 are in c0; l1-1 and l1-0 are in c1. Currently, p2 and t1 are at l1-0, a0 is at l0-0, p0 and t0 are at l0-1, p3 is in a0, p1 is in t0.",
+    "question": "Which of the following actions can eventually be applied? A. load object l1-0 into truck t1 at location p1. B. navigate the truck c0 from its current location p1 in city p0 to the new location t1 within the same city. C. navigate the truck l0-0 from its current location p0 in city t0 to the new location c0 within the same city. D. operate the airplane a0 from airport l1-0 to airport l0-0.",
+    "choices": {
+      "text": [
+        "load object l1-0 into truck t1 at location p1",
+        "navigate the truck c0 from its current location p1 in city p0 to the new location t1 within the same city",
+        "navigate the truck l0-0 from its current location p0 in city t0 to the new location c0 within the same city",
+        "operate the airplane a0 from airport l1-0 to airport l0-0"
+      ],
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    "query": "Which action is reachable from this state?",
+    "answer": "D"
+  },
+  {
+    "id": -4547965318315934485,
+    "group": "reachable_action_mc",
+    "context": "There are several cities, each containing several locations, some of which are airports. There are also trucks, which can drive within a single city, and airplanes, which can fly between airports. The goal is to get some packages from various locations to various new locations. There are 2 trucks and 1 airplane, as well as 4 packages. There are 4 locations across 2 cities. The locations are in cities as follows: l0-1 and l0-0 are in c0; l1-1 and l1-0 are in c1. Currently, t1 is at l1-1, p0 and p1 are at l0-1, a0 is at l1-0, t0 is at l0-0, p3 is in a0, p2 is in t1.",
+    "question": "Which of the following actions can eventually be applied? A. remove the object p1 from the airplane l0-0 and place it on the location p3. B. drive truck t0 from location l0-1 in city c0 to location l0-0 in the same city. C. remove the object c1 from the truck p0 and place it on the location l1-1. D. load the object p0 from location c0 into the airplane l1-0.",
+    "choices": {
+      "text": [
+        "remove the object p1 from the airplane l0-0 and place it on the location p3",
+        "drive truck t0 from location l0-1 in city c0 to location l0-0 in the same city",
+        "remove the object c1 from the truck p0 and place it on the location l1-1",
+        "load the object p0 from location c0 into the airplane l1-0"
+      ],
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    "query": "Which action is reachable from this state?",
+    "answer": "B"
+  },
+  {
+    "id": -4723507971934032784,
+    "group": "reachable_action_mc",
+    "context": "There are several cities, each containing several locations, some of which are airports. There are also trucks, which can drive within a single city, and airplanes, which can fly between airports. The goal is to get some packages from various locations to various new locations. There are 3 trucks and 1 airplane, as well as 4 packages. There are 9 locations across 3 cities. The locations are in cities as follows: l2-0, l2-2, and l2-1 are in c2; l1-1, l1-2, and l1-0 are in c1; l0-0, l0-2, and l0-1 are in c0. Currently, a0 and p0 are at l2-0, t1 is at l1-2, t2 is at l2-2, p3 is at l2-1, t0 is at l0-1, p2 is in t0, p1 is in t1.",
+    "question": "Which of the following actions can eventually be applied? A. offload the object l0-1 from the airplane c2 at location l1-1. B. unload object p2 from truck t0 at location l0-0. C. unload object l1-0 from truck t2 at location l0-1. D. navigate the truck l0-0 from location a0 in city p2 to location c2 in the same city.",
+    "choices": {
+      "text": [
+        "offload the object l0-1 from the airplane c2 at location l1-1",
+        "unload object p2 from truck t0 at location l0-0",
+        "unload object l1-0 from truck t2 at location l0-1",
+        "navigate the truck l0-0 from location a0 in city p2 to location c2 in the same city"
+      ],
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    "query": "Which action is reachable from this state?",
+    "answer": "B"
+  },
+  {
+    "id": 3682615470677242793,
+    "group": "reachable_action_mc",
+    "context": "There are several cities, each containing several locations, some of which are airports. There are also trucks, which can drive within a single city, and airplanes, which can fly between airports. The goal is to get some packages from various locations to various new locations. There are 2 trucks and 1 airplane, as well as 4 packages. There are 6 locations across 2 cities. The locations are in cities as follows: l1-1, l1-2, and l1-0 are in c1; l0-0, l0-2, and l0-1 are in c0. Currently, p1 and t1 are at l1-2, p0 is at l0-2, a0 is at l0-0, t0 is at l0-1, p2 is in t1, p3 is in t0.",
+    "question": "Which of the following actions can eventually be applied? A. fly the airplane l0-2 from airport l1-0 to airport p2. B. offload the object l1-0 from the truck p1 at location t0. C. offload the object p3 from the truck t0 at location l0-0. D. offload the object l0-1 from the airplane l1-1 at location p3.",
+    "choices": {
+      "text": [
+        "fly the airplane l0-2 from airport l1-0 to airport p2",
+        "offload the object l1-0 from the truck p1 at location t0",
+        "offload the object p3 from the truck t0 at location l0-0",
+        "offload the object l0-1 from the airplane l1-1 at location p3"
+      ],
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    "query": "Which action is reachable from this state?",
+    "answer": "C"
+  },
+  {
+    "id": 8212084537195039397,
+    "group": "reachable_action_mc",
+    "context": "There are several cities, each containing several locations, some of which are airports. There are also trucks, which can drive within a single city, and airplanes, which can fly between airports. The goal is to get some packages from various locations to various new locations. There are 2 trucks and 1 airplane, as well as 4 packages. There are 6 locations across 2 cities. The locations are in cities as follows: l1-1, l1-2, and l1-0 are in c1; l0-0, l0-2, and l0-1 are in c0. Currently, p0 and t1 are at l1-1, a0 is at l1-0, t0 is at l0-0, p3 is in a0, p2 and p1 are in t1.",
+    "question": "Which of the following actions can eventually be applied? A. place the object p2 into the truck t1 at location l1-1. B. remove the object c0 from the airplane t1 and place it on the location l0-1. C. navigate the truck l0-0 which is in location p3 in city t1 to another location l1-2 in the same city. D. offload the object l1-0 from the truck l0-1 at location l1-1.",
+    "choices": {
+      "text": [
+        "place the object p2 into the truck t1 at location l1-1",
+        "remove the object c0 from the airplane t1 and place it on the location l0-1",
+        "navigate the truck l0-0 which is in location p3 in city t1 to another location l1-2 in the same city",
+        "offload the object l1-0 from the truck l0-1 at location l1-1"
+      ],
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    "query": "Which action is reachable from this state?",
+    "answer": "A"
+  },
+  {
+    "id": -716059645917413270,
+    "group": "reachable_action_mc",
+    "context": "This is a blocksworld domain where blocks can be placed on top of each other or on the table. There is one robotic arm that can move the block. There are 5 blocks. Currently, the robotic arm is holding block_1. The following block(s) are on the table: block_3 and block_2. The following block(s) are stacked on top of another block: block_5 is on block_3 and block_4 is on block_5.",
+    "question": "Which of the following actions can eventually be applied? A. unstack the object block_4 from the object block_4. B. unstack the object block_3 from the object block_3. C. stack object block_3 on top of object block_3. D. put down object block_4.",
+    "choices": {
+      "text": [
+        "unstack the object block_4 from the object block_4",
+        "unstack the object block_3 from the object block_3",
+        "stack object block_3 on top of object block_3",
+        "put down object block_4"
+      ],
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    "query": "Which action is reachable from this state?",
+    "answer": "D"
+  },
+  {
+    "id": 4103672920368924501,
+    "group": "reachable_action_mc",
+    "context": "This is a blocksworld domain where blocks can be placed on top of each other or on the table. There is one robotic arm that can move the block. There are 5 blocks. Currently, the robotic arm is empty. The following block(s) are on the table: block_4 and block_2. The following block(s) are stacked on top of another block: block_1 is on block_5, block_5 is on block_2, and block_3 is on block_4.",
+    "question": "Which of the following actions can eventually be applied? A. remove the object block_5 from on top of the object block_2. B. stack the object block_3 on top of the object block_3. C. stack the object block_1 on top of the object block_1. D. remove the object block_5 from on top of the object block_5.",
+    "choices": {
+      "text": [
+        "remove the object block_5 from on top of the object block_2",
+        "stack the object block_3 on top of the object block_3",
+        "stack the object block_1 on top of the object block_1",
+        "remove the object block_5 from on top of the object block_5"
+      ],
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    "query": "Which action is reachable from this state?",
+    "answer": "A"
+  },
+  {
+    "id": 967973761642248792,
+    "group": "reachable_action_mc",
+    "context": "This is a blocksworld domain where blocks can be placed on top of each other or on the table. There is one robotic arm that can move the block. There are 5 blocks. Currently, the robotic arm is holding block_5. The following block(s) are on the table: block_1 and block_3. The following block(s) are stacked on top of another block: block_2 is on block_4 and block_4 is on block_1.",
+    "question": "Which of the following actions can eventually be applied? A. unstack the object block_2 from the object block_2. B. stack object block_2 on top of object block_2. C. unstack the object block_1 from the object block_1. D. unstack the object block_4 from the object block_1.",
+    "choices": {
+      "text": [
+        "unstack the object block_2 from the object block_2",
+        "stack object block_2 on top of object block_2",
+        "unstack the object block_1 from the object block_1",
+        "unstack the object block_4 from the object block_1"
+      ],
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    "query": "Which action is reachable from this state?",
+    "answer": "D"
+  },
+  {
+    "id": -2306369457111841398,
+    "group": "reachable_action_mc",
+    "context": "This is a blocksworld domain where blocks can be placed on top of each other or on the table. There is one robotic arm that can move the block. There are 5 blocks. Currently, the robotic arm is holding block_5. The following block(s) are on the table: block_3 and block_2. The following block(s) are stacked on top of another block: block_1 is on block_3 and block_4 is on block_2.",
+    "question": "Which of the following actions can eventually be applied? A. stack object block_5 on top of object block_5. B. unstack object block_2 from object block_2. C. pick up the object block_5 from the table. D. unstack object block_5 from object block_5.",
+    "choices": {
+      "text": [
+        "stack object block_5 on top of object block_5",
+        "unstack object block_2 from object block_2",
+        "pick up the object block_5 from the table",
+        "unstack object block_5 from object block_5"
+      ],
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    "query": "Which action is reachable from this state?",
+    "answer": "C"
+  },
+  {
+    "id": 6169506334283228747,
+    "group": "reachable_action_mc",
+    "context": "This is a blocksworld domain where blocks can be placed on top of each other or on the table. There is one robotic arm that can move the block. There are 5 blocks. Currently, the robotic arm is empty. The following block(s) are on the table: block_1 and block_2. The following block(s) are stacked on top of another block: block_3 is on block_5, block_5 is on block_2, and block_4 is on block_1.",
+    "question": "Which of the following actions can eventually be applied? A. unstack the object block_1 from the object block_1. B. unstack the object block_3 from the object block_3. C. stack the object block_2 on top of the object block_2. D. stack the object block_1 on top of the object block_4.",
+    "choices": {
+      "text": [
+        "unstack the object block_1 from the object block_1",
+        "unstack the object block_3 from the object block_3",
+        "stack the object block_2 on top of the object block_2",
+        "stack the object block_1 on top of the object block_4"
+      ],
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    "query": "Which action is reachable from this state?",
+    "answer": "D"
+  },
+  {
+    "id": -8135388152216707013,
+    "group": "reachable_action_mc",
+    "context": "A robot is in a grid and can only move to places that are connected to its current position. The grid size is 5x5, and the locations are of the form fi-jf (e.g., f3-2f or f0-1f). The grid cells are connected to their neighbors (e.g., f1-2f is connected to the four neighbors f0-2f, f2-2f, f1-1f, and f1-3f). Some positions on the grid are locked and can be opened with a key of a matching shape. The robot has an arm that can pick up a key when the key is in same location as the robot and the arm is empty.  There are 2 keys in 1 different shapes: Key key0-1 is of shape shape0, Key key0-0 is of shape shape0.  Currently, the robot is at position f4-1f and its arm is empty. All the positions are open except the following: f3-4f has shape0 shaped lock, f2-1f has shape0 shaped lock. Key key0-1 is at position f4-1f. Key key0-0 is at position f1-0f.",
+    "question": "Which of the following actions can eventually be applied? A. pick up the key key0-1 at the current position place f4-1f and loose the key key0-1 being held. B. transition from the current position f4-2f to the next position f3-2f. C. pick up the key key0-1 at the current position place f1-0f and loose the key key0-1 being held. D. pick up the key key0-1 at the current position place f1-2f and loose the key key0-1 being held.",
+    "choices": {
+      "text": [
+        "pick up the key key0-1 at the current position place f4-1f and loose the key key0-1 being held",
+        "transition from the current position f4-2f to the next position f3-2f",
+        "pick up the key key0-1 at the current position place f1-0f and loose the key key0-1 being held",
+        "pick up the key key0-1 at the current position place f1-2f and loose the key key0-1 being held"
+      ],
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    "query": "Which action is reachable from this state?",
+    "answer": "B"
+  },
+  {
+    "id": 6390575473494679818,
+    "group": "reachable_action_mc",
+    "context": "A robot is in a grid and can only move to places that are connected to its current position. The grid size is 5x5, and the locations are of the form fi-jf (e.g., f3-2f or f0-1f). The grid cells are connected to their neighbors (e.g., f1-2f is connected to the four neighbors f0-2f, f2-2f, f1-1f, and f1-3f). Some positions on the grid are locked and can be opened with a key of a matching shape. The robot has an arm that can pick up a key when the key is in same location as the robot and the arm is empty.  There are 2 keys in 1 different shapes: Key key0-1 is of shape shape0, Key key0-0 is of shape shape0.  Currently, the robot is at position f2-3f and its arm is empty. All the positions are open except the following: f0-3f has shape0 shaped lock, f0-0f has shape0 shaped lock. Key key0-0 is at position f0-2f. Key key0-1 is at position f4-0f.",
+    "question": "Which of the following actions can eventually be applied? A. pick up the key key0-1 at the current position place f4-0f and loose the key key0-1 being held. B. travel from the current position f1-2f to the next position f0-2f. C. pick up the key key0-1 at the current position place f4-2f and loose the key key0-1 being held. D. pick up the key key0-1 at the current position place f2-2f and loose the key key0-1 being held.",
+    "choices": {
+      "text": [
+        "pick up the key key0-1 at the current position place f4-0f and loose the key key0-1 being held",
+        "travel from the current position f1-2f to the next position f0-2f",
+        "pick up the key key0-1 at the current position place f4-2f and loose the key key0-1 being held",
+        "pick up the key key0-1 at the current position place f2-2f and loose the key key0-1 being held"
+      ],
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    "query": "Which action is reachable from this state?",
+    "answer": "B"
+  },
+  {
+    "id": 3298738612429448340,
+    "group": "reachable_action_mc",
+    "context": "A robot is in a grid and can only move to places that are connected to its current position. The grid size is 5x5, and the locations are of the form fi-jf (e.g., f3-2f or f0-1f). The grid cells are connected to their neighbors (e.g., f1-2f is connected to the four neighbors f0-2f, f2-2f, f1-1f, and f1-3f). Some positions on the grid are locked and can be opened with a key of a matching shape. The robot has an arm that can pick up a key when the key is in same location as the robot and the arm is empty.  There are 2 keys in 1 different shapes: Key key0-1 is of shape shape0, Key key0-0 is of shape shape0.  Currently, the robot is at position f3-1f and is holding key0-1. All the positions are open except the following: f0-3f has shape0 shaped lock, f0-0f has shape0 shaped lock. Key key0-0 is at position f0-2f.",
+    "question": "Which of the following actions can eventually be applied? A. pick up the key key0-1 at the current position place f2-4f and loose the key key0-1 being held. B. move from place f4-1f to place f4-0f. C. pick up the key key0-1 at the current position place f1-4f and loose the key key0-1 being held. D. pick up the key key0-1 at the current position place f3-0f and loose the key key0-1 being held.",
+    "choices": {
+      "text": [
+        "pick up the key key0-1 at the current position place f2-4f and loose the key key0-1 being held",
+        "move from place f4-1f to place f4-0f",
+        "pick up the key key0-1 at the current position place f1-4f and loose the key key0-1 being held",
+        "pick up the key key0-1 at the current position place f3-0f and loose the key key0-1 being held"
+      ],
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    "query": "Which action is reachable from this state?",
+    "answer": "B"
+  },
+  {
+    "id": 2635502763135601959,
+    "group": "reachable_action_mc",
+    "context": "A robot is in a grid and can only move to places that are connected to its current position. The grid size is 5x5, and the locations are of the form fi-jf (e.g., f3-2f or f0-1f). The grid cells are connected to their neighbors (e.g., f1-2f is connected to the four neighbors f0-2f, f2-2f, f1-1f, and f1-3f). Some positions on the grid are locked and can be opened with a key of a matching shape. The robot has an arm that can pick up a key when the key is in same location as the robot and the arm is empty.  There are 2 keys in 1 different shapes: Key key0-1 is of shape shape0, Key key0-0 is of shape shape0.  Currently, the robot is at position f1-2f and its arm is empty. All the positions are open except the following: f3-4f has shape0 shaped lock, f2-1f has shape0 shaped lock. Key key0-1 is at position f3-0f. Key key0-0 is at position f1-0f.",
+    "question": "Which of the following actions can eventually be applied? A. pick up the key key0-1 from the current position f4-3f and loose the key key0-1 which is being held. B. pick up the key key0-0 from the current position f3-1f and loose the key key0-0 which is being held. C. pick up the key key0-1 from the current position f1-1f and loose the key key0-1 which is being held. D. travel from the current position f1-0f to the next position f2-0f.",
+    "choices": {
+      "text": [
+        "pick up the key key0-1 from the current position f4-3f and loose the key key0-1 which is being held",
+        "pick up the key key0-0 from the current position f3-1f and loose the key key0-0 which is being held",
+        "pick up the key key0-1 from the current position f1-1f and loose the key key0-1 which is being held",
+        "travel from the current position f1-0f to the next position f2-0f"
+      ],
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    "query": "Which action is reachable from this state?",
+    "answer": "D"
+  },
+  {
+    "id": -1035881746054990801,
+    "group": "reachable_action_mc",
+    "context": "A robot is in a grid and can only move to places that are connected to its current position. The grid size is 5x5, and the locations are of the form fi-jf (e.g., f3-2f or f0-1f). The grid cells are connected to their neighbors (e.g., f1-2f is connected to the four neighbors f0-2f, f2-2f, f1-1f, and f1-3f). Some positions on the grid are locked and can be opened with a key of a matching shape. The robot has an arm that can pick up a key when the key is in same location as the robot and the arm is empty.  There are 2 keys in 1 different shapes: Key key0-1 is of shape shape0, Key key0-0 is of shape shape0.  Currently, the robot is at position f2-0f and is holding key0-1. All the positions are open except the following: f3-4f has shape0 shaped lock. Key key0-0 is at position f1-0f.",
+    "question": "Which of the following actions can eventually be applied? A. pick up the key key0-0 at the current position place f4-2f and loose the key key0-0 being held. B. pick up the key key0-0 at the current position place f1-4f and loose the key key0-0 being held. C. pick up the key key0-0 at the current position place f0-4f and loose the key key0-0 being held. D. move from place f2-1f to place f3-1f.",
+    "choices": {
+      "text": [
+        "pick up the key key0-0 at the current position place f4-2f and loose the key key0-0 being held",
+        "pick up the key key0-0 at the current position place f1-4f and loose the key key0-0 being held",
+        "pick up the key key0-0 at the current position place f0-4f and loose the key key0-0 being held",
+        "move from place f2-1f to place f3-1f"
+      ],
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    "query": "Which action is reachable from this state?",
+    "answer": "D"
+  },
+  {
+    "id": -933306584391834620,
+    "group": "reachable_action_mc",
+    "context": "A set of robots use different colors to paint patterns in floor tiles. The robots can move around the floor tiles in four directions (up, down, left and right). Robots paint with one color at a time, but can change their spray guns to any available color. However, robots can only paint the tile that is in front (up) and behind (down) them, and once a tile has been painted no robot can stand on it. Robots need to paint a grid with black and white, where the cell color is alternated always. There are 2 robots and 12 tiles. The tiles locations are: tile_9 is to the right of tile_8, tile_11 is to the right of tile_10, tile_5 is to the right of tile_4, tile_2 is to the right of tile_1, tile_3 is to the right of tile_2, tile_12 is to the right of tile_11, tile_8 is to the right of tile_7, and tile_6 is to the right of tile_5. Further, tile_8 is down from tile_11, tile_5 is down from tile_8, tile_6 is down from tile_9, tile_1 is down from tile_4, tile_3 is down from tile_6, tile_9 is down from tile_12, tile_2 is down from tile_5, tile_7 is down from tile_10, and tile_4 is down from tile_7 Currently, robot robot2 is at tile_5 and holding color white and robot robot1 is at tile_3 and holding color white; tile_10, tile_4, tile_7, tile_2, tile_9, tile_1, and tile_6 are clear; tile_8 is painted white, tile_11 is painted black, and tile_12 is painted white.",
+    "question": "Which of the following actions can eventually be applied? A. use truck robot1 to load the tile tile_8 downwards from the tile tile_11 with the color black. B. use truck robot1 to load the tile tile_9 downwards from the tile tile_12 with the color black. C. use truck robot2 to load the tile tile_2 downwards from the tile tile_5 with the color white. D. use robot robot1 to paint the tile tile_3 downwards from the tile tile_6 with the color white.",
+    "choices": {
+      "text": [
+        "use truck robot1 to load the tile tile_8 downwards from the tile tile_11 with the color black",
+        "use truck robot1 to load the tile tile_9 downwards from the tile tile_12 with the color black",
+        "use truck robot2 to load the tile tile_2 downwards from the tile tile_5 with the color white",
+        "use robot robot1 to paint the tile tile_3 downwards from the tile tile_6 with the color white"
+      ],
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    "query": "Which action is reachable from this state?",
+    "answer": "D"
+  },
+  {
+    "id": -361015525832520502,
+    "group": "reachable_action_mc",
+    "context": "A set of robots use different colors to paint patterns in floor tiles. The robots can move around the floor tiles in four directions (up, down, left and right). Robots paint with one color at a time, but can change their spray guns to any available color. However, robots can only paint the tile that is in front (up) and behind (down) them, and once a tile has been painted no robot can stand on it. Robots need to paint a grid with black and white, where the cell color is alternated always. There are 2 robots and 12 tiles. The tiles locations are: tile_9 is to the right of tile_8, tile_11 is to the right of tile_10, tile_5 is to the right of tile_4, tile_2 is to the right of tile_1, tile_3 is to the right of tile_2, tile_12 is to the right of tile_11, tile_8 is to the right of tile_7, and tile_6 is to the right of tile_5. Further, tile_8 is down from tile_11, tile_5 is down from tile_8, tile_6 is down from tile_9, tile_1 is down from tile_4, tile_3 is down from tile_6, tile_9 is down from tile_12, tile_2 is down from tile_5, tile_7 is down from tile_10, and tile_4 is down from tile_7 Currently, robot robot2 is at tile_6 and holding color black and robot robot1 is at tile_3 and holding color white; tile_8, tile_4, tile_7, tile_5, tile_2, and tile_1 are clear; tile_9 is painted black, tile_10 is painted white, tile_11 is painted black, and tile_12 is painted white.",
+    "question": "Which of the following actions can eventually be applied? A. use truck robot2 to load the tile tile_9 above the tile tile_6 with the color black. B. move package robot1 up from tile tile_8 to tile tile_11. C. move the package robot1 from the tile tile_5 to the tile tile_6 which is to the right of the tile tile_5. D. move the robot robot2 from the tile tile_5 to the tile on its left tile_4.",
+    "choices": {
+      "text": [
+        "use truck robot2 to load the tile tile_9 above the tile tile_6 with the color black",
+        "move package robot1 up from tile tile_8 to tile tile_11",
+        "move the package robot1 from the tile tile_5 to the tile tile_6 which is to the right of the tile tile_5",
+        "move the robot robot2 from the tile tile_5 to the tile on its left tile_4"
+      ],
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    "query": "Which action is reachable from this state?",
+    "answer": "D"
+  },
+  {
+    "id": 6117054136465451843,
+    "group": "reachable_action_mc",
+    "context": "A set of robots use different colors to paint patterns in floor tiles. The robots can move around the floor tiles in four directions (up, down, left and right). Robots paint with one color at a time, but can change their spray guns to any available color. However, robots can only paint the tile that is in front (up) and behind (down) them, and once a tile has been painted no robot can stand on it. Robots need to paint a grid with black and white, where the cell color is alternated always. There are 2 robots and 9 tiles. The tiles locations are: tile_9 is to the right of tile_8, tile_5 is to the right of tile_4, tile_2 is to the right of tile_1, tile_3 is to the right of tile_2, tile_8 is to the right of tile_7, and tile_6 is to the right of tile_5. Further, tile_5 is down from tile_8, tile_6 is down from tile_9, tile_1 is down from tile_4, tile_3 is down from tile_6, tile_2 is down from tile_5, and tile_4 is down from tile_7 Currently, robot robot1 is at tile_6 and holding color white and robot robot2 is at tile_2 and holding color black; tile_3, tile_4, and tile_1 are clear; tile_7 is painted black, tile_8 is painted white, tile_9 is painted white, and tile_5 is painted black.",
+    "question": "Which of the following actions can eventually be applied? A. use truck robot2 to load the tile tile_7 above the tile tile_4 with the color white. B. use truck robot1 to load the tile tile_4 above the tile tile_1 with the color white. C. paint the tile tile_6 above the tile tile_3 with color white using the robot robot1. D. use truck robot2 to load the tile tile_6 above the tile tile_3 with the color white.",
+    "choices": {
+      "text": [
+        "use truck robot2 to load the tile tile_7 above the tile tile_4 with the color white",
+        "use truck robot1 to load the tile tile_4 above the tile tile_1 with the color white",
+        "paint the tile tile_6 above the tile tile_3 with color white using the robot robot1",
+        "use truck robot2 to load the tile tile_6 above the tile tile_3 with the color white"
+      ],
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    "query": "Which action is reachable from this state?",
+    "answer": "C"
+  },
+  {
+    "id": -1362775624869266292,
+    "group": "reachable_action_mc",
+    "context": "A set of robots use different colors to paint patterns in floor tiles. The robots can move around the floor tiles in four directions (up, down, left and right). Robots paint with one color at a time, but can change their spray guns to any available color. However, robots can only paint the tile that is in front (up) and behind (down) them, and once a tile has been painted no robot can stand on it. Robots need to paint a grid with black and white, where the cell color is alternated always. There are 2 robots and 12 tiles. The tiles locations are: tile_9 is to the right of tile_8, tile_11 is to the right of tile_10, tile_5 is to the right of tile_4, tile_2 is to the right of tile_1, tile_3 is to the right of tile_2, tile_12 is to the right of tile_11, tile_8 is to the right of tile_7, and tile_6 is to the right of tile_5. Further, tile_8 is down from tile_11, tile_5 is down from tile_8, tile_6 is down from tile_9, tile_1 is down from tile_4, tile_3 is down from tile_6, tile_9 is down from tile_12, tile_2 is down from tile_5, tile_7 is down from tile_10, and tile_4 is down from tile_7 Currently, robot robot2 is at tile_5 and holding color black and robot robot1 is at tile_1 and holding color white; tile_3, tile_8, tile_4, and tile_2 are clear; tile_6 is painted white, tile_7 is painted black, tile_9 is painted black, tile_10 is painted white, tile_11 is painted black, and tile_12 is painted white.",
+    "question": "Which of the following actions can eventually be applied? A. use truck robot2 to load the tile tile_8 downwards from the tile tile_11 with the color black. B. use truck robot1 to load the tile tile_11 above the tile tile_8 with the color black. C. navigate robot robot1 from tile tile_2 to tile tile_1 to its left. D. use truck robot1 to load the tile tile_3 downwards from the tile tile_6 with the color white.",
+    "choices": {
+      "text": [
+        "use truck robot2 to load the tile tile_8 downwards from the tile tile_11 with the color black",
+        "use truck robot1 to load the tile tile_11 above the tile tile_8 with the color black",
+        "navigate robot robot1 from tile tile_2 to tile tile_1 to its left",
+        "use truck robot1 to load the tile tile_3 downwards from the tile tile_6 with the color white"
+      ],
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    "query": "Which action is reachable from this state?",
+    "answer": "C"
+  },
+  {
+    "id": -791863871740192183,
+    "group": "reachable_action_mc",
+    "context": "A set of robots use different colors to paint patterns in floor tiles. The robots can move around the floor tiles in four directions (up, down, left and right). Robots paint with one color at a time, but can change their spray guns to any available color. However, robots can only paint the tile that is in front (up) and behind (down) them, and once a tile has been painted no robot can stand on it. Robots need to paint a grid with black and white, where the cell color is alternated always. There are 2 robots and 12 tiles. The tiles locations are: tile_9 is to the right of tile_8, tile_11 is to the right of tile_10, tile_5 is to the right of tile_4, tile_2 is to the right of tile_1, tile_3 is to the right of tile_2, tile_12 is to the right of tile_11, tile_8 is to the right of tile_7, and tile_6 is to the right of tile_5. Further, tile_8 is down from tile_11, tile_5 is down from tile_8, tile_6 is down from tile_9, tile_1 is down from tile_4, tile_3 is down from tile_6, tile_9 is down from tile_12, tile_2 is down from tile_5, tile_7 is down from tile_10, and tile_4 is down from tile_7 Currently, robot robot1 is at tile_2 and holding color white and robot robot2 is at tile_1 and holding color black; tile_3, tile_8, tile_4, tile_7, and tile_5 are clear; tile_6 is painted white, tile_9 is painted black, tile_10 is painted white, tile_11 is painted black, and tile_12 is painted white.",
+    "question": "Which of the following actions can eventually be applied? A. use truck robot1 to load the tile tile_5 above the tile tile_2 with the color white. B. use truck robot1 to load the tile tile_7 above the tile tile_4 with the color black. C. apply color black to tile tile_7 above tile tile_4 using robot robot2. D. repaint the car robot1 from color white to color white.",
+    "choices": {
+      "text": [
+        "use truck robot1 to load the tile tile_5 above the tile tile_2 with the color white",
+        "use truck robot1 to load the tile tile_7 above the tile tile_4 with the color black",
+        "apply color black to tile tile_7 above tile tile_4 using robot robot2",
+        "repaint the car robot1 from color white to color white"
+      ],
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    "query": "Which action is reachable from this state?",
+    "answer": "C"
+  },
+  {
+    "id": 2172192209001455935,
+    "group": "reachable_action_mc",
+    "context": "This is a grippers domain, where there is a robot with two grippers. The robot can carry a ball in each. The goal is to take the balls from one room to another. There are 1 robot, 5 rooms, and 4 balls, numbered consecutively. Currently, the robot robot1 is at room5, left gripper is carrying the ball ball1, and right gripper is carrying the ball ball2. Additionally, ball4 is at room4, ball3 is at room3.",
+    "question": "Which of the following actions can eventually be applied? A. use the right1 gripper of robot robot1 to drop the object room5 in room room1. B. use the right1 gripper of robot robot1 to drop the object room4 in room room5. C. use the right1 gripper of robot robot1 to drop the object ball2 in room room4. D. use the right1 gripper of robot robot1 to drop the object room1 in room room3.",
+    "choices": {
+      "text": [
+        "use the right1 gripper of robot robot1 to drop the object room5 in room room1",
+        "use the right1 gripper of robot robot1 to drop the object room4 in room room5",
+        "use the right1 gripper of robot robot1 to drop the object ball2 in room room4",
+        "use the right1 gripper of robot robot1 to drop the object room1 in room room3"
+      ],
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    "query": "Which action is reachable from this state?",
+    "answer": "C"
+  },
+  {
+    "id": 7017819477300952567,
+    "group": "reachable_action_mc",
+    "context": "This is a grippers domain, where there is a robot with two grippers. The robot can carry a ball in each. The goal is to take the balls from one room to another. There are 1 robot, 2 rooms, and 4 balls, numbered consecutively. Currently, the robot robot1 is at room1, left gripper is carrying the ball ball1, and right gripper is carrying the ball ball4. Additionally, ball2 is at room2, ball3 is at room1.",
+    "question": "Which of the following actions can eventually be applied? A. use the robot robot1 equipped with right1 gripper to retrieve the object room2 from room room1. B. use the robot robot1 equipped with left1 gripper to retrieve the object ball4 from room room1. C. use the robot robot1 equipped with right1 gripper to retrieve the object left1 from room room1. D. place the object right1 in the room room2 using the robot robot1 with left1 gripper.",
+    "choices": {
+      "text": [
+        "use the robot robot1 equipped with right1 gripper to retrieve the object room2 from room room1",
+        "use the robot robot1 equipped with left1 gripper to retrieve the object ball4 from room room1",
+        "use the robot robot1 equipped with right1 gripper to retrieve the object left1 from room room1",
+        "place the object right1 in the room room2 using the robot robot1 with left1 gripper"
+      ],
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    "query": "Which action is reachable from this state?",
+    "answer": "B"
+  },
+  {
+    "id": 3700010459572399014,
+    "group": "reachable_action_mc",
+    "context": "This is a grippers domain, where there is a robot with two grippers. The robot can carry a ball in each. The goal is to take the balls from one room to another. There are 1 robot, 3 rooms, and 4 balls, numbered consecutively. Currently, the robot robot1 is at room3, left gripper is carrying the ball ball3, and right gripper is carrying the ball ball4. Additionally, ball2 and ball1 are at room1.",
+    "question": "Which of the following actions can eventually be applied? A. place the object room2 in the room room3 from the right1 gripper of the robot robot1. B. use the left1 gripper of robot robot1 to pick up the object room3 from room room1. C. place the object left1 in the room room3 from the right1 gripper of the robot robot1. D. transfer the robot robot1 from the room room2 to the room room1.",
+    "choices": {
+      "text": [
+        "place the object room2 in the room room3 from the right1 gripper of the robot robot1",
+        "use the left1 gripper of robot robot1 to pick up the object room3 from room room1",
+        "place the object left1 in the room room3 from the right1 gripper of the robot robot1",
+        "transfer the robot robot1 from the room room2 to the room room1"
+      ],
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    "query": "Which action is reachable from this state?",
+    "answer": "D"
+  },
+  {
+    "id": 4414687145792024580,
+    "group": "reachable_action_mc",
+    "context": "This is a grippers domain, where there is a robot with two grippers. The robot can carry a ball in each. The goal is to take the balls from one room to another. There are 1 robot, 5 rooms, and 4 balls, numbered consecutively. Currently, the robot robot1 is at room3, left gripper is carrying the ball ball3, and right gripper is carrying the ball ball1. Additionally, ball2 is at room2, ball4 is at room1.",
+    "question": "Which of the following actions can eventually be applied? A. use the right1 gripper of robot robot1 to pick up the object room2 from room room5. B. use the right1 gripper of robot robot1 to pick up the object room4 from room room5. C. drop the object ball1 in the right1 gripper of the robot robot1 at the room room5. D. use the left1 gripper of robot robot1 to pick up the object room2 from room room5.",
+    "choices": {
+      "text": [
+        "use the right1 gripper of robot robot1 to pick up the object room2 from room room5",
+        "use the right1 gripper of robot robot1 to pick up the object room4 from room room5",
+        "drop the object ball1 in the right1 gripper of the robot robot1 at the room room5",
+        "use the left1 gripper of robot robot1 to pick up the object room2 from room room5"
+      ],
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    "query": "Which action is reachable from this state?",
+    "answer": "C"
+  },
+  {
+    "id": -5999934745431998417,
+    "group": "reachable_action_mc",
+    "context": "This is a grippers domain, where there is a robot with two grippers. The robot can carry a ball in each. The goal is to take the balls from one room to another. There are 1 robot, 3 rooms, and 4 balls, numbered consecutively. Currently, the robot robot1 is at room2, right gripper is free, and left gripper is carrying the ball ball2. Additionally, ball3 is at room3, ball4 is at room1, ball1 is at room2.",
+    "question": "Which of the following actions can eventually be applied? A. transfer the robot robot1 from room room1 to room room3. B. pick up the object room1 with the robot robot1 using the right1 gripper from the room room2. C. drop the object left1 in the right1 gripper of the robot robot1 at the room room1. D. pick up the object room1 with the robot robot1 using the right1 gripper from the room room3.",
+    "choices": {
+      "text": [
+        "transfer the robot robot1 from room room1 to room room3",
+        "pick up the object room1 with the robot robot1 using the right1 gripper from the room room2",
+        "drop the object left1 in the right1 gripper of the robot robot1 at the room room1",
+        "pick up the object room1 with the robot robot1 using the right1 gripper from the room room3"
+      ],
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    "query": "Which action is reachable from this state?",
+    "answer": "A"
+  },
+  {
+    "id": -439011978614845221,
+    "group": "reachable_action_mc",
+    "context": "This is a Rovers domain where rovers must navigate between waypoints gathering data and transmitting it back to a lander. Rovers cannot navigate to all waypoints and this makes particular routes impassable to some of the rovers. Data transmission is also constrained by the visibility of the lander from the waypoints. There are 2 rovers, 3 waypoints, 2 stores, 2 cameras, 3 objectives numbered consecutively. Further, there is 1 lander and 3 modes for the camera namely colour, high resolution, and low resolution.  Rover(s) rover0 is equipped for soil analysis. Rover(s) rover1 and rover0 are equipped for rock analysis. Rover(s) rover1 and rover0 are equipped for imaging. Rover rover1 has store store1. Rover rover0 has store store0. Rover rover0 has camera1 on board. Rover rover1 has camera0 on board. Camera camera1 can be calibrated on objective1. Camera camera0 can be calibrated on objective2. Camera camera0 supports low_res. Camera camera1 supports high_res and low_res. Rover rover0 can traverse from waypoint2 to waypoint0, waypoint1 to waypoint2, waypoint0 to waypoint2, waypoint2 to waypoint1. Rover rover1 can traverse from waypoint1 to waypoint2, waypoint0 to waypoint2, waypoint2 to waypoint1, waypoint2 to waypoint0. Waypoint(s) are visible from waypoint2: waypoint0 and waypoint1. Waypoint(s) are visible from waypoint1: waypoint0 and waypoint2. Waypoint(s) are visible from waypoint0: waypoint2 and waypoint1. Objective objective2 is visible from waypoint1. Objective objective0 is visible from waypoint0 and waypoint1. Objective objective1 is visible from waypoint1. Lander general is at waypoint waypoint1.  Currently, Rover rover1 is at waypoint2. Rover rover0 is at waypoint2. Rocks can be sampled at the following location(s): waypoint0 and waypoint2. Soil can be sampled at the following location(s): waypoint2 and waypoint0. Rovers rover0 and rover1 are available. Image objective1 was communicated in mode high_res. Rover rover0 has image objective1 in mode high_res. Rover rover0 has image objective1 in mode low_res. Rover rover0 has its camera camera1 calibrated. Store(s) store1 and store0 are empty. ",
+    "question": "Which of the following actions can eventually be applied? A. transmit soil data from rover rover1 at waypoint waypoint0 to the lander general at waypoint waypoint1, regarding the soil analysis of waypoint waypoint2. B. sample the soil at waypoint waypoint1 using the rover rover1, then store it in the storage unit store1. C. navigate rover rover1 from waypoint waypoint0 to waypoint waypoint2. D. collect a sample from the waypoint waypoint1 using the rover rover1 and store it in the store store1.",
+    "choices": {
+      "text": [
+        "transmit soil data from rover rover1 at waypoint waypoint0 to the lander general at waypoint waypoint1, regarding the soil analysis of waypoint waypoint2",
+        "sample the soil at waypoint waypoint1 using the rover rover1, then store it in the storage unit store1",
+        "navigate rover rover1 from waypoint waypoint0 to waypoint waypoint2",
+        "collect a sample from the waypoint waypoint1 using the rover rover1 and store it in the store store1"
+      ],
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    "query": "Which action is reachable from this state?",
+    "answer": "C"
+  },
+  {
+    "id": 4947089732618623982,
+    "group": "reachable_action_mc",
+    "context": "This is a Rovers domain where rovers must navigate between waypoints gathering data and transmitting it back to a lander. Rovers cannot navigate to all waypoints and this makes particular routes impassable to some of the rovers. Data transmission is also constrained by the visibility of the lander from the waypoints. There are 2 rovers, 3 waypoints, 2 stores, 3 cameras, 2 objectives numbered consecutively. Further, there is 1 lander and 3 modes for the camera namely colour, high resolution, and low resolution.  Rover(s) rover1 and rover0 are equipped for soil analysis. Rover(s) rover0 is equipped for rock analysis. Rover(s) rover1 and rover0 are equipped for imaging. Rover rover1 has store store1. Rover rover0 has store store0. Rover rover1 has camera1 and camera0 on board. Rover rover0 has camera2 on board. Camera camera0 can be calibrated on objective0. Camera camera1 can be calibrated on objective0. Camera camera2 can be calibrated on objective1. Camera camera0 supports colour and low_res. Camera camera1 supports high_res. Camera camera2 supports high_res. Rover rover1 can traverse from waypoint1 to waypoint2, waypoint0 to waypoint1, waypoint1 to waypoint0, waypoint2 to waypoint1. Rover rover0 can traverse from waypoint1 to waypoint2, waypoint0 to waypoint1, waypoint1 to waypoint0, waypoint2 to waypoint1. Waypoint(s) are visible from waypoint2: waypoint0 and waypoint1. Waypoint(s) are visible from waypoint1: waypoint0 and waypoint2. Waypoint(s) are visible from waypoint0: waypoint2 and waypoint1. Objective objective1 is visible from waypoint1 and waypoint0. Objective objective0 is visible from waypoint2. Lander general is at waypoint waypoint1.  Currently, Rover rover1 is at waypoint1. Rover rover0 is at waypoint2. Rocks can be sampled at the following location(s): waypoint0 and waypoint2. Soil can be sampled at the following location(s): waypoint1 and waypoint0. Rovers rover0 and rover1 are available. Image objective0 was communicated in mode high_res. Rover rover0 has image objective0 in mode high_res. Store(s) store1 and store0 are empty. ",
+    "question": "Which of the following actions can eventually be applied? A. communicate rock data from rover rover1 at waypoint waypoint2 about waypoint waypoint1 to lander general at waypoint waypoint0. B. sample rock at waypoint waypoint1 with rover rover0 and store in store store1. C. communicate the image data of objective objective1 in mode colour from rover rover0 at waypoint waypoint0 to lander general at waypoint waypoint2. D. adjust the camera camera2 on the rover rover0 for the objective objective1 at waypoint waypoint1.",
+    "choices": {
+      "text": [
+        "communicate rock data from rover rover1 at waypoint waypoint2 about waypoint waypoint1 to lander general at waypoint waypoint0",
+        "sample rock at waypoint waypoint1 with rover rover0 and store in store store1",
+        "communicate the image data of objective objective1 in mode colour from rover rover0 at waypoint waypoint0 to lander general at waypoint waypoint2",
+        "adjust the camera camera2 on the rover rover0 for the objective objective1 at waypoint waypoint1"
+      ],
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    "query": "Which action is reachable from this state?",
+    "answer": "D"
+  },
+  {
+    "id": 652544272078049770,
+    "group": "reachable_action_mc",
+    "context": "This is a Rovers domain where rovers must navigate between waypoints gathering data and transmitting it back to a lander. Rovers cannot navigate to all waypoints and this makes particular routes impassable to some of the rovers. Data transmission is also constrained by the visibility of the lander from the waypoints. There are 2 rovers, 3 waypoints, 2 stores, 3 cameras, 3 objectives numbered consecutively. Further, there is 1 lander and 3 modes for the camera namely colour, high resolution, and low resolution.  Rover(s) rover1 and rover0 are equipped for soil analysis. Rover(s) rover0 is equipped for rock analysis. Rover(s) rover1 and rover0 are equipped for imaging. Rover rover1 has store store1. Rover rover0 has store store0. Rover rover1 has camera1 and camera0 on board. Rover rover0 has camera2 on board. Camera camera0 can be calibrated on objective0. Camera camera2 can be calibrated on objective2. Camera camera1 can be calibrated on objective0. Camera camera0 supports colour and low_res. Camera camera1 supports high_res. Camera camera2 supports high_res. Rover rover1 can traverse from waypoint1 to waypoint2, waypoint0 to waypoint1, waypoint1 to waypoint0, waypoint2 to waypoint1. Rover rover0 can traverse from waypoint1 to waypoint2, waypoint0 to waypoint1, waypoint1 to waypoint0, waypoint2 to waypoint1. Waypoint(s) are visible from waypoint2: waypoint0 and waypoint1. Waypoint(s) are visible from waypoint1: waypoint0 and waypoint2. Waypoint(s) are visible from waypoint0: waypoint2 and waypoint1. Objective objective1 is visible from waypoint1 and waypoint0. Objective objective0 is visible from waypoint2. Objective objective2 is visible from waypoint0. Lander general is at waypoint waypoint1.  Currently, Rover rover1 is at waypoint0. Rover rover0 is at waypoint0. Rovers rover0 and rover1 are available. Rock data was communicated from waypoint waypoint0; Soil data was communicated from waypoint waypoint0; Image objective1 was communicated in mode low_res. Image objective1 was communicated in mode high_res. Rover rover1 has soil analyzed in waypoint waypoint0. Rover rover0 has rock analyzed in waypoint waypoint0. Rover rover1 has image objective1 in mode low_res. Rover rover1 has image objective1 in mode high_res. Store(s) store1 is empty. Store(s) store0 is full. ",
+    "question": "Which of the following actions can eventually be applied? A. communicate rock data from rover rover1 at waypoint waypoint1 about waypoint waypoint2 to lander general at waypoint waypoint0. B. communicate soil data from rover rover0 at waypoint waypoint2 with soil analysis of waypoint waypoint1 to lander general at waypoint waypoint0. C. navigate the rover rover0 from waypoint waypoint2 to waypoint waypoint1. D. take an image of objective objective0 in mode high_res using camera camera0 on rover rover0 from waypoint waypoint0.",
+    "choices": {
+      "text": [
+        "communicate rock data from rover rover1 at waypoint waypoint1 about waypoint waypoint2 to lander general at waypoint waypoint0",
+        "communicate soil data from rover rover0 at waypoint waypoint2 with soil analysis of waypoint waypoint1 to lander general at waypoint waypoint0",
+        "navigate the rover rover0 from waypoint waypoint2 to waypoint waypoint1",
+        "take an image of objective objective0 in mode high_res using camera camera0 on rover rover0 from waypoint waypoint0"
+      ],
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    "query": "Which action is reachable from this state?",
+    "answer": "C"
+  },
+  {
+    "id": 200078832278288779,
+    "group": "reachable_action_mc",
+    "context": "This is a Rovers domain where rovers must navigate between waypoints gathering data and transmitting it back to a lander. Rovers cannot navigate to all waypoints and this makes particular routes impassable to some of the rovers. Data transmission is also constrained by the visibility of the lander from the waypoints. There are 2 rovers, 3 waypoints, 2 stores, 3 cameras, 2 objectives numbered consecutively. Further, there is 1 lander and 3 modes for the camera namely colour, high resolution, and low resolution.  Rover(s) rover1 and rover0 are equipped for soil analysis. Rover(s) rover1 is equipped for rock analysis. Rover(s) rover1 and rover0 are equipped for imaging. Rover rover1 has store store1. Rover rover0 has store store0. Rover rover0 has camera1 and camera0 on board. Rover rover1 has camera2 on board. Camera camera1 can be calibrated on objective0. Camera camera2 can be calibrated on objective0. Camera camera0 can be calibrated on objective1. Camera camera0 supports colour. Camera camera1 supports low_res. Camera camera2 supports high_res and colour. Rover rover0 can traverse from waypoint2 to waypoint0, waypoint0 to waypoint2, waypoint0 to waypoint1, waypoint1 to waypoint0. Rover rover1 can traverse from waypoint1 to waypoint2, waypoint0 to waypoint2, waypoint2 to waypoint1, waypoint2 to waypoint0. Waypoint(s) are visible from waypoint2: waypoint0 and waypoint1. Waypoint(s) are visible from waypoint1: waypoint0 and waypoint2. Waypoint(s) are visible from waypoint0: waypoint2 and waypoint1. Objective objective1 is visible from waypoint2. Objective objective0 is visible from waypoint0 and waypoint1. Lander general is at waypoint waypoint1.  Currently, Rover rover1 is at waypoint2. Rover rover0 is at waypoint2. Rovers rover0 and rover1 are available. Soil data was communicated from waypoint waypoint1; Image objective0 was communicated in mode low_res. Rover rover1 has soil analyzed in waypoint waypoint1. Rover rover1 has rock analyzed in waypoint waypoint1. Rover rover0 has image objective0 in mode low_res. Rover rover1 has its camera camera2 calibrated. Store(s) store0 is empty. Store(s) store1 is full. ",
+    "question": "Which of the following actions can eventually be applied? A. sample soil at waypoint waypoint2 with rover rover1 and store in the store store0. B. communicate the image data of target objective0 in mode high_res from rover rover0 at waypoint waypoint0 to lander general at waypoint waypoint1. C. calibrate the camera camera2 on the rover rover1 for the objective objective0 at the waypoint waypoint0. D. sample soil at waypoint waypoint2 with rover rover0 and store in the store store1.",
+    "choices": {
+      "text": [
+        "sample soil at waypoint waypoint2 with rover rover1 and store in the store store0",
+        "communicate the image data of target objective0 in mode high_res from rover rover0 at waypoint waypoint0 to lander general at waypoint waypoint1",
+        "calibrate the camera camera2 on the rover rover1 for the objective objective0 at the waypoint waypoint0",
+        "sample soil at waypoint waypoint2 with rover rover0 and store in the store store1"
+      ],
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    "query": "Which action is reachable from this state?",
+    "answer": "C"
+  },
+  {
+    "id": -8957607470194856174,
+    "group": "reachable_action_mc",
+    "context": "This is a Rovers domain where rovers must navigate between waypoints gathering data and transmitting it back to a lander. Rovers cannot navigate to all waypoints and this makes particular routes impassable to some of the rovers. Data transmission is also constrained by the visibility of the lander from the waypoints. There are 2 rovers, 3 waypoints, 2 stores, 3 cameras, 3 objectives numbered consecutively. Further, there is 1 lander and 3 modes for the camera namely colour, high resolution, and low resolution.  Rover(s) rover1 and rover0 are equipped for soil analysis. Rover(s) rover0 is equipped for rock analysis. Rover(s) rover1 and rover0 are equipped for imaging. Rover rover1 has store store1. Rover rover0 has store store0. Rover rover1 has camera1 and camera0 on board. Rover rover0 has camera2 on board. Camera camera0 can be calibrated on objective0. Camera camera2 can be calibrated on objective2. Camera camera1 can be calibrated on objective0. Camera camera0 supports colour and low_res. Camera camera1 supports high_res. Camera camera2 supports high_res. Rover rover1 can traverse from waypoint1 to waypoint2, waypoint0 to waypoint1, waypoint1 to waypoint0, waypoint2 to waypoint1. Rover rover0 can traverse from waypoint1 to waypoint2, waypoint0 to waypoint1, waypoint1 to waypoint0, waypoint2 to waypoint1. Waypoint(s) are visible from waypoint2: waypoint0 and waypoint1. Waypoint(s) are visible from waypoint1: waypoint0 and waypoint2. Waypoint(s) are visible from waypoint0: waypoint2 and waypoint1. Objective objective1 is visible from waypoint1 and waypoint0. Objective objective0 is visible from waypoint2. Objective objective2 is visible from waypoint0. Lander general is at waypoint waypoint1.  Currently, Rover rover0 is at waypoint1. Rover rover1 is at waypoint0. Rocks can be sampled at the following location(s): waypoint0. Rovers rover0 and rover1 are available. Soil data was communicated from waypoint waypoint0; Image objective1 was communicated in mode low_res. Image objective1 was communicated in mode high_res. Rover rover1 has soil analyzed in waypoint waypoint0. Rover rover1 has image objective1 in mode low_res. Rover rover1 has image objective1 in mode high_res. Store(s) store0 is empty. Store(s) store1 is full. ",
+    "question": "Which of the following actions can eventually be applied? A. collect a rock sample from waypoint waypoint1 using rover rover1 and store it in store store0. B. collect a rock sample from waypoint waypoint1 using rover rover0 and store it in store store1. C. transmit the rock data from rover rover1 at waypoint waypoint0 to the lander general at waypoint waypoint2 through waypoint waypoint1. D. move the rover rover1 from waypoint waypoint1 to waypoint waypoint0.",
+    "choices": {
+      "text": [
+        "collect a rock sample from waypoint waypoint1 using rover rover1 and store it in store store0",
+        "collect a rock sample from waypoint waypoint1 using rover rover0 and store it in store store1",
+        "transmit the rock data from rover rover1 at waypoint waypoint0 to the lander general at waypoint waypoint2 through waypoint waypoint1",
+        "move the rover rover1 from waypoint waypoint1 to waypoint waypoint0"
+      ],
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    "query": "Which action is reachable from this state?",
+    "answer": "D"
+  },
+  {
+    "id": -7006016526142761494,
+    "group": "reachable_action_mc",
+    "context": "This is a visitall domain where a robot in a grid must visit all the cells or places in the grid. There are some unavailable places in the grid. The grid size is 4x4, and the location cell names are of the form loc-xi-yj (e.g., loc-x0-y2 or loc-x1-y1). The grid cells are connected to their available neighbors. The unavailable cells are loc-x0-y3, loc-x0-y0, and loc-x3-y3. Currently, the robot is in place loc-x1-y1.The following places have been visited: loc-x3-y1, loc-x2-y3, loc-x1-y3, loc-x3-y0, loc-x2-y2, loc-x1-y2, loc-x3-y2, loc-x0-y1, loc-x2-y1, loc-x0-y2, and loc-x1-y1.",
+    "question": "Which of the following actions can eventually be applied? A. push box to place loc-x3-y2 from place loc-x2-y2. B. go to loc-x2-y2 from loc-x1-y2. C. push box to place loc-x0-y1 from place loc-x0-y2. D. push box to place loc-x3-y1 from place loc-x3-y2.",
+    "choices": {
+      "text": [
+        "push box to place loc-x3-y2 from place loc-x2-y2",
+        "go to loc-x2-y2 from loc-x1-y2",
+        "push box to place loc-x0-y1 from place loc-x0-y2",
+        "push box to place loc-x3-y1 from place loc-x3-y2"
+      ],
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    "query": "Which action is reachable from this state?",
+    "answer": "B"
+  },
+  {
+    "id": 2532374315830691894,
+    "group": "reachable_action_mc",
+    "context": "This is a visitall domain where a robot in a grid must visit all the cells or places in the grid. There are some unavailable places in the grid. The grid size is 4x4, and the location cell names are of the form loc-xi-yj (e.g., loc-x0-y2 or loc-x1-y1). The grid cells are connected to their available neighbors. The only unavailable cell is loc-x0-y0. Currently, the robot is in place loc-x1-y2.The following places have been visited: loc-x0-y3, loc-x2-y3, loc-x1-y3, loc-x3-y3, loc-x2-y2, loc-x1-y2, loc-x2-y1, loc-x0-y1, loc-x0-y2, and loc-x1-y1.",
+    "question": "Which of the following actions can eventually be applied? A. check that position loc-x1-y2 is connected to position loc-x0-y2. B. check that position loc-x1-y3 is connected to position loc-x2-y3. C. check that position loc-x0-y1 is connected to position loc-x1-y1. D. move to place loc-x1-y1 from place loc-x0-y1.",
+    "choices": {
+      "text": [
+        "check that position loc-x1-y2 is connected to position loc-x0-y2",
+        "check that position loc-x1-y3 is connected to position loc-x2-y3",
+        "check that position loc-x0-y1 is connected to position loc-x1-y1",
+        "move to place loc-x1-y1 from place loc-x0-y1"
+      ],
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    "query": "Which action is reachable from this state?",
+    "answer": "D"
+  },
+  {
+    "id": -3177572764891637084,
+    "group": "reachable_action_mc",
+    "context": "This is a visitall domain where a robot in a grid must visit all the cells or places in the grid. There are some unavailable places in the grid. The grid size is 4x4, and the location cell names are of the form loc-xi-yj (e.g., loc-x0-y2 or loc-x1-y1). The grid cells are connected to their available neighbors. There are no unavailable cells. Currently, the robot is in place loc-x1-y0.The following places have been visited: loc-x0-y3, loc-x3-y0, loc-x1-y3, loc-x1-y0, loc-x2-y0, loc-x1-y2, loc-x0-y0, loc-x0-y1, and loc-x0-y2.",
+    "question": "Which of the following actions can eventually be applied? A. check that position loc-x2-y1 is connected to position loc-x1-y1. B. transition from the current position loc-x0-y1 to the next position loc-x1-y1. C. check that position loc-x3-y3 is connected to position loc-x2-y3. D. check that position loc-x1-y3 is connected to position loc-x0-y3.",
+    "choices": {
+      "text": [
+        "check that position loc-x2-y1 is connected to position loc-x1-y1",
+        "transition from the current position loc-x0-y1 to the next position loc-x1-y1",
+        "check that position loc-x3-y3 is connected to position loc-x2-y3",
+        "check that position loc-x1-y3 is connected to position loc-x0-y3"
+      ],
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    "query": "Which action is reachable from this state?",
+    "answer": "B"
+  },
+  {
+    "id": 1841772750305831144,
+    "group": "reachable_action_mc",
+    "context": "This is a visitall domain where a robot in a grid must visit all the cells or places in the grid. There are some unavailable places in the grid. The grid size is 4x4, and the location cell names are of the form loc-xi-yj (e.g., loc-x0-y2 or loc-x1-y1). The grid cells are connected to their available neighbors. The unavailable cells are loc-x0-y3 and loc-x0-y0. Currently, the robot is in place loc-x0-y1.The following places have been visited: loc-x3-y1, loc-x3-y0, loc-x1-y0, loc-x3-y2, loc-x0-y1, loc-x3-y3, loc-x2-y0, and loc-x1-y1.",
+    "question": "Which of the following actions can eventually be applied? A. check that position loc-x2-y3 is connected to position loc-x1-y3. B. check that position loc-x1-y1 is connected to position loc-x0-y1. C. check that position loc-x2-y3 is connected to position loc-x2-y2. D. travel from the current position loc-x1-y2 to the next position loc-x1-y1.",
+    "choices": {
+      "text": [
+        "check that position loc-x2-y3 is connected to position loc-x1-y3",
+        "check that position loc-x1-y1 is connected to position loc-x0-y1",
+        "check that position loc-x2-y3 is connected to position loc-x2-y2",
+        "travel from the current position loc-x1-y2 to the next position loc-x1-y1"
+      ],
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    "query": "Which action is reachable from this state?",
+    "answer": "D"
+  },
+  {
+    "id": 2324105307705323185,
+    "group": "reachable_action_mc",
+    "context": "This is a visitall domain where a robot in a grid must visit all the cells or places in the grid. There are some unavailable places in the grid. The grid size is 4x4, and the location cell names are of the form loc-xi-yj (e.g., loc-x0-y2 or loc-x1-y1). The grid cells are connected to their available neighbors. There are no unavailable cells. Currently, the robot is in place loc-x2-y2.The following places have been visited: loc-x0-y3, loc-x2-y3, loc-x1-y3, loc-x2-y2, loc-x1-y2, and loc-x0-y2.",
+    "question": "Which of the following actions can eventually be applied? A. push box to place loc-x1-y0 from place loc-x1-y1. B. push box to place loc-x2-y1 from place loc-x2-y2. C. move to place loc-x3-y2 from place loc-x3-y3. D. push box to place loc-x3-y0 from place loc-x3-y1.",
+    "choices": {
+      "text": [
+        "push box to place loc-x1-y0 from place loc-x1-y1",
+        "push box to place loc-x2-y1 from place loc-x2-y2",
+        "move to place loc-x3-y2 from place loc-x3-y3",
+        "push box to place loc-x3-y0 from place loc-x3-y1"
+      ],
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    "query": "Which action is reachable from this state?",
+    "answer": "C"
+  }
+]

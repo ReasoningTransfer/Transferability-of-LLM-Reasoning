@@ -1,0 +1,40 @@
+task: calendar_scheduling
+task_alias: "Calendar Scheduling"
+
+dataset_path: json
+dataset_name: null
+dataset_kwargs:
+  data_files: "/map-vepfs/ziyu/reasoning_tr/lm-evaluation-math/lm_eval/tasks/naturalplan/data/calendar_scheduling_new.json" 
+
+test_split: "train"
+
+doc_to_text: "{{prompt_5shot}}"
+doc_to_target: "{{golden_plan}}"
+doc_to_choice: null
+
+description: "You are an expert at scheduling meetings. Given the constraints and existing schedules, generate a proposed meeting time."
+
+num_fewshot: 5
+fewshot_delimiter: "\n\n"
+target_delimiter: " "
+
+output_type: generate_until
+ 
+metric_list:
+  - metric: exact_match
+    aggregation: mean
+    higher_is_better: true
+    ignore_case: true
+    ignore_punctuation: false
+    regexes_to_ignore:
+      - ","
+      - "\\$"
+      - "(?s).*#### "
+      - "\\.$"
+
+generation_kwargs:
+  temperature: 0
+  
+
+metadata:
+  version: "1.0"

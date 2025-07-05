@@ -1,0 +1,882 @@
+[
+  {
+    "id": -6721318970102316394,
+    "group": "progression_mcq",
+    "context": "This is a ferry domain, where the task is to transport cars from their start to their goal locations, using a ferry. Each location is accessible by ferry from each other location. The cars can be debarked or boarded, and the ferry can carry only one car at a time. There are 2 locations and 10 cars, numbered consecutively. Currently, the ferry is at l1, with the car c2 on board. The cars are at locations as follows: c0, c3, c6, c1, c8, and c9 are at l0; c7, c5, and c4 are at l1.",
+    "question": "Which of the following facts hold after performing the action \"sail from location l1 to location l0\" in the current state? A. The ferry is at l0 location and The ferry is at l1 location. B. The ferry is at l1 location and The ferry is empty. C. The ferry is empty. D. The ferry is at l0 location.",
+    "choices": {
+      "text": [
+        "The ferry is at l0 location and The ferry is at l1 location",
+        "The ferry is at l1 location and The ferry is empty",
+        "The ferry is empty",
+        "The ferry is at l0 location"
+      ],
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    "query": "Which fact will hold after performing the action \"sail from location l1 to location l0\" in the current state?",
+    "answer": "D"
+  },
+  {
+    "id": 6698148022494496477,
+    "group": "progression_mcq",
+    "context": "This is a ferry domain, where the task is to transport cars from their start to their goal locations, using a ferry. Each location is accessible by ferry from each other location. The cars can be debarked or boarded, and the ferry can carry only one car at a time. There are 2 locations and 20 cars, numbered consecutively. Currently, the ferry is at l0, with the car c2 on board. The cars are at locations as follows: c10, c6, c3, c15, c9, c0, c1, c8, and c13 are at l0; c16, c4, c17, c11, c18, c14, c7, c12, c19, and c5 are at l1.",
+    "question": "Which of the following facts hold after performing the action \"travel by sea from location l0 to location l1\" in the current state? A. Car c10 is at location l0 and Car c14 is at location l0. B. Car c10 is at location l0. C. Car c10 is at location l0 and The ferry is at l0 location. D. Car c14 is at location l0 and The ferry is at l0 location.",
+    "choices": {
+      "text": [
+        "Car c10 is at location l0 and Car c14 is at location l0",
+        "Car c10 is at location l0",
+        "Car c10 is at location l0 and The ferry is at l0 location",
+        "Car c14 is at location l0 and The ferry is at l0 location"
+      ],
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    "query": "Which fact will hold after performing the action \"travel by sea from location l0 to location l1\" in the current state?",
+    "answer": "B"
+  },
+  {
+    "id": -7903053740859173941,
+    "group": "progression_mcq",
+    "context": "This is a ferry domain, where the task is to transport cars from their start to their goal locations, using a ferry. Each location is accessible by ferry from each other location. The cars can be debarked or boarded, and the ferry can carry only one car at a time. There are 2 locations and 20 cars, numbered consecutively. Currently, the ferry is at l0, with the car c18 on board. The cars are at locations as follows: c10, c6, c3, c15, c9, c0, c8, and c2 are at l0; c16, c4, c13, c17, c11, c14, c7, c1, c12, c19, and c5 are at l1.",
+    "question": "Which of the following facts hold after performing the action \"debark the car c18 from the ferry to location l0\" in the current state? A. Car c18 is at location l0 and The ferry is at l0 location. B. Car c18 is at location l0 and Car c13 is at location l0. C. The ferry is at l0 location and Car c18 is on the ferry. D. Car c13 is at location l0 and Car c18 is on the ferry.",
+    "choices": {
+      "text": [
+        "Car c18 is at location l0 and The ferry is at l0 location",
+        "Car c18 is at location l0 and Car c13 is at location l0",
+        "The ferry is at l0 location and Car c18 is on the ferry",
+        "Car c13 is at location l0 and Car c18 is on the ferry"
+      ],
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    "query": "Which fact will hold after performing the action \"debark the car c18 from the ferry to location l0\" in the current state?",
+    "answer": "A"
+  },
+  {
+    "id": -6356707495842366603,
+    "group": "progression_mcq",
+    "context": "This is a ferry domain, where the task is to transport cars from their start to their goal locations, using a ferry. Each location is accessible by ferry from each other location. The cars can be debarked or boarded, and the ferry can carry only one car at a time. There are 3 locations and 2 cars, numbered consecutively. Currently, the ferry is at l2 location and it is empty. The cars are at locations as follows: c1 is at l1; c0 is at l0.",
+    "question": "Which of the following facts hold after performing the action \"travel by sea from location l2 to location l1\" in the current state? A. The ferry is at l1 location and Car c0 is at location l2. B. The ferry is at l2 location. C. The ferry is empty and The ferry is at l2 location. D. The ferry is empty.",
+    "choices": {
+      "text": [
+        "The ferry is at l1 location and Car c0 is at location l2",
+        "The ferry is at l2 location",
+        "The ferry is empty and The ferry is at l2 location",
+        "The ferry is empty"
+      ],
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    "query": "Which fact will hold after performing the action \"travel by sea from location l2 to location l1\" in the current state?",
+    "answer": "D"
+  },
+  {
+    "id": -1820730310550332721,
+    "group": "progression_mcq",
+    "context": "This is a ferry domain, where the task is to transport cars from their start to their goal locations, using a ferry. Each location is accessible by ferry from each other location. The cars can be debarked or boarded, and the ferry can carry only one car at a time. There are 2 locations and 10 cars, numbered consecutively. Currently, the ferry is at l0 location and it is empty. The cars are at locations as follows: c2, c0, c7, c6, c1, c8, and c5 are at l0; c3, c9, and c4 are at l1.",
+    "question": "Which of the following facts hold after performing the action \"travel by sea from location l0 to location l1\" in the current state? A. The ferry is at l1 location and Car c4 is at location l0. B. The ferry is at l0 location and Car c4 is at location l0. C. The ferry is at l0 location. D. Car c4 is at location l1.",
+    "choices": {
+      "text": [
+        "The ferry is at l1 location and Car c4 is at location l0",
+        "The ferry is at l0 location and Car c4 is at location l0",
+        "The ferry is at l0 location",
+        "Car c4 is at location l1"
+      ],
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    "query": "Which fact will hold after performing the action \"travel by sea from location l0 to location l1\" in the current state?",
+    "answer": "D"
+  },
+  {
+    "id": 4172634596375879013,
+    "group": "progression_mcq",
+    "context": "There are several cities, each containing several locations, some of which are airports. There are also trucks, which can drive within a single city, and airplanes, which can fly between airports. The goal is to get some packages from various locations to various new locations. There are 2 trucks and 1 airplane, as well as 4 packages. There are 4 locations across 2 cities. The locations are in cities as follows: l0-1 and l0-0 are in c0; l1-0 and l1-1 are in c1. Currently, t1 is at l1-1, p1 is at l1-0, t0, a0, and p0 are at l0-0, p2 is in t1, p3 is in t0.",
+    "question": "Which of the following facts hold after performing the action \"unload object p3 from truck t0 at location l0-0\" in the current state? A. t0 is at l0-0 and p3 is in t0. B. t0 is at l0-0 and p1 is in t0. C. p3 is at l0-0. D. p3 is in t0.",
+    "choices": {
+      "text": [
+        "t0 is at l0-0 and p3 is in t0",
+        "t0 is at l0-0 and p1 is in t0",
+        "p3 is at l0-0",
+        "p3 is in t0"
+      ],
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    "query": "Which fact will hold after performing the action \"unload object p3 from truck t0 at location l0-0\" in the current state?",
+    "answer": "C"
+  },
+  {
+    "id": -9054960335280988917,
+    "group": "progression_mcq",
+    "context": "There are several cities, each containing several locations, some of which are airports. There are also trucks, which can drive within a single city, and airplanes, which can fly between airports. The goal is to get some packages from various locations to various new locations. There are 2 trucks and 1 airplane, as well as 4 packages. There are 4 locations across 2 cities. The locations are in cities as follows: l0-1 and l0-0 are in c0; l1-0 and l1-1 are in c1. Currently, p3 and a0 are at l0-0, t0 and p0 are at l0-1, p2 is at l1-1, t1 is at l1-0, p1 is in t0.",
+    "question": "Which of the following facts hold after performing the action \"load the object p0 from location l0-1 into the truck t0\" in the current state? A. p3 is at l0-1 and p0 is at l0-1. B. t0 is at l0-1. C. t0 is at l0-1 and p0 is at l0-1. D. t0 is at l0-1 and p3 is at l0-1.",
+    "choices": {
+      "text": [
+        "p3 is at l0-1 and p0 is at l0-1",
+        "t0 is at l0-1",
+        "t0 is at l0-1 and p0 is at l0-1",
+        "t0 is at l0-1 and p3 is at l0-1"
+      ],
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    "query": "Which fact will hold after performing the action \"load the object p0 from location l0-1 into the truck t0\" in the current state?",
+    "answer": "B"
+  },
+  {
+    "id": 7674929425997966876,
+    "group": "progression_mcq",
+    "context": "There are several cities, each containing several locations, some of which are airports. There are also trucks, which can drive within a single city, and airplanes, which can fly between airports. The goal is to get some packages from various locations to various new locations. There are 2 trucks and 1 airplane, as well as 4 packages. There are 6 locations across 2 cities. The locations are in cities as follows: l0-1, l0-0, and l0-2 are in c0; l1-0, l1-1, and l1-2 are in c1. Currently, p2, p1, and t1 are at l1-2, t0 and a0 are at l0-0, p3 and p0 are in a0.",
+    "question": "Which of the following facts hold after performing the action \"navigate the truck t0 which is in location l0-0 in city c0 to another location l0-2 in the same city\" in the current state? A. t0 is at l0-0 and p3 is at l1-1. B. p3 is at l1-1. C. p0 is in a0 and t0 is at l0-0. D. p0 is in a0.",
+    "choices": {
+      "text": [
+        "t0 is at l0-0 and p3 is at l1-1",
+        "p3 is at l1-1",
+        "p0 is in a0 and t0 is at l0-0",
+        "p0 is in a0"
+      ],
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    "query": "Which fact will hold after performing the action \"navigate the truck t0 which is in location l0-0 in city c0 to another location l0-2 in the same city\" in the current state?",
+    "answer": "D"
+  },
+  {
+    "id": 6323030160041506015,
+    "group": "progression_mcq",
+    "context": "There are several cities, each containing several locations, some of which are airports. There are also trucks, which can drive within a single city, and airplanes, which can fly between airports. The goal is to get some packages from various locations to various new locations. There are 2 trucks and 1 airplane, as well as 4 packages. There are 4 locations across 2 cities. The locations are in cities as follows: l0-1 and l0-0 are in c0; l1-0 and l1-1 are in c1. Currently, p1 and t0 are at l0-1, p3 and a0 are at l0-0, t1 is at l1-0, p2 is in a0, p0 is in t0.",
+    "question": "Which of the following facts hold after performing the action \"unload the object p0 from the truck t0 at location l0-1\" in the current state? A. t0 is at l0-1. B. p0 is at l0-1 and p0 is in t0. C. t0 is at l0-1 and p3 is in t0. D. p0 is at l0-1 and p3 is in t0.",
+    "choices": {
+      "text": [
+        "t0 is at l0-1",
+        "p0 is at l0-1 and p0 is in t0",
+        "t0 is at l0-1 and p3 is in t0",
+        "p0 is at l0-1 and p3 is in t0"
+      ],
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    "query": "Which fact will hold after performing the action \"unload the object p0 from the truck t0 at location l0-1\" in the current state?",
+    "answer": "A"
+  },
+  {
+    "id": -3966027462445554767,
+    "group": "progression_mcq",
+    "context": "There are several cities, each containing several locations, some of which are airports. There are also trucks, which can drive within a single city, and airplanes, which can fly between airports. The goal is to get some packages from various locations to various new locations. There are 2 trucks and 1 airplane, as well as 4 packages. There are 6 locations across 2 cities. The locations are in cities as follows: l0-1, l0-0, and l0-2 are in c0; l1-0, l1-1, and l1-2 are in c1. Currently, t0 is at l0-0, p0 and p1 are at l1-1, a0 is at l1-0, p3 and t1 are at l1-2, p2 is in a0.",
+    "question": "Which of the following facts hold after performing the action \"drive truck t0 from location l0-0 in city c0 to location l0-2 in the same city\" in the current state? A. p3 is at l1-2. B. p3 is in a0. C. t0 is at l0-2 and p3 is in a0. D. t0 is at l0-2 and t0 is at l0-0.",
+    "choices": {
+      "text": [
+        "p3 is at l1-2",
+        "p3 is in a0",
+        "t0 is at l0-2 and p3 is in a0",
+        "t0 is at l0-2 and t0 is at l0-0"
+      ],
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    "query": "Which fact will hold after performing the action \"drive truck t0 from location l0-0 in city c0 to location l0-2 in the same city\" in the current state?",
+    "answer": "A"
+  },
+  {
+    "id": 4172400504099711328,
+    "group": "progression_mcq",
+    "context": "This is a blocksworld domain where blocks can be placed on top of each other or on the table. There is one robotic arm that can move the block. There are 5 blocks. Currently, the robotic arm is holding block_3. The following block(s) is on the table: block_5. The following block(s) are stacked on top of another block: block_4 is on block_5, block_1 is on block_2, and block_2 is on block_4.",
+    "question": "Which of the following facts hold after performing the action \"stack the object block_3 on top of the object block_1\" in the current state? A. The block block_3 is on top of block block_1 and The block block_4 is on top of block block_3. B. The block block_3 is on top of block block_1 and The block block_2 is on top of block block_4. C. The block block_3 is currently being held by the robotic arm. D. The block block_2 is on top of block block_4 and The block block_4 is on top of block block_3.",
+    "choices": {
+      "text": [
+        "The block block_3 is on top of block block_1 and The block block_4 is on top of block block_3",
+        "The block block_3 is on top of block block_1 and The block block_2 is on top of block block_4",
+        "The block block_3 is currently being held by the robotic arm",
+        "The block block_2 is on top of block block_4 and The block block_4 is on top of block block_3"
+      ],
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    "query": "Which fact will hold after performing the action \"stack the object block_3 on top of the object block_1\" in the current state?",
+    "answer": "B"
+  },
+  {
+    "id": -7473856956757411553,
+    "group": "progression_mcq",
+    "context": "This is a blocksworld domain where blocks can be placed on top of each other or on the table. There is one robotic arm that can move the block. There are 5 blocks. Currently, the robotic arm is holding block_2. The following block(s) are on the table: block_3 and block_5. The following block(s) are stacked on top of another block: block_1 is on block_3 and block_4 is on block_1.",
+    "question": "Which of the following facts hold after performing the action \"place the object block_2 on the table\" in the current state? A. Block block_2 is placed on the table. B. The block block_4 is currently situated above the block block_5. C. The robotic arm is holding block_2. D. Block block_2 is placed on the table and The block block_4 is currently situated above the block block_5.",
+    "choices": {
+      "text": [
+        "Block block_2 is placed on the table",
+        "The block block_4 is currently situated above the block block_5",
+        "The robotic arm is holding block_2",
+        "Block block_2 is placed on the table and The block block_4 is currently situated above the block block_5"
+      ],
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    "query": "Which fact will hold after performing the action \"place the object block_2 on the table\" in the current state?",
+    "answer": "A"
+  },
+  {
+    "id": 5790727990109838271,
+    "group": "progression_mcq",
+    "context": "This is a blocksworld domain where blocks can be placed on top of each other or on the table. There is one robotic arm that can move the block. There are 5 blocks. Currently, the robotic arm is empty. The following block(s) are on the table: block_3 and block_2. The following block(s) are stacked on top of another block: block_4 is on block_5, block_1 is on block_3, and block_5 is on block_2.",
+    "question": "Which of the following facts hold after performing the action \"remove the object block_4 from on top of the object block_5\" in the current state? A. The block block_5 is currently situated above the block block_2 and The block block_5 is currently situated under the block block_1. B. block_5 is not obstructed by any other blocks and The block block_5 is currently situated under the block block_1. C. The robotic arm is not holding anything. D. block_5 is not obstructed by any other blocks.",
+    "choices": {
+      "text": [
+        "The block block_5 is currently situated above the block block_2 and The block block_5 is currently situated under the block block_1",
+        "block_5 is not obstructed by any other blocks and The block block_5 is currently situated under the block block_1",
+        "The robotic arm is not holding anything",
+        "block_5 is not obstructed by any other blocks"
+      ],
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    "query": "Which fact will hold after performing the action \"remove the object block_4 from on top of the object block_5\" in the current state?",
+    "answer": "D"
+  },
+  {
+    "id": -8563015643872069949,
+    "group": "progression_mcq",
+    "context": "This is a blocksworld domain where blocks can be placed on top of each other or on the table. There is one robotic arm that can move the block. There are 5 blocks. Currently, the robotic arm is empty. The following block(s) are on the table: block_3, block_2, and block_1. The following block(s) are stacked on top of another block: block_4 is on block_5 and block_5 is on block_2.",
+    "question": "Which of the following facts hold after performing the action \"unstack the object block_4 from the object block_5\" in the current state? A. The block block_4 is currently being held by the robotic arm and Block block_5 is on the table. B. block_1 is not obstructed by any other blocks. C. The block block_4 is currently situated above the block block_5 and Block block_5 is on the table. D. Block block_5 is on the table.",
+    "choices": {
+      "text": [
+        "The block block_4 is currently being held by the robotic arm and Block block_5 is on the table",
+        "block_1 is not obstructed by any other blocks",
+        "The block block_4 is currently situated above the block block_5 and Block block_5 is on the table",
+        "Block block_5 is on the table"
+      ],
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    "query": "Which fact will hold after performing the action \"unstack the object block_4 from the object block_5\" in the current state?",
+    "answer": "B"
+  },
+  {
+    "id": -407559266157678070,
+    "group": "progression_mcq",
+    "context": "This is a blocksworld domain where blocks can be placed on top of each other or on the table. There is one robotic arm that can move the block. There are 5 blocks. Currently, the robotic arm is empty. The following block(s) are on the table: block_3, block_2, and block_1. The following block(s) are stacked on top of another block: block_4 is on block_5 and block_5 is on block_1.",
+    "question": "Which of the following facts hold after performing the action \"remove the object block_4 from on top of the object block_5\" in the current state? A. Block block_3 is clear and The block block_4 is currently situated above the block block_4. B. The block block_4 is currently being held by the robotic arm. C. The block block_4 is currently being held by the robotic arm and The block block_4 is currently situated above the block block_4. D. The block block_4 is currently being held by the robotic arm and The robotic arm is not holding anything.",
+    "choices": {
+      "text": [
+        "Block block_3 is clear and The block block_4 is currently situated above the block block_4",
+        "The block block_4 is currently being held by the robotic arm",
+        "The block block_4 is currently being held by the robotic arm and The block block_4 is currently situated above the block block_4",
+        "The block block_4 is currently being held by the robotic arm and The robotic arm is not holding anything"
+      ],
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    "query": "Which fact will hold after performing the action \"remove the object block_4 from on top of the object block_5\" in the current state?",
+    "answer": "B"
+  },
+  {
+    "id": 2682632947100660784,
+    "group": "progression_mcq",
+    "context": "A robot is in a grid and can only move to places that are connected to its current position. The grid size is 5x5, and the locations are of the form fi-jf (e.g., f3-2f or f0-1f). The grid cells are connected to their neighbors (e.g., f1-2f is connected to the four neighbors f0-2f, f2-2f, f1-1f, and f1-3f). Some positions on the grid are locked and can be opened with a key of a matching shape. The robot has an arm that can pick up a key when the key is in same location as the robot and the arm is empty.  There are 2 keys in 1 different shapes: Key key0-1 is of shape shape0, Key key0-0 is of shape shape0.  Currently, the robot is at position f1-2f and its arm is empty. All the positions are open except the following: f2-0f has shape0 shaped lock, f4-2f has shape0 shaped lock. Key key0-1 is at position f1-3f. Key key0-0 is at position f1-2f.",
+    "question": "Which of the following facts hold after performing the action \"move from f1-2f to f0-2f\" in the current state? A. Robot is at f0-2f location and Robot is at f1-2f location. B. Location f0-2f is open and Robot is at f1-2f location. C. Robot is at f0-2f location. D. Robot is at f0-2f location and Key key0-0 is at f1-4f location.",
+    "choices": {
+      "text": [
+        "Robot is at f0-2f location and Robot is at f1-2f location",
+        "Location f0-2f is open and Robot is at f1-2f location",
+        "Robot is at f0-2f location",
+        "Robot is at f0-2f location and Key key0-0 is at f1-4f location"
+      ],
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    "query": "Which fact will hold after performing the action \"move from f1-2f to f0-2f\" in the current state?",
+    "answer": "C"
+  },
+  {
+    "id": 8573824653944048672,
+    "group": "progression_mcq",
+    "context": "A robot is in a grid and can only move to places that are connected to its current position. The grid size is 5x5, and the locations are of the form fi-jf (e.g., f3-2f or f0-1f). The grid cells are connected to their neighbors (e.g., f1-2f is connected to the four neighbors f0-2f, f2-2f, f1-1f, and f1-3f). Some positions on the grid are locked and can be opened with a key of a matching shape. The robot has an arm that can pick up a key when the key is in same location as the robot and the arm is empty.  There are 3 keys in 1 different shapes: Key key0-1 is of shape shape0, Key key0-2 is of shape shape0, Key key0-0 is of shape shape0.  Currently, the robot is at position f1-0f and is holding key0-0. All the positions are open except the following: f0-1f has shape0 shaped lock, f2-1f has shape0 shaped lock, f2-2f has shape0 shaped lock. Key key0-1 is at position f2-4f. Key key0-2 is at position f1-2f.",
+    "question": "Which of the following facts hold after performing the action \"place the key key0-0 at the current position f1-0f\" in the current state? A. Robot is at f1-0f location and Robot is holding key0-0. B. Robot is holding key0-0. C. Robot is holding key0-0 and Key key0-2 is at f0-3f location. D. Robot's arm is empty.",
+    "choices": {
+      "text": [
+        "Robot is at f1-0f location and Robot is holding key0-0",
+        "Robot is holding key0-0",
+        "Robot is holding key0-0 and Key key0-2 is at f0-3f location",
+        "Robot's arm is empty"
+      ],
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    "query": "Which fact will hold after performing the action \"place the key key0-0 at the current position f1-0f\" in the current state?",
+    "answer": "D"
+  },
+  {
+    "id": -5713630250456746499,
+    "group": "progression_mcq",
+    "context": "A robot is in a grid and can only move to places that are connected to its current position. The grid size is 5x5, and the locations are of the form fi-jf (e.g., f3-2f or f0-1f). The grid cells are connected to their neighbors (e.g., f1-2f is connected to the four neighbors f0-2f, f2-2f, f1-1f, and f1-3f). Some positions on the grid are locked and can be opened with a key of a matching shape. The robot has an arm that can pick up a key when the key is in same location as the robot and the arm is empty.  There are 2 keys in 1 different shapes: Key key0-1 is of shape shape0, Key key0-0 is of shape shape0.  Currently, the robot is at position f4-3f and its arm is empty. All the positions are open except the following: f4-0f has shape0 shaped lock. Key key0-0 is at position f4-3f. Key key0-1 is at position f4-2f.",
+    "question": "Which of the following facts hold after performing the action \"travel from the current position f4-3f to the next position f4-4f\" in the current state? A. Key key0-0 is at f2-2f location. B. Robot is at f4-3f location. C. Location f4-4f is open. D. Robot is at f4-4f location and Robot is at f4-3f location.",
+    "choices": {
+      "text": [
+        "Key key0-0 is at f2-2f location",
+        "Robot is at f4-3f location",
+        "Location f4-4f is open",
+        "Robot is at f4-4f location and Robot is at f4-3f location"
+      ],
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    "query": "Which fact will hold after performing the action \"travel from the current position f4-3f to the next position f4-4f\" in the current state?",
+    "answer": "C"
+  },
+  {
+    "id": -1779550051943720805,
+    "group": "progression_mcq",
+    "context": "A robot is in a grid and can only move to places that are connected to its current position. The grid size is 5x5, and the locations are of the form fi-jf (e.g., f3-2f or f0-1f). The grid cells are connected to their neighbors (e.g., f1-2f is connected to the four neighbors f0-2f, f2-2f, f1-1f, and f1-3f). Some positions on the grid are locked and can be opened with a key of a matching shape. The robot has an arm that can pick up a key when the key is in same location as the robot and the arm is empty.  There are 2 keys in 1 different shapes: Key key0-1 is of shape shape0, Key key0-0 is of shape shape0.  Currently, the robot is at position f1-3f and its arm is empty. All the positions are open except the following: f4-2f has shape0 shaped lock. Key key0-1 is at position f1-3f. Key key0-0 is at position f0-3f.",
+    "question": "Which of the following facts hold after performing the action \"travel from the current position f1-3f to the next position f0-3f\" in the current state? A. Location f0-3f is open and Robot is at f1-3f location. B. Robot is at f1-3f location and Key key0-0 is at f2-4f location. C. Robot is at f0-3f location. D. Location f0-3f is open and Key key0-0 is at f2-4f location.",
+    "choices": {
+      "text": [
+        "Location f0-3f is open and Robot is at f1-3f location",
+        "Robot is at f1-3f location and Key key0-0 is at f2-4f location",
+        "Robot is at f0-3f location",
+        "Location f0-3f is open and Key key0-0 is at f2-4f location"
+      ],
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    "query": "Which fact will hold after performing the action \"travel from the current position f1-3f to the next position f0-3f\" in the current state?",
+    "answer": "C"
+  },
+  {
+    "id": -1189111956191295161,
+    "group": "progression_mcq",
+    "context": "A robot is in a grid and can only move to places that are connected to its current position. The grid size is 5x5, and the locations are of the form fi-jf (e.g., f3-2f or f0-1f). The grid cells are connected to their neighbors (e.g., f1-2f is connected to the four neighbors f0-2f, f2-2f, f1-1f, and f1-3f). Some positions on the grid are locked and can be opened with a key of a matching shape. The robot has an arm that can pick up a key when the key is in same location as the robot and the arm is empty.  There are 2 keys in 1 different shapes: Key key0-1 is of shape shape0, Key key0-0 is of shape shape0.  Currently, the robot is at position f1-3f and its arm is empty. All the positions are open except the following: f0-0f has shape0 shaped lock. Key key0-0 is at position f1-4f. Key key0-1 is at position f3-0f.",
+    "question": "Which of the following facts hold after performing the action \"move from place f1-3f to place f0-3f\" in the current state? A. Location f0-3f is open and Robot is at f1-3f location. B. Robot is at f1-3f location and Robot is at f3-2f location. C. Location f0-3f is open and Robot is at f3-2f location. D. Robot is at f0-3f location.",
+    "choices": {
+      "text": [
+        "Location f0-3f is open and Robot is at f1-3f location",
+        "Robot is at f1-3f location and Robot is at f3-2f location",
+        "Location f0-3f is open and Robot is at f3-2f location",
+        "Robot is at f0-3f location"
+      ],
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    "query": "Which fact will hold after performing the action \"move from place f1-3f to place f0-3f\" in the current state?",
+    "answer": "D"
+  },
+  {
+    "id": 9172471062266562880,
+    "group": "progression_mcq",
+    "context": "A set of robots use different colors to paint patterns in floor tiles. The robots can move around the floor tiles in four directions (up, down, left and right). Robots paint with one color at a time, but can change their spray guns to any available color. However, robots can only paint the tile that is in front (up) and behind (down) them, and once a tile has been painted no robot can stand on it. Robots need to paint a grid with black and white, where the cell color is alternated always. There are 2 robots and 12 tiles. The tiles locations are: tile_3 is to the right of tile_2, tile_12 is to the right of tile_11, tile_6 is to the right of tile_5, tile_11 is to the right of tile_10, tile_2 is to the right of tile_1, tile_9 is to the right of tile_8, tile_8 is to the right of tile_7, and tile_5 is to the right of tile_4. Further, tile_4 is down from tile_7, tile_5 is down from tile_8, tile_8 is down from tile_11, tile_6 is down from tile_9, tile_3 is down from tile_6, tile_9 is down from tile_12, tile_2 is down from tile_5, tile_7 is down from tile_10, and tile_1 is down from tile_4 Currently, robot robot2 is at tile_1 and holding color white and robot robot1 is at tile_3 and holding color white; tile_2, tile_5, and tile_8 are clear; tile_10 is painted white, tile_12 is painted white, tile_4 is painted white, tile_11 is painted black, tile_6 is painted white, tile_7 is painted black, and tile_9 is painted black.",
+    "question": "Which of the following facts hold after performing the action \"modify the color of the robot robot2 from white to black\" in the current state? A. Tile tile_7 is painted in black color and Tile tile_5 is painted in white color. B. Robot robot2 is holding black paint and Tile tile_5 is painted in white color. C. Tile tile_7 is painted in black color and Robot robot2 is holding black paint. D. Tile tile_7 is painted in black color and Robot robot2 is holding white paint.",
+    "choices": {
+      "text": [
+        "Tile tile_7 is painted in black color and Tile tile_5 is painted in white color",
+        "Robot robot2 is holding black paint and Tile tile_5 is painted in white color",
+        "Tile tile_7 is painted in black color and Robot robot2 is holding black paint",
+        "Tile tile_7 is painted in black color and Robot robot2 is holding white paint"
+      ],
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    "query": "Which fact will hold after performing the action \"modify the color of the robot robot2 from white to black\" in the current state?",
+    "answer": "C"
+  },
+  {
+    "id": 6452638789574219211,
+    "group": "progression_mcq",
+    "context": "A set of robots use different colors to paint patterns in floor tiles. The robots can move around the floor tiles in four directions (up, down, left and right). Robots paint with one color at a time, but can change their spray guns to any available color. However, robots can only paint the tile that is in front (up) and behind (down) them, and once a tile has been painted no robot can stand on it. Robots need to paint a grid with black and white, where the cell color is alternated always. There are 2 robots and 12 tiles. The tiles locations are: tile_3 is to the right of tile_2, tile_12 is to the right of tile_11, tile_6 is to the right of tile_5, tile_11 is to the right of tile_10, tile_2 is to the right of tile_1, tile_9 is to the right of tile_8, tile_8 is to the right of tile_7, and tile_5 is to the right of tile_4. Further, tile_4 is down from tile_7, tile_5 is down from tile_8, tile_8 is down from tile_11, tile_6 is down from tile_9, tile_3 is down from tile_6, tile_9 is down from tile_12, tile_2 is down from tile_5, tile_7 is down from tile_10, and tile_1 is down from tile_4 Currently, robot robot2 is at tile_8 and holding color white and robot robot1 is at tile_9 and holding color white; tile_2, tile_4, tile_6, tile_7, tile_10, tile_5, tile_1, and tile_3 are clear; tile_12 is painted white and tile_11 is painted black.",
+    "question": "Which of the following facts hold after performing the action \"move the robot robot2 from the tile tile_8 to the tile on its left tile_7\" in the current state? A. tile_12 is clear. B. Tile tile_12 is painted in white color and tile_12 is clear. C. Robot robot2 is at tile_7 location and tile_12 is clear. D. Tile tile_12 is painted in white color.",
+    "choices": {
+      "text": [
+        "tile_12 is clear",
+        "Tile tile_12 is painted in white color and tile_12 is clear",
+        "Robot robot2 is at tile_7 location and tile_12 is clear",
+        "Tile tile_12 is painted in white color"
+      ],
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    "query": "Which fact will hold after performing the action \"move the robot robot2 from the tile tile_8 to the tile on its left tile_7\" in the current state?",
+    "answer": "D"
+  },
+  {
+    "id": -4886991084357478771,
+    "group": "progression_mcq",
+    "context": "A set of robots use different colors to paint patterns in floor tiles. The robots can move around the floor tiles in four directions (up, down, left and right). Robots paint with one color at a time, but can change their spray guns to any available color. However, robots can only paint the tile that is in front (up) and behind (down) them, and once a tile has been painted no robot can stand on it. Robots need to paint a grid with black and white, where the cell color is alternated always. There are 2 robots and 9 tiles. The tiles locations are: tile_3 is to the right of tile_2, tile_6 is to the right of tile_5, tile_2 is to the right of tile_1, tile_9 is to the right of tile_8, tile_8 is to the right of tile_7, and tile_5 is to the right of tile_4. Further, tile_4 is down from tile_7, tile_5 is down from tile_8, tile_6 is down from tile_9, tile_3 is down from tile_6, tile_2 is down from tile_5, and tile_1 is down from tile_4 Currently, robot robot1 is at tile_7 and holding color black and robot robot2 is at tile_6 and holding color black; tile_2, tile_5, tile_1, tile_3, and tile_8 are clear; tile_4 is painted black and tile_9 is painted black.",
+    "question": "Which of the following facts hold after performing the action \"move the robot robot2 from the tile tile_6 to the tile tile_3 going downwards\" in the current state? A. Tile tile_4 is painted in black color and tile_3 is clear. B. tile_3 is clear and Robot robot1 is at tile_6 location. C. tile_6 is clear. D. tile_3 is clear.",
+    "choices": {
+      "text": [
+        "Tile tile_4 is painted in black color and tile_3 is clear",
+        "tile_3 is clear and Robot robot1 is at tile_6 location",
+        "tile_6 is clear",
+        "tile_3 is clear"
+      ],
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    "query": "Which fact will hold after performing the action \"move the robot robot2 from the tile tile_6 to the tile tile_3 going downwards\" in the current state?",
+    "answer": "C"
+  },
+  {
+    "id": -7564876017207124878,
+    "group": "progression_mcq",
+    "context": "A set of robots use different colors to paint patterns in floor tiles. The robots can move around the floor tiles in four directions (up, down, left and right). Robots paint with one color at a time, but can change their spray guns to any available color. However, robots can only paint the tile that is in front (up) and behind (down) them, and once a tile has been painted no robot can stand on it. Robots need to paint a grid with black and white, where the cell color is alternated always. There are 2 robots and 16 tiles. The tiles locations are: tile_4 is to the right of tile_3, tile_14 is to the right of tile_13, tile_7 is to the right of tile_6, tile_16 is to the right of tile_15, tile_3 is to the right of tile_2, tile_12 is to the right of tile_11, tile_15 is to the right of tile_14, tile_6 is to the right of tile_5, tile_10 is to the right of tile_9, tile_11 is to the right of tile_10, tile_2 is to the right of tile_1, and tile_8 is to the right of tile_7. Further, tile_4 is down from tile_8, tile_12 is down from tile_16, tile_11 is down from tile_15, tile_2 is down from tile_6, tile_8 is down from tile_12, tile_3 is down from tile_7, tile_9 is down from tile_13, tile_5 is down from tile_9, tile_6 is down from tile_10, tile_10 is down from tile_14, tile_7 is down from tile_11, and tile_1 is down from tile_5 Currently, robot robot1 is at tile_6 and holding color black and robot robot2 is at tile_1 and holding color black; tile_2, tile_4, and tile_3 are clear; tile_10 is painted white, tile_12 is painted white, tile_8 is painted black, tile_13 is painted white, tile_16 is painted black, tile_11 is painted black, tile_5 is painted white, tile_15 is painted white, tile_7 is painted white, tile_9 is painted black, and tile_14 is painted black.",
+    "question": "Which of the following facts hold after performing the action \"move robot robot1 down from tile tile_6 to tile tile_2\" in the current state? A. Robot robot2 is at tile_13 location. B. Robot robot1 is at tile_2 location and Robot robot2 is at tile_13 location. C. Tile tile_12 is painted in white color. D. Robot robot1 is at tile_6 location.",
+    "choices": {
+      "text": [
+        "Robot robot2 is at tile_13 location",
+        "Robot robot1 is at tile_2 location and Robot robot2 is at tile_13 location",
+        "Tile tile_12 is painted in white color",
+        "Robot robot1 is at tile_6 location"
+      ],
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    "query": "Which fact will hold after performing the action \"move robot robot1 down from tile tile_6 to tile tile_2\" in the current state?",
+    "answer": "C"
+  },
+  {
+    "id": 6220327183557880764,
+    "group": "progression_mcq",
+    "context": "A set of robots use different colors to paint patterns in floor tiles. The robots can move around the floor tiles in four directions (up, down, left and right). Robots paint with one color at a time, but can change their spray guns to any available color. However, robots can only paint the tile that is in front (up) and behind (down) them, and once a tile has been painted no robot can stand on it. Robots need to paint a grid with black and white, where the cell color is alternated always. There are 2 robots and 12 tiles. The tiles locations are: tile_3 is to the right of tile_2, tile_12 is to the right of tile_11, tile_6 is to the right of tile_5, tile_11 is to the right of tile_10, tile_2 is to the right of tile_1, tile_9 is to the right of tile_8, tile_8 is to the right of tile_7, and tile_5 is to the right of tile_4. Further, tile_4 is down from tile_7, tile_5 is down from tile_8, tile_8 is down from tile_11, tile_6 is down from tile_9, tile_3 is down from tile_6, tile_9 is down from tile_12, tile_2 is down from tile_5, tile_7 is down from tile_10, and tile_1 is down from tile_4 Currently, robot robot1 is at tile_6 and holding color white and robot robot2 is at tile_4 and holding color white; tile_2, tile_12, tile_5, tile_1, tile_3, tile_9, and tile_8 are clear; tile_10 is painted white, tile_11 is painted black, and tile_7 is painted black.",
+    "question": "Which of the following facts hold after performing the action \"paint the tile tile_9 above the tile tile_6 with color white using the robot robot1\" in the current state? A. Tile tile_9 is painted in white color. B. Robot robot1 is at tile_6 location and tile_9 is clear. C. Robot robot1 is at tile_6 location and Tile tile_8 is painted in black color. D. Tile tile_8 is painted in black color.",
+    "choices": {
+      "text": [
+        "Tile tile_9 is painted in white color",
+        "Robot robot1 is at tile_6 location and tile_9 is clear",
+        "Robot robot1 is at tile_6 location and Tile tile_8 is painted in black color",
+        "Tile tile_8 is painted in black color"
+      ],
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    "query": "Which fact will hold after performing the action \"paint the tile tile_9 above the tile tile_6 with color white using the robot robot1\" in the current state?",
+    "answer": "A"
+  },
+  {
+    "id": -1429953543320544539,
+    "group": "progression_mcq",
+    "context": "This is a grippers domain, where there is a robot with two grippers. The robot can carry a ball in each. The goal is to take the balls from one room to another. There are 1 robot, 3 rooms, and 4 balls, numbered consecutively. Currently, the robot robot1 is at room1, left gripper is free, and right gripper is carrying the ball ball4. Additionally, ball3 is at room3, ball1 and ball2 are at room1.",
+    "question": "Which of the following facts hold after performing the action \"pick up the object ball1 with robot robot1 using left1 gripper from room room1\" in the current state? A. Robot robot1 is carrying the ball ball1 in the left gripper and Robot robot1 is carrying the ball ball2 in the left gripper. B. Ball ball1 is at room1 location. C. Robot robot1 is at room1 location. D. Robot robot1 is carrying the ball ball1 in the left gripper and Ball ball1 is at room1 location.",
+    "choices": {
+      "text": [
+        "Robot robot1 is carrying the ball ball1 in the left gripper and Robot robot1 is carrying the ball ball2 in the left gripper",
+        "Ball ball1 is at room1 location",
+        "Robot robot1 is at room1 location",
+        "Robot robot1 is carrying the ball ball1 in the left gripper and Ball ball1 is at room1 location"
+      ],
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    "query": "Which fact will hold after performing the action \"pick up the object ball1 with robot robot1 using left1 gripper from room room1\" in the current state?",
+    "answer": "C"
+  },
+  {
+    "id": -3431267877545447351,
+    "group": "progression_mcq",
+    "context": "This is a grippers domain, where there is a robot with two grippers. The robot can carry a ball in each. The goal is to take the balls from one room to another. There are 1 robot, 7 rooms, and 4 balls, numbered consecutively. Currently, the robot robot1 is at room7, left gripper is free, and right gripper is carrying the ball ball1. Additionally, ball3 is at room5, ball2 is at room3, ball4 is at room6.",
+    "question": "Which of the following facts hold after performing the action \"move the robot robot1 from room room7 to room room4\" in the current state? A. Robot robot1 is carrying the ball ball1 in the right gripper and Robot robot1 is at room4 location. B. Ball ball2 is at room4 location. C. Robot robot1 is carrying the ball ball1 in the right gripper and Robot robot1 is in room room7. D. Ball ball2 is at room4 location and Robot robot1 is in room room7.",
+    "choices": {
+      "text": [
+        "Robot robot1 is carrying the ball ball1 in the right gripper and Robot robot1 is at room4 location",
+        "Ball ball2 is at room4 location",
+        "Robot robot1 is carrying the ball ball1 in the right gripper and Robot robot1 is in room room7",
+        "Ball ball2 is at room4 location and Robot robot1 is in room room7"
+      ],
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    "query": "Which fact will hold after performing the action \"move the robot robot1 from room room7 to room room4\" in the current state?",
+    "answer": "A"
+  },
+  {
+    "id": -3572968337956396276,
+    "group": "progression_mcq",
+    "context": "This is a grippers domain, where there is a robot with two grippers. The robot can carry a ball in each. The goal is to take the balls from one room to another. There are 1 robot, 7 rooms, and 4 balls, numbered consecutively. Currently, the robot robot1 is at room2, left gripper is free, and right gripper is carrying the ball ball1. Additionally, ball2 is at room2, ball3 is at room5, ball4 is at room6.",
+    "question": "Which of the following facts hold after performing the action \"place the object ball1 in the room room2 using the robot robot1 with right1 gripper\" in the current state? A. Ball ball3 is in room room7 and Robot robot1 is carrying the ball ball1 in the right gripper. B. The right gripper of robot robot1 is free and Ball ball3 is in room room7. C. Robot robot1 is carrying the ball ball1 in the right gripper. D. Robot robot1 is in room room2.",
+    "choices": {
+      "text": [
+        "Ball ball3 is in room room7 and Robot robot1 is carrying the ball ball1 in the right gripper",
+        "The right gripper of robot robot1 is free and Ball ball3 is in room room7",
+        "Robot robot1 is carrying the ball ball1 in the right gripper",
+        "Robot robot1 is in room room2"
+      ],
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    "query": "Which fact will hold after performing the action \"place the object ball1 in the room room2 using the robot robot1 with right1 gripper\" in the current state?",
+    "answer": "D"
+  },
+  {
+    "id": 8519380827117789291,
+    "group": "progression_mcq",
+    "context": "This is a grippers domain, where there is a robot with two grippers. The robot can carry a ball in each. The goal is to take the balls from one room to another. There are 1 robot, 7 rooms, and 4 balls, numbered consecutively. Currently, the robot robot1 is at room4, right gripper is free, and left gripper is carrying the ball ball1. Additionally, ball4 is at room1, ball2 is at room2, ball3 is at room5.",
+    "question": "Which of the following facts hold after performing the action \"transfer the robot robot1 from the room room4 to the room room1\" in the current state? A. Ball ball2 is in room room7. B. Ball ball3 is at room5 location and Robot robot1 is in room room4. C. Robot robot1 is in room room1 and Robot robot1 is in room room4. D. Robot robot1 is in room room1.",
+    "choices": {
+      "text": [
+        "Ball ball2 is in room room7",
+        "Ball ball3 is at room5 location and Robot robot1 is in room room4",
+        "Robot robot1 is in room room1 and Robot robot1 is in room room4",
+        "Robot robot1 is in room room1"
+      ],
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    "query": "Which fact will hold after performing the action \"transfer the robot robot1 from the room room4 to the room room1\" in the current state?",
+    "answer": "D"
+  },
+  {
+    "id": 4269829938509912106,
+    "group": "progression_mcq",
+    "context": "This is a grippers domain, where there is a robot with two grippers. The robot can carry a ball in each. The goal is to take the balls from one room to another. There are 1 robot, 7 rooms, and 4 balls, numbered consecutively. Currently, the robot robot1 is at room2, left gripper is free, and right gripper is carrying the ball ball4. Additionally, ball2 is at room2, ball1 is at room1, ball3 is at room5.",
+    "question": "Which of the following facts hold after performing the action \"grasp the object ball2 from room room2 with the left1 gripper of robot robot1\" in the current state? A. Ball ball1 is at room7 location. B. Robot robot1 is carrying the ball ball2 in the left gripper and The left gripper of robot robot1 is free. C. Robot robot1 is at room2 location and Ball ball1 is at room7 location. D. Robot robot1 is at room2 location and Robot robot1 is carrying the ball ball2 in the left gripper.",
+    "choices": {
+      "text": [
+        "Ball ball1 is at room7 location",
+        "Robot robot1 is carrying the ball ball2 in the left gripper and The left gripper of robot robot1 is free",
+        "Robot robot1 is at room2 location and Ball ball1 is at room7 location",
+        "Robot robot1 is at room2 location and Robot robot1 is carrying the ball ball2 in the left gripper"
+      ],
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    "query": "Which fact will hold after performing the action \"grasp the object ball2 from room room2 with the left1 gripper of robot robot1\" in the current state?",
+    "answer": "D"
+  },
+  {
+    "id": 2128691646056012016,
+    "group": "progression_mcq",
+    "context": "This is a Rovers domain where rovers must navigate between waypoints gathering data and transmitting it back to a lander. Rovers cannot navigate to all waypoints and this makes particular routes impassable to some of the rovers. Data transmission is also constrained by the visibility of the lander from the waypoints. There are 2 rovers, 3 waypoints, 2 stores, 2 cameras, 3 objectives numbered consecutively. Further, there is 1 lander and 3 modes for the camera namely colour, high resolution, and low resolution.  Rover(s) rover0 is equipped for soil analysis. Rover(s) rover0 and rover1 are equipped for rock analysis. Rover(s) rover0 and rover1 are equipped for imaging. Rover rover1 has store store1. Rover rover0 has store store0. Rover rover1 has camera0 on board. Rover rover0 has camera1 on board. Camera camera1 can be calibrated on objective1. Camera camera0 can be calibrated on objective2. Camera camera0 supports low_res. Camera camera1 supports high_res and low_res. Rover rover1 can traverse from waypoint0 to waypoint2, waypoint2 to waypoint0, waypoint2 to waypoint1, waypoint1 to waypoint2. Rover rover0 can traverse from waypoint0 to waypoint2, waypoint2 to waypoint0, waypoint2 to waypoint1, waypoint1 to waypoint2. Waypoint(s) are visible from waypoint1: waypoint0 and waypoint2. Waypoint(s) are visible from waypoint2: waypoint1 and waypoint0. Waypoint(s) are visible from waypoint0: waypoint1 and waypoint2. Objective objective1 is visible from waypoint1. Objective objective0 is visible from waypoint0 and waypoint1. Objective objective2 is visible from waypoint1. Lander general is at waypoint waypoint1.  Currently, Rover rover0 is at waypoint2. Rover rover1 is at waypoint2. Rocks can be sampled at the following location(s): waypoint0. Soil can be sampled at the following location(s): waypoint2 and waypoint0. Rovers rover0 and rover1 are available. Image objective1 was communicated in mode high_res. Image objective1 was communicated in mode low_res. Rover rover1 has rock analyzed in waypoint waypoint2. Rover rover0 has image objective0 in mode low_res. Rover rover0 has image objective1 in mode low_res. Rover rover0 has image objective1 in mode high_res. Store(s) store0 is empty. Store(s) store1 is full. ",
+    "question": "Which of the following facts hold after performing the action \"communicate the image data of target objective1 in mode low_res from rover rover0 at waypoint waypoint2 to lander general at waypoint waypoint1\" in the current state? A. Channel general is free and Rocks can be sampled at the following location(s): waypoint2. B. Channel general is free and Image objective2 was communicated in mode low_res. C. Channel general is free. D. Rocks can be sampled at the following location(s): waypoint2.",
+    "choices": {
+      "text": [
+        "Channel general is free and Rocks can be sampled at the following location(s): waypoint2",
+        "Channel general is free and Image objective2 was communicated in mode low_res",
+        "Channel general is free",
+        "Rocks can be sampled at the following location(s): waypoint2"
+      ],
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    "query": "Which fact will hold after performing the action \"communicate the image data of target objective1 in mode low_res from rover rover0 at waypoint waypoint2 to lander general at waypoint waypoint1\" in the current state?",
+    "answer": "C"
+  },
+  {
+    "id": -2360619455174594355,
+    "group": "progression_mcq",
+    "context": "This is a Rovers domain where rovers must navigate between waypoints gathering data and transmitting it back to a lander. Rovers cannot navigate to all waypoints and this makes particular routes impassable to some of the rovers. Data transmission is also constrained by the visibility of the lander from the waypoints. There are 2 rovers, 3 waypoints, 2 stores, 3 cameras, 2 objectives numbered consecutively. Further, there is 1 lander and 3 modes for the camera namely colour, high resolution, and low resolution.  Rover(s) rover0 and rover1 are equipped for soil analysis. Rover(s) rover1 is equipped for rock analysis. Rover(s) rover0 and rover1 are equipped for imaging. Rover rover1 has store store1. Rover rover0 has store store0. Rover rover0 has camera1 and camera0 on board. Rover rover1 has camera2 on board. Camera camera2 can be calibrated on objective0. Camera camera1 can be calibrated on objective0. Camera camera0 can be calibrated on objective1. Camera camera2 supports colour and high_res. Camera camera0 supports colour. Camera camera1 supports low_res. Rover rover0 can traverse from waypoint1 to waypoint0, waypoint0 to waypoint2, waypoint2 to waypoint0, waypoint0 to waypoint1. Rover rover1 can traverse from waypoint0 to waypoint2, waypoint2 to waypoint0, waypoint2 to waypoint1, waypoint1 to waypoint2. Waypoint(s) are visible from waypoint1: waypoint0 and waypoint2. Waypoint(s) are visible from waypoint2: waypoint1 and waypoint0. Waypoint(s) are visible from waypoint0: waypoint1 and waypoint2. Objective objective1 is visible from waypoint2. Objective objective0 is visible from waypoint0 and waypoint1. Lander general is at waypoint waypoint1.  Currently, Rover rover1 is at waypoint0. Rover rover0 is at waypoint1. Rovers rover0 and rover1 are available. Rock data was communicated from waypoint waypoint1; Soil data was communicated from waypoint waypoint1; Image objective1 was communicated in mode colour. Image objective0 was communicated in mode low_res. Rover rover1 has soil analyzed in waypoint waypoint1. Rover rover1 has rock analyzed in waypoint waypoint1. Rover rover0 has image objective0 in mode low_res. Rover rover1 has image objective1 in mode colour. Store(s) store0 is empty. Store(s) store1 is full. ",
+    "question": "Which of the following facts hold after performing the action \"move the rover rover0 from waypoint waypoint1 to waypoint waypoint0\" in the current state? A. Store(s) store0 is full and Rover rover0 is at waypoint1. B. Rover rover0 is available and Store(s) store0 is full. C. Rover rover0 is at waypoint0. D. Store(s) store0 is full.",
+    "choices": {
+      "text": [
+        "Store(s) store0 is full and Rover rover0 is at waypoint1",
+        "Rover rover0 is available and Store(s) store0 is full",
+        "Rover rover0 is at waypoint0",
+        "Store(s) store0 is full"
+      ],
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    "query": "Which fact will hold after performing the action \"move the rover rover0 from waypoint waypoint1 to waypoint waypoint0\" in the current state?",
+    "answer": "C"
+  },
+  {
+    "id": -2766436480563128462,
+    "group": "progression_mcq",
+    "context": "This is a Rovers domain where rovers must navigate between waypoints gathering data and transmitting it back to a lander. Rovers cannot navigate to all waypoints and this makes particular routes impassable to some of the rovers. Data transmission is also constrained by the visibility of the lander from the waypoints. There are 2 rovers, 3 waypoints, 2 stores, 3 cameras, 2 objectives numbered consecutively. Further, there is 1 lander and 3 modes for the camera namely colour, high resolution, and low resolution.  Rover(s) rover0 and rover1 are equipped for soil analysis. Rover(s) rover1 is equipped for rock analysis. Rover(s) rover0 and rover1 are equipped for imaging. Rover rover1 has store store1. Rover rover0 has store store0. Rover rover0 has camera1 and camera0 on board. Rover rover1 has camera2 on board. Camera camera2 can be calibrated on objective0. Camera camera1 can be calibrated on objective0. Camera camera0 can be calibrated on objective1. Camera camera2 supports colour and high_res. Camera camera0 supports colour. Camera camera1 supports low_res. Rover rover0 can traverse from waypoint1 to waypoint0, waypoint0 to waypoint2, waypoint2 to waypoint0, waypoint0 to waypoint1. Rover rover1 can traverse from waypoint0 to waypoint2, waypoint2 to waypoint0, waypoint2 to waypoint1, waypoint1 to waypoint2. Waypoint(s) are visible from waypoint1: waypoint0 and waypoint2. Waypoint(s) are visible from waypoint2: waypoint1 and waypoint0. Waypoint(s) are visible from waypoint0: waypoint1 and waypoint2. Objective objective1 is visible from waypoint2. Objective objective0 is visible from waypoint0 and waypoint1. Lander general is at waypoint waypoint1.  Currently, Rover rover0 is at waypoint2. Rover rover1 is at waypoint2. Rovers rover0 and rover1 are available. Rock data was communicated from waypoint waypoint1; Soil data was communicated from waypoint waypoint1; Image objective0 was communicated in mode low_res. Rover rover1 has soil analyzed in waypoint waypoint1. Rover rover1 has rock analyzed in waypoint waypoint1. Rover rover0 has image objective0 in mode low_res. Rover rover1 has its camera camera2 calibrated. Store(s) store0 is empty. Store(s) store1 is full. ",
+    "question": "Which of the following facts hold after performing the action \"navigate with rover rover1 to waypoint waypoint0 from waypoint waypoint2\" in the current state? A. Rover rover1 is at waypoint0 and Rover rover1 is at waypoint2. B. Rover rover1 is at waypoint0. C. Rover rover1 is available and Rover rover1 is at waypoint2. D. Rover rover1 is at waypoint2.",
+    "choices": {
+      "text": [
+        "Rover rover1 is at waypoint0 and Rover rover1 is at waypoint2",
+        "Rover rover1 is at waypoint0",
+        "Rover rover1 is available and Rover rover1 is at waypoint2",
+        "Rover rover1 is at waypoint2"
+      ],
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    "query": "Which fact will hold after performing the action \"navigate with rover rover1 to waypoint waypoint0 from waypoint waypoint2\" in the current state?",
+    "answer": "B"
+  },
+  {
+    "id": -3529272673317382383,
+    "group": "progression_mcq",
+    "context": "This is a Rovers domain where rovers must navigate between waypoints gathering data and transmitting it back to a lander. Rovers cannot navigate to all waypoints and this makes particular routes impassable to some of the rovers. Data transmission is also constrained by the visibility of the lander from the waypoints. There are 2 rovers, 3 waypoints, 2 stores, 2 cameras, 3 objectives numbered consecutively. Further, there is 1 lander and 3 modes for the camera namely colour, high resolution, and low resolution.  Rover(s) rover0 is equipped for soil analysis. Rover(s) rover0 and rover1 are equipped for rock analysis. Rover(s) rover0 and rover1 are equipped for imaging. Rover rover1 has store store1. Rover rover0 has store store0. Rover rover1 has camera0 on board. Rover rover0 has camera1 on board. Camera camera1 can be calibrated on objective1. Camera camera0 can be calibrated on objective2. Camera camera0 supports low_res. Camera camera1 supports high_res and low_res. Rover rover1 can traverse from waypoint0 to waypoint2, waypoint2 to waypoint0, waypoint2 to waypoint1, waypoint1 to waypoint2. Rover rover0 can traverse from waypoint0 to waypoint2, waypoint2 to waypoint0, waypoint2 to waypoint1, waypoint1 to waypoint2. Waypoint(s) are visible from waypoint1: waypoint0 and waypoint2. Waypoint(s) are visible from waypoint2: waypoint1 and waypoint0. Waypoint(s) are visible from waypoint0: waypoint1 and waypoint2. Objective objective1 is visible from waypoint1. Objective objective0 is visible from waypoint0 and waypoint1. Objective objective2 is visible from waypoint1. Lander general is at waypoint waypoint1.  Currently, Rover rover0 is at waypoint0. Rover rover1 is at waypoint2. Rocks can be sampled at the following location(s): waypoint2 and waypoint0. Soil can be sampled at the following location(s): waypoint0. Rovers rover0 and rover1 are available. Image objective1 was communicated in mode high_res. Image objective1 was communicated in mode low_res. Rover rover0 has soil analyzed in waypoint waypoint2. Rover rover0 has image objective1 in mode low_res. Rover rover0 has image objective1 in mode high_res. Rover rover0 has its camera camera1 calibrated. Store(s) store1 is empty. Store(s) store0 is full. ",
+    "question": "Which of the following facts hold after performing the action \"sample the rock at waypoint waypoint2 with rover rover1 and store it in store store1\" in the current state? A. Rover rover1 is at waypoint1. B. Store(s) store1 is empty and Rover rover1 is at waypoint1. C. Rover rover1 has rock analyzed in waypoint waypoint2 and Rover rover1 is at waypoint2. D. Store(s) store1 is empty.",
+    "choices": {
+      "text": [
+        "Rover rover1 is at waypoint1",
+        "Store(s) store1 is empty and Rover rover1 is at waypoint1",
+        "Rover rover1 has rock analyzed in waypoint waypoint2 and Rover rover1 is at waypoint2",
+        "Store(s) store1 is empty"
+      ],
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    "query": "Which fact will hold after performing the action \"sample the rock at waypoint waypoint2 with rover rover1 and store it in store store1\" in the current state?",
+    "answer": "C"
+  },
+  {
+    "id": 2430243553300244291,
+    "group": "progression_mcq",
+    "context": "This is a Rovers domain where rovers must navigate between waypoints gathering data and transmitting it back to a lander. Rovers cannot navigate to all waypoints and this makes particular routes impassable to some of the rovers. Data transmission is also constrained by the visibility of the lander from the waypoints. There are 2 rovers, 3 waypoints, 2 stores, 3 cameras, 2 objectives numbered consecutively. Further, there is 1 lander and 3 modes for the camera namely colour, high resolution, and low resolution.  Rover(s) rover0 and rover1 are equipped for soil analysis. Rover(s) rover1 is equipped for rock analysis. Rover(s) rover0 and rover1 are equipped for imaging. Rover rover1 has store store1. Rover rover0 has store store0. Rover rover0 has camera1 and camera0 on board. Rover rover1 has camera2 on board. Camera camera2 can be calibrated on objective0. Camera camera1 can be calibrated on objective0. Camera camera0 can be calibrated on objective1. Camera camera2 supports colour and high_res. Camera camera0 supports colour. Camera camera1 supports low_res. Rover rover0 can traverse from waypoint1 to waypoint0, waypoint0 to waypoint2, waypoint2 to waypoint0, waypoint0 to waypoint1. Rover rover1 can traverse from waypoint0 to waypoint2, waypoint2 to waypoint0, waypoint2 to waypoint1, waypoint1 to waypoint2. Waypoint(s) are visible from waypoint1: waypoint0 and waypoint2. Waypoint(s) are visible from waypoint2: waypoint1 and waypoint0. Waypoint(s) are visible from waypoint0: waypoint1 and waypoint2. Objective objective1 is visible from waypoint2. Objective objective0 is visible from waypoint0 and waypoint1. Lander general is at waypoint waypoint1.  Currently, Rover rover0 is at waypoint0. Rover rover1 is at waypoint1. Rocks can be sampled at the following location(s): waypoint1. Rovers rover0 and rover1 are available. Image objective0 was communicated in mode low_res. Rover rover1 has soil analyzed in waypoint waypoint1. Rover rover0 has image objective0 in mode low_res. Store(s) store0 and store1 are empty. ",
+    "question": "Which of the following facts hold after performing the action \"communicate the image data of objective objective0 in mode low_res from rover rover0 at waypoint waypoint0 to lander general at waypoint waypoint1\" in the current state? A. Image objective1 was communicated in mode high_res. B. Rover rover0 has image objective0 in mode low_res and Rover rover0 has image objective0 in mode colour. C. Rover rover0 has image objective0 in mode low_res. D. Rover rover0 has image objective0 in mode low_res and Image objective1 was communicated in mode high_res.",
+    "choices": {
+      "text": [
+        "Image objective1 was communicated in mode high_res",
+        "Rover rover0 has image objective0 in mode low_res and Rover rover0 has image objective0 in mode colour",
+        "Rover rover0 has image objective0 in mode low_res",
+        "Rover rover0 has image objective0 in mode low_res and Image objective1 was communicated in mode high_res"
+      ],
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    "query": "Which fact will hold after performing the action \"communicate the image data of objective objective0 in mode low_res from rover rover0 at waypoint waypoint0 to lander general at waypoint waypoint1\" in the current state?",
+    "answer": "C"
+  },
+  {
+    "id": -4209412963986878113,
+    "group": "progression_mcq",
+    "context": "This is a visitall domain where a robot in a grid must visit all the cells or places in the grid. There are some unavailable places in the grid. The grid size is 4x4, and the location cell names are of the form loc-xi-yj (e.g., loc-x0-y2 or loc-x1-y1). The grid cells are connected to their available neighbors. The only unavailable cell is loc-x0-y0. Currently, the robot is in place loc-x0-y1.The following places have been visited: loc-x1-y1, loc-x2-y2, loc-x2-y0, loc-x2-y1, loc-x2-y3, loc-x3-y1, loc-x3-y0, loc-x0-y1, loc-x1-y0, loc-x3-y3, and loc-x3-y2.",
+    "question": "Which of the following facts hold after performing the action \"move from place loc-x0-y1 to place loc-x1-y1\" in the current state? A. the robot is in place loc-x1-y0. B. the robot is in place loc-x1-y1 and the robot is in place loc-x0-y1. C. Place loc-x2-y0 has been visited and the robot is in place loc-x1-y0. D. the robot is in place loc-x1-y1.",
+    "choices": {
+      "text": [
+        "the robot is in place loc-x1-y0",
+        "the robot is in place loc-x1-y1 and the robot is in place loc-x0-y1",
+        "Place loc-x2-y0 has been visited and the robot is in place loc-x1-y0",
+        "the robot is in place loc-x1-y1"
+      ],
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    "query": "Which fact will hold after performing the action \"move from place loc-x0-y1 to place loc-x1-y1\" in the current state?",
+    "answer": "D"
+  },
+  {
+    "id": 7838557130667165911,
+    "group": "progression_mcq",
+    "context": "This is a visitall domain where a robot in a grid must visit all the cells or places in the grid. There are some unavailable places in the grid. The grid size is 4x4, and the location cell names are of the form loc-xi-yj (e.g., loc-x0-y2 or loc-x1-y1). The grid cells are connected to their available neighbors. The unavailable cells are loc-x0-y0 and loc-x0-y3. Currently, the robot is in place loc-x0-y1.The following places have been visited: loc-x1-y1, loc-x2-y2, loc-x2-y0, loc-x2-y1, loc-x2-y3, loc-x3-y1, loc-x3-y0, loc-x0-y1, loc-x1-y0, loc-x3-y3, and loc-x3-y2.",
+    "question": "Which of the following facts hold after performing the action \"move from loc-x0-y1 to loc-x0-y2\" in the current state? A. Place loc-x0-y2 has been visited and the robot is in place loc-x0-y1. B. Place loc-x2-y3 has been visited. C. Place loc-x2-y3 has been visited and the robot is in place loc-x1-y3. D. the robot is in place loc-x1-y3.",
+    "choices": {
+      "text": [
+        "Place loc-x0-y2 has been visited and the robot is in place loc-x0-y1",
+        "Place loc-x2-y3 has been visited",
+        "Place loc-x2-y3 has been visited and the robot is in place loc-x1-y3",
+        "the robot is in place loc-x1-y3"
+      ],
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    "query": "Which fact will hold after performing the action \"move from loc-x0-y1 to loc-x0-y2\" in the current state?",
+    "answer": "B"
+  },
+  {
+    "id": -5627177200162890112,
+    "group": "progression_mcq",
+    "context": "This is a visitall domain where a robot in a grid must visit all the cells or places in the grid. There are some unavailable places in the grid. The grid size is 4x4, and the location cell names are of the form loc-xi-yj (e.g., loc-x0-y2 or loc-x1-y1). The grid cells are connected to their available neighbors. The unavailable cells are loc-x0-y0, loc-x0-y3, and loc-x3-y3. Currently, the robot is in place loc-x1-y0.The following places have been visited: loc-x2-y2, loc-x2-y0, loc-x2-y1, loc-x3-y1, loc-x3-y0, loc-x1-y0, and loc-x3-y2.",
+    "question": "Which of the following facts hold after performing the action \"navigate from loc-x1-y0 to loc-x1-y1\" in the current state? A. the robot is in place loc-x1-y0 and the robot is in place loc-x1-y2. B. Place loc-x1-y0 has been visited and the robot is in place loc-x1-y2. C. Place loc-x1-y0 has been visited and the robot is in place loc-x1-y0. D. Place loc-x1-y0 has been visited.",
+    "choices": {
+      "text": [
+        "the robot is in place loc-x1-y0 and the robot is in place loc-x1-y2",
+        "Place loc-x1-y0 has been visited and the robot is in place loc-x1-y2",
+        "Place loc-x1-y0 has been visited and the robot is in place loc-x1-y0",
+        "Place loc-x1-y0 has been visited"
+      ],
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    "query": "Which fact will hold after performing the action \"navigate from loc-x1-y0 to loc-x1-y1\" in the current state?",
+    "answer": "D"
+  },
+  {
+    "id": 1654791237577459390,
+    "group": "progression_mcq",
+    "context": "This is a visitall domain where a robot in a grid must visit all the cells or places in the grid. There are some unavailable places in the grid. The grid size is 4x4, and the location cell names are of the form loc-xi-yj (e.g., loc-x0-y2 or loc-x1-y1). The grid cells are connected to their available neighbors. The unavailable cells are loc-x0-y0, loc-x0-y3, and loc-x3-y3. Currently, the robot is in place loc-x2-y3.The following places have been visited: loc-x1-y2, loc-x1-y1, loc-x2-y0, loc-x0-y2, loc-x2-y3, loc-x1-y3, loc-x3-y1, loc-x3-y0, loc-x0-y1, loc-x1-y0, and loc-x3-y2.",
+    "question": "Which of the following facts hold after performing the action \"go to loc-x1-y3 from loc-x2-y3\" in the current state? A. the robot is in place loc-x2-y2 and the robot is in place loc-x2-y3. B. the robot is in place loc-x1-y3 and the robot is in place loc-x2-y2. C. the robot is in place loc-x1-y3. D. the robot is in place loc-x1-y3 and the robot is in place loc-x2-y3.",
+    "choices": {
+      "text": [
+        "the robot is in place loc-x2-y2 and the robot is in place loc-x2-y3",
+        "the robot is in place loc-x1-y3 and the robot is in place loc-x2-y2",
+        "the robot is in place loc-x1-y3",
+        "the robot is in place loc-x1-y3 and the robot is in place loc-x2-y3"
+      ],
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    "query": "Which fact will hold after performing the action \"go to loc-x1-y3 from loc-x2-y3\" in the current state?",
+    "answer": "C"
+  },
+  {
+    "id": -1216755304561596544,
+    "group": "progression_mcq",
+    "context": "This is a visitall domain where a robot in a grid must visit all the cells or places in the grid. There are some unavailable places in the grid. The grid size is 4x4, and the location cell names are of the form loc-xi-yj (e.g., loc-x0-y2 or loc-x1-y1). The grid cells are connected to their available neighbors. The unavailable cells are loc-x0-y0 and loc-x0-y3. Currently, the robot is in place loc-x1-y1.The following places have been visited: loc-x1-y1, loc-x2-y0, loc-x3-y1, loc-x3-y0, loc-x3-y3, loc-x1-y0, and loc-x3-y2.",
+    "question": "Which of the following facts hold after performing the action \"move from place loc-x1-y1 to place loc-x1-y2\" in the current state? A. the robot is in place loc-x1-y2 and the robot is in place loc-x1-y0. B. Place loc-x3-y3 has been visited and the robot is in place loc-x1-y1. C. Place loc-x3-y3 has been visited. D. the robot is in place loc-x1-y1.",
+    "choices": {
+      "text": [
+        "the robot is in place loc-x1-y2 and the robot is in place loc-x1-y0",
+        "Place loc-x3-y3 has been visited and the robot is in place loc-x1-y1",
+        "Place loc-x3-y3 has been visited",
+        "the robot is in place loc-x1-y1"
+      ],
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    "query": "Which fact will hold after performing the action \"move from place loc-x1-y1 to place loc-x1-y2\" in the current state?",
+    "answer": "C"
+  }
+]

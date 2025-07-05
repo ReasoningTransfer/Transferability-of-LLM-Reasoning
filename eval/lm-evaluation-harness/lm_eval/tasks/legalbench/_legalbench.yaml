@@ -1,0 +1,7 @@
+group: legalbench
+task:
+  - legalbench_abercrombie
+  - legalbench_function_of_decision_section
+  - legalbench_international_citizenship_questions
+  - legalbench_international_citizenship_questions
+  - legalbench_proa

@@ -1,0 +1,882 @@
+[
+  {
+    "id": -981962208469164703,
+    "group": "landmarks_mcq",
+    "context": "This is a ferry domain, where the task is to transport cars from their start to their goal locations, using a ferry. Each location is accessible by ferry from each other location. The cars can be debarked or boarded, and the ferry can carry only one car at a time. There are 2 locations and 20 cars, numbered consecutively. Currently, the ferry is at l0, with the car c1 on board. The cars are at locations as follows: c7, c19, c4, c12, c17, and c5 are at l1; c11, c15, c0, c13, c18, c6, c8, c2, c10, c16, c9, c3, and c14 are at l0. The goal is to reach a state where the following facts hold: Car c7 is at location l1, Car c15 is at location l0, Car c0 is at location l0, Car c1 is at location l1, Car c13 is at location l0, Car c14 is at location l1, Car c19 is at location l1, Car c18 is at location l1, Car c4 is at location l1, Car c10 is at location l0, Car c2 is at location l1, Car c8 is at location l1, Car c12 is at location l1, Car c9 is at location l0, Car c17 is at location l1, Car c16 is at location l1, Car c6 is at location l1, Car c11 is at location l1, Car c5 is at location l1, and Car c3 is at location l0.",
+    "question": "Which of the following facts is a landmark (must hold at some point along any plan) for the current state? A. Car c6 is on board the ferry. B. Car c9 is at location l1. C. Car c13 is on the ferry. D. Ferry has car c15 on board.",
+    "choices": {
+      "text": [
+        "Car c6 is on board the ferry",
+        "Car c9 is at location l1",
+        "Car c13 is on the ferry",
+        "Ferry has car c15 on board"
+      ],
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    "query": "Which fact must hold at some point on any way to the goal from the current state?",
+    "answer": "A"
+  },
+  {
+    "id": -5128307274656505566,
+    "group": "landmarks_mcq",
+    "context": "This is a ferry domain, where the task is to transport cars from their start to their goal locations, using a ferry. Each location is accessible by ferry from each other location. The cars can be debarked or boarded, and the ferry can carry only one car at a time. There are 2 locations and 20 cars, numbered consecutively. Currently, the ferry is at l0, with the car c14 on board. The cars are at locations as follows: c7, c1, c19, c4, c12, and c5 are at l1; c11, c15, c0, c13, c18, c6, c8, c2, c10, c16, c17, c9, and c3 are at l0. The goal is to reach a state where the following facts hold: Car c7 is at location l1, Car c15 is at location l0, Car c0 is at location l0, Car c1 is at location l1, Car c13 is at location l0, Car c14 is at location l1, Car c19 is at location l1, Car c18 is at location l1, Car c4 is at location l1, Car c10 is at location l0, Car c2 is at location l1, Car c8 is at location l1, Car c12 is at location l1, Car c9 is at location l0, Car c17 is at location l1, Car c16 is at location l1, Car c6 is at location l1, Car c11 is at location l1, Car c5 is at location l1, and Car c3 is at location l0.",
+    "question": "Which of the following facts is a landmark (must hold at some point along any plan) for the current state? A. Ferry has car c2 on board. B. Car c4 is on the ferry. C. Car c19 is at location l0. D. Car c0 is at location l1.",
+    "choices": {
+      "text": [
+        "Ferry has car c2 on board",
+        "Car c4 is on the ferry",
+        "Car c19 is at location l0",
+        "Car c0 is at location l1"
+      ],
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    "query": "Which fact must hold at some point on any way to the goal from the current state?",
+    "answer": "A"
+  },
+  {
+    "id": -3092660954641478163,
+    "group": "landmarks_mcq",
+    "context": "This is a ferry domain, where the task is to transport cars from their start to their goal locations, using a ferry. Each location is accessible by ferry from each other location. The cars can be debarked or boarded, and the ferry can carry only one car at a time. There are 2 locations and 5 cars, numbered consecutively. Currently, the ferry is at l0, with the car c2 on board. The cars are at locations as follows: c1, c4, and c3 are at l0; c0 is at l1. The goal is to reach a state where the following facts hold: Car c2 is at location l1, Car c1 is at location l0, Car c0 is at location l1, Car c4 is at location l0, and Car c3 is at location l0.",
+    "question": "Which of the following facts is a landmark (must hold at some point along any plan) for the current state? A. Car c4 is at location l1. B. Ferry has car c0 on board. C. The ferry is at l1 location. D. Car c3 is on board the ferry.",
+    "choices": {
+      "text": [
+        "Car c4 is at location l1",
+        "Ferry has car c0 on board",
+        "The ferry is at l1 location",
+        "Car c3 is on board the ferry"
+      ],
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    "query": "Which fact must hold at some point on any way to the goal from the current state?",
+    "answer": "C"
+  },
+  {
+    "id": -8359471954756932253,
+    "group": "landmarks_mcq",
+    "context": "This is a ferry domain, where the task is to transport cars from their start to their goal locations, using a ferry. Each location is accessible by ferry from each other location. The cars can be debarked or boarded, and the ferry can carry only one car at a time. There are 2 locations and 10 cars, numbered consecutively. Currently, the ferry is at l0, with the car c2 on board. The cars are at locations as follows: c8, c0, c1, c4, c6, and c7 are at l0; c3, c5, and c9 are at l1. The goal is to reach a state where the following facts hold: Car c2 is at location l1, Car c8 is at location l0, Car c0 is at location l0, Car c1 is at location l0, Car c3 is at location l1, Car c4 is at location l0, Car c6 is at location l0, Car c9 is at location l1, Car c7 is at location l0, and Car c5 is at location l0.",
+    "question": "Which of the following facts is a landmark (must hold at some point along any plan) for the current state? A. Ferry has car c5 on board. B. Car c0 is at location l1. C. Car c1 is on board the ferry. D. Car c9 is at location l0.",
+    "choices": {
+      "text": [
+        "Ferry has car c5 on board",
+        "Car c0 is at location l1",
+        "Car c1 is on board the ferry",
+        "Car c9 is at location l0"
+      ],
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    "query": "Which fact must hold at some point on any way to the goal from the current state?",
+    "answer": "A"
+  },
+  {
+    "id": -1679613611642285095,
+    "group": "landmarks_mcq",
+    "context": "This is a ferry domain, where the task is to transport cars from their start to their goal locations, using a ferry. Each location is accessible by ferry from each other location. The cars can be debarked or boarded, and the ferry can carry only one car at a time. There are 2 locations and 10 cars, numbered consecutively. Currently, the ferry is at l0 location and it is empty. The cars are at locations as follows: c2, c3, c5, and c4 are at l1; c8, c0, c1, c6, c9, and c7 are at l0. The goal is to reach a state where the following facts hold: Car c2 is at location l1, Car c8 is at location l0, Car c0 is at location l0, Car c1 is at location l0, Car c3 is at location l1, Car c4 is at location l0, Car c6 is at location l0, Car c9 is at location l1, Car c7 is at location l0, and Car c5 is at location l0.",
+    "question": "Which of the following facts is a landmark (must hold at some point along any plan) for the current state? A. Car c7 is at location l1. B. Ferry has car c1 on board. C. Car c2 is on board the ferry. D. The ferry is at l1 location.",
+    "choices": {
+      "text": [
+        "Car c7 is at location l1",
+        "Ferry has car c1 on board",
+        "Car c2 is on board the ferry",
+        "The ferry is at l1 location"
+      ],
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    "query": "Which fact must hold at some point on any way to the goal from the current state?",
+    "answer": "D"
+  },
+  {
+    "id": 4854602878089259828,
+    "group": "landmarks_mcq",
+    "context": "There are several cities, each containing several locations, some of which are airports. There are also trucks, which can drive within a single city, and airplanes, which can fly between airports. The goal is to get some packages from various locations to various new locations. There are 3 trucks and 1 airplane, as well as 4 packages. There are 9 locations across 3 cities. The locations are in cities as follows: l1-0, l1-1, and l1-2 are in c1; l0-1, l0-2, and l0-0 are in c0; l2-1, l2-2, and l2-0 are in c2. Currently, t2 is at l2-2, t0 is at l0-0, t1, a0, and p1 are at l1-0, p0 is at l2-1, p3 is in t2, p2 is in a0. The goal is to reach a state where the following facts hold: p3 is at l1-2, p0 is at l2-1, p2 is at l2-2, and p1 is at l2-0.",
+    "question": "Which of the following facts is a landmark (must hold at some point along any plan) for the current state? A. p1 is at l1-2. B. p2 is at l2-0. C. p3 is at l0-1. D. p0 is in a0.",
+    "choices": {
+      "text": [
+        "p1 is at l1-2",
+        "p2 is at l2-0",
+        "p3 is at l0-1",
+        "p0 is in a0"
+      ],
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    "query": "Which fact must hold at some point on any way to the goal from the current state?",
+    "answer": "B"
+  },
+  {
+    "id": 5470290453309629164,
+    "group": "landmarks_mcq",
+    "context": "There are several cities, each containing several locations, some of which are airports. There are also trucks, which can drive within a single city, and airplanes, which can fly between airports. The goal is to get some packages from various locations to various new locations. There are 2 trucks and 1 airplane, as well as 4 packages. There are 4 locations across 2 cities. The locations are in cities as follows: l0-1 and l0-0 are in c0; l1-0 and l1-1 are in c1. Currently, t0 is at l0-0, t1, a0, and p2 are at l1-0, p1 is in t1, p3 and p0 are in t0. The goal is to reach a state where the following facts hold: p3 is at l0-1, p0 is at l0-0, p1 is at l1-0, and p2 is at l1-0.",
+    "question": "Which of the following facts is a landmark (must hold at some point along any plan) for the current state? A. p2 is at l1-1. B. p3 is at l1-1. C. p2 is in t0. D. t0 is at l0-1.",
+    "choices": {
+      "text": [
+        "p2 is at l1-1",
+        "p3 is at l1-1",
+        "p2 is in t0",
+        "t0 is at l0-1"
+      ],
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    "query": "Which fact must hold at some point on any way to the goal from the current state?",
+    "answer": "D"
+  },
+  {
+    "id": -3014630304077399433,
+    "group": "landmarks_mcq",
+    "context": "There are several cities, each containing several locations, some of which are airports. There are also trucks, which can drive within a single city, and airplanes, which can fly between airports. The goal is to get some packages from various locations to various new locations. There are 2 trucks and 1 airplane, as well as 4 packages. There are 6 locations across 2 cities. The locations are in cities as follows: l1-0, l1-1, and l1-2 are in c1; l0-1, l0-2, and l0-0 are in c0. Currently, p1, p2, and t1 are at l1-2, t0, p3, and a0 are at l0-0, p0 is in t0. The goal is to reach a state where the following facts hold: p0 is at l0-2, p3 is at l0-1, p1 is at l1-2, and p2 is at l1-2.",
+    "question": "Which of the following facts is a landmark (must hold at some point along any plan) for the current state? A. p0 is at l1-1. B. p0 is at l0-0. C. t0 is at l0-2. D. p3 is in t1.",
+    "choices": {
+      "text": [
+        "p0 is at l1-1",
+        "p0 is at l0-0",
+        "t0 is at l0-2",
+        "p3 is in t1"
+      ],
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    "query": "Which fact must hold at some point on any way to the goal from the current state?",
+    "answer": "C"
+  },
+  {
+    "id": 183656925876721434,
+    "group": "landmarks_mcq",
+    "context": "There are several cities, each containing several locations, some of which are airports. There are also trucks, which can drive within a single city, and airplanes, which can fly between airports. The goal is to get some packages from various locations to various new locations. There are 2 trucks and 1 airplane, as well as 4 packages. There are 4 locations across 2 cities. The locations are in cities as follows: l0-1 and l0-0 are in c0; l1-0 and l1-1 are in c1. Currently, t1 and p2 are at l1-0, t0 is at l0-1, a0 is at l0-0, p1 is in t1, p3 is in t0, p0 is in a0. The goal is to reach a state where the following facts hold: p3 is at l0-1, p0 is at l0-0, p1 is at l1-0, and p2 is at l1-0.",
+    "question": "Which of the following facts is a landmark (must hold at some point along any plan) for the current state? A. p2 is at l0-0. B. p0 is in t1. C. p1 is at l1-0. D. p3 is in a0.",
+    "choices": {
+      "text": [
+        "p2 is at l0-0",
+        "p0 is in t1",
+        "p1 is at l1-0",
+        "p3 is in a0"
+      ],
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    "query": "Which fact must hold at some point on any way to the goal from the current state?",
+    "answer": "C"
+  },
+  {
+    "id": 3682953426833486922,
+    "group": "landmarks_mcq",
+    "context": "There are several cities, each containing several locations, some of which are airports. There are also trucks, which can drive within a single city, and airplanes, which can fly between airports. The goal is to get some packages from various locations to various new locations. There are 2 trucks and 1 airplane, as well as 4 packages. There are 6 locations across 2 cities. The locations are in cities as follows: l1-0, l1-1, and l1-2 are in c1; l0-1, l0-2, and l0-0 are in c0. Currently, t0, p0, and a0 are at l0-0, t1 is at l1-0, p1 is at l1-1, p3 is in a0, p2 is in t0. The goal is to reach a state where the following facts hold: p2 is at l1-0, p0 is at l1-1, p3 is at l1-2, and p1 is at l1-1.",
+    "question": "Which of the following facts is a landmark (must hold at some point along any plan) for the current state? A. t0 is at l0-2. B. a0 is at l1-0. C. p2 is at l1-1. D. p3 is at l0-0.",
+    "choices": {
+      "text": [
+        "t0 is at l0-2",
+        "a0 is at l1-0",
+        "p2 is at l1-1",
+        "p3 is at l0-0"
+      ],
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    "query": "Which fact must hold at some point on any way to the goal from the current state?",
+    "answer": "B"
+  },
+  {
+    "id": -6319126809807475294,
+    "group": "landmarks_mcq",
+    "context": "This is a blocksworld domain where blocks can be placed on top of each other or on the table. There is one robotic arm that can move the block. There are 5 blocks. Currently, the robotic arm is empty. The following block(s) are on the table: block_2 and block_3. The following block(s) are stacked on top of another block: block_4 is on block_2, block_5 is on block_3, and block_1 is on block_4. The goal is to reach a state where the following facts hold: The block block_1 is on top of block block_3, The block block_2 is currently situated above the block block_4, and The block block_4 is currently situated above the block block_5.",
+    "question": "Which of the following facts is a landmark (must hold at some point along any plan) for the current state? A. The block block_5 is on top of block block_2. B. The block block_3 is currently situated above the block block_2. C. The block block_5 is currently situated under the block block_3. D. The robotic arm is holding block_4.",
+    "choices": {
+      "text": [
+        "The block block_5 is on top of block block_2",
+        "The block block_3 is currently situated above the block block_2",
+        "The block block_5 is currently situated under the block block_3",
+        "The robotic arm is holding block_4"
+      ],
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    "query": "Which fact must hold at some point on any way to the goal from the current state?",
+    "answer": "D"
+  },
+  {
+    "id": 2469729868887267898,
+    "group": "landmarks_mcq",
+    "context": "This is a blocksworld domain where blocks can be placed on top of each other or on the table. There is one robotic arm that can move the block. There are 5 blocks. Currently, the robotic arm is empty. The following block(s) are on the table: block_2 and block_5. The following block(s) are stacked on top of another block: block_4 is on block_5, block_1 is on block_4, and block_3 is on block_2. The goal is to reach a state where the following facts hold: The block block_3 is currently situated under the block block_1, The block block_2 is on top of block block_4, and The block block_4 is on top of block block_5.",
+    "question": "Which of the following facts is a landmark (must hold at some point along any plan) for the current state? A. The block block_1 is currently situated under the block block_5. B. Block block_2 is clear. C. The block block_2 is on top of block block_1. D. The block block_5 is currently situated under the block block_3.",
+    "choices": {
+      "text": [
+        "The block block_1 is currently situated under the block block_5",
+        "Block block_2 is clear",
+        "The block block_2 is on top of block block_1",
+        "The block block_5 is currently situated under the block block_3"
+      ],
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    "query": "Which fact must hold at some point on any way to the goal from the current state?",
+    "answer": "B"
+  },
+  {
+    "id": -6285380303636201548,
+    "group": "landmarks_mcq",
+    "context": "This is a blocksworld domain where blocks can be placed on top of each other or on the table. There is one robotic arm that can move the block. There are 3 blocks. Currently, the robotic arm is empty. The following block(s) is on the table: block_1. The following block(s) are stacked on top of another block: block_3 is on block_1 and block_2 is on block_3. The goal is to reach a state where the following facts hold: The block block_3 is on top of block block_1 and The block block_1 is on top of block block_2.",
+    "question": "Which of the following facts is a landmark (must hold at some point along any plan) for the current state? A. Block block_1 is clear. B. The block block_2 is on top of block block_2. C. The block block_1 is currently situated under the block block_1. D. The block block_3 is on top of block block_3.",
+    "choices": {
+      "text": [
+        "Block block_1 is clear",
+        "The block block_2 is on top of block block_2",
+        "The block block_1 is currently situated under the block block_1",
+        "The block block_3 is on top of block block_3"
+      ],
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    "query": "Which fact must hold at some point on any way to the goal from the current state?",
+    "answer": "A"
+  },
+  {
+    "id": 5790727990109838271,
+    "group": "landmarks_mcq",
+    "context": "This is a blocksworld domain where blocks can be placed on top of each other or on the table. There is one robotic arm that can move the block. There are 5 blocks. Currently, the robotic arm is empty. The following block(s) are on the table: block_2 and block_1. The following block(s) are stacked on top of another block: block_4 is on block_1, block_5 is on block_3, and block_3 is on block_4. The goal is to reach a state where the following facts hold: The block block_1 is on top of block block_3, The block block_2 is on top of block block_4, and The block block_5 is currently situated under the block block_4.",
+    "question": "Which of the following facts is a landmark (must hold at some point along any plan) for the current state? A. The block block_1 is on top of block block_2. B. The block block_3 is on top of block block_3. C. The block block_2 is currently situated under the block block_5. D. The robotic arm is holding block_1.",
+    "choices": {
+      "text": [
+        "The block block_1 is on top of block block_2",
+        "The block block_3 is on top of block block_3",
+        "The block block_2 is currently situated under the block block_5",
+        "The robotic arm is holding block_1"
+      ],
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    "query": "Which fact must hold at some point on any way to the goal from the current state?",
+    "answer": "D"
+  },
+  {
+    "id": -8705558055030751129,
+    "group": "landmarks_mcq",
+    "context": "This is a blocksworld domain where blocks can be placed on top of each other or on the table. There is one robotic arm that can move the block. There are 5 blocks. Currently, the robotic arm is empty. The following block(s) is on the table: block_1. The following block(s) are stacked on top of another block: block_4 is on block_1, block_5 is on block_4, block_3 is on block_5, and block_2 is on block_3. The goal is to reach a state where the following facts hold: The block block_1 is currently situated above the block block_3, The block block_2 is currently situated above the block block_4, and The block block_4 is on top of block block_5.",
+    "question": "Which of the following facts is a landmark (must hold at some point along any plan) for the current state? A. The block block_1 is on top of block block_4. B. The block block_5 is on top of block block_2. C. The robotic arm is holding block_1. D. The block block_3 is on top of block block_1.",
+    "choices": {
+      "text": [
+        "The block block_1 is on top of block block_4",
+        "The block block_5 is on top of block block_2",
+        "The robotic arm is holding block_1",
+        "The block block_3 is on top of block block_1"
+      ],
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    "query": "Which fact must hold at some point on any way to the goal from the current state?",
+    "answer": "C"
+  },
+  {
+    "id": 6336520165476008643,
+    "group": "landmarks_mcq",
+    "context": "A robot is in a grid and can only move to places that are connected to its current position. The grid size is 5x5, and the locations are of the form fi-jf (e.g., f3-2f or f0-1f). The grid cells are connected to their neighbors (e.g., f1-2f is connected to the four neighbors f0-2f, f2-2f, f1-1f, and f1-3f). Some positions on the grid are locked and can be opened with a key of a matching shape. The robot has an arm that can pick up a key when the key is in same location as the robot and the arm is empty.  There are 2 keys in 1 different shapes: Key key0-1 is of shape shape0, Key key0-0 is of shape shape0.  Currently, the robot is at position f2-1f and its arm is empty. All the positions are open except the following: f4-2f has shape0 shaped lock. Key key0-1 is at position f1-3f. Key key0-0 is at position f3-1f. The goal is to reach a state where the following facts hold: Key key0-1 is at f1-3f location and Key key0-0 is at f2-0f location.",
+    "question": "Which of the following facts is a landmark (must hold at some point along any plan) for the current state? A. Robot is at f2-0f location. B. Robot is at f2-3f location. C. Robot is at f3-0f location. D. Key key0-1 is at f2-1f location.",
+    "choices": {
+      "text": [
+        "Robot is at f2-0f location",
+        "Robot is at f2-3f location",
+        "Robot is at f3-0f location",
+        "Key key0-1 is at f2-1f location"
+      ],
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    "query": "Which fact must hold at some point on any way to the goal from the current state?",
+    "answer": "A"
+  },
+  {
+    "id": 1314174531444296369,
+    "group": "landmarks_mcq",
+    "context": "A robot is in a grid and can only move to places that are connected to its current position. The grid size is 5x5, and the locations are of the form fi-jf (e.g., f3-2f or f0-1f). The grid cells are connected to their neighbors (e.g., f1-2f is connected to the four neighbors f0-2f, f2-2f, f1-1f, and f1-3f). Some positions on the grid are locked and can be opened with a key of a matching shape. The robot has an arm that can pick up a key when the key is in same location as the robot and the arm is empty.  There are 2 keys in 1 different shapes: Key key0-1 is of shape shape0, Key key0-0 is of shape shape0.  Currently, the robot is at position f1-2f and its arm is empty. All the positions are open except the following: f3-4f has shape0 shaped lock. Key key0-0 is at position f1-1f. Key key0-1 is at position f3-0f. The goal is to reach a state where the following facts hold: Key key0-1 is at f4-4f location and Key key0-0 is at f1-0f location.",
+    "question": "Which of the following facts is a landmark (must hold at some point along any plan) for the current state? A. Key key0-1 is at f4-0f location. B. Robot is holding key0-0. C. Key key0-1 is at f0-0f location. D. Key key0-1 is at f1-4f location.",
+    "choices": {
+      "text": [
+        "Key key0-1 is at f4-0f location",
+        "Robot is holding key0-0",
+        "Key key0-1 is at f0-0f location",
+        "Key key0-1 is at f1-4f location"
+      ],
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    "query": "Which fact must hold at some point on any way to the goal from the current state?",
+    "answer": "B"
+  },
+  {
+    "id": -8052467584860449413,
+    "group": "landmarks_mcq",
+    "context": "A robot is in a grid and can only move to places that are connected to its current position. The grid size is 5x5, and the locations are of the form fi-jf (e.g., f3-2f or f0-1f). The grid cells are connected to their neighbors (e.g., f1-2f is connected to the four neighbors f0-2f, f2-2f, f1-1f, and f1-3f). Some positions on the grid are locked and can be opened with a key of a matching shape. The robot has an arm that can pick up a key when the key is in same location as the robot and the arm is empty.  There are 2 keys in 1 different shapes: Key key0-1 is of shape shape0, Key key0-0 is of shape shape0.  Currently, the robot is at position f0-1f and is holding key0-0. All the positions are open except the following: f4-2f has shape0 shaped lock. Key key0-1 is at position f1-3f. The goal is to reach a state where the following facts hold: Key key0-1 is at f1-3f location and Key key0-0 is at f2-0f location.",
+    "question": "Which of the following facts is a landmark (must hold at some point along any plan) for the current state? A. Robot is at f3-0f location. B. Robot is at f2-2f location. C. Key key0-1 is at f3-1f location. D. Robot is at f2-0f location.",
+    "choices": {
+      "text": [
+        "Robot is at f3-0f location",
+        "Robot is at f2-2f location",
+        "Key key0-1 is at f3-1f location",
+        "Robot is at f2-0f location"
+      ],
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    "query": "Which fact must hold at some point on any way to the goal from the current state?",
+    "answer": "D"
+  },
+  {
+    "id": 1677462433743273609,
+    "group": "landmarks_mcq",
+    "context": "A robot is in a grid and can only move to places that are connected to its current position. The grid size is 5x5, and the locations are of the form fi-jf (e.g., f3-2f or f0-1f). The grid cells are connected to their neighbors (e.g., f1-2f is connected to the four neighbors f0-2f, f2-2f, f1-1f, and f1-3f). Some positions on the grid are locked and can be opened with a key of a matching shape. The robot has an arm that can pick up a key when the key is in same location as the robot and the arm is empty.  There are 3 keys in 1 different shapes: Key key0-1 is of shape shape0, Key key0-2 is of shape shape0, Key key0-0 is of shape shape0.  Currently, the robot is at position f1-2f and its arm is empty. All the positions are open except the following: f2-1f has shape0 shaped lock, f2-2f has shape0 shaped lock, f0-1f has shape0 shaped lock. Key key0-2 is at position f1-2f. Key key0-0 is at position f4-1f. Key key0-1 is at position f3-3f. The goal is to reach a state where the following facts hold: Key key0-1 is at f2-4f location, Key key0-0 is at f1-0f location, and Key key0-2 is at f1-1f location.",
+    "question": "Which of the following facts is a landmark (must hold at some point along any plan) for the current state? A. Robot is at f4-3f location. B. Key key0-0 is at f2-1f location. C. Robot is at f2-1f location. D. Robot is at f1-0f location.",
+    "choices": {
+      "text": [
+        "Robot is at f4-3f location",
+        "Key key0-0 is at f2-1f location",
+        "Robot is at f2-1f location",
+        "Robot is at f1-0f location"
+      ],
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    "query": "Which fact must hold at some point on any way to the goal from the current state?",
+    "answer": "D"
+  },
+  {
+    "id": -5397520008519777080,
+    "group": "landmarks_mcq",
+    "context": "A robot is in a grid and can only move to places that are connected to its current position. The grid size is 5x5, and the locations are of the form fi-jf (e.g., f3-2f or f0-1f). The grid cells are connected to their neighbors (e.g., f1-2f is connected to the four neighbors f0-2f, f2-2f, f1-1f, and f1-3f). Some positions on the grid are locked and can be opened with a key of a matching shape. The robot has an arm that can pick up a key when the key is in same location as the robot and the arm is empty.  There are 2 keys in 1 different shapes: Key key0-1 is of shape shape0, Key key0-0 is of shape shape0.  Currently, the robot is at position f2-3f and is holding key0-1. All the positions are open except the following: f4-0f has shape0 shaped lock. Key key0-0 is at position f4-4f. The goal is to reach a state where the following facts hold: Key key0-1 is at f4-2f location and Key key0-0 is at f2-4f location.",
+    "question": "Which of the following facts is a landmark (must hold at some point along any plan) for the current state? A. Robot is at f2-4f location. B. Key key0-1 is at f4-0f location. C. Robot is at f1-2f location. D. Key key0-0 is at f3-2f location.",
+    "choices": {
+      "text": [
+        "Robot is at f2-4f location",
+        "Key key0-1 is at f4-0f location",
+        "Robot is at f1-2f location",
+        "Key key0-0 is at f3-2f location"
+      ],
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    "query": "Which fact must hold at some point on any way to the goal from the current state?",
+    "answer": "A"
+  },
+  {
+    "id": 826987187166569861,
+    "group": "landmarks_mcq",
+    "context": "A set of robots use different colors to paint patterns in floor tiles. The robots can move around the floor tiles in four directions (up, down, left and right). Robots paint with one color at a time, but can change their spray guns to any available color. However, robots can only paint the tile that is in front (up) and behind (down) them, and once a tile has been painted no robot can stand on it. Robots need to paint a grid with black and white, where the cell color is alternated always. There are 2 robots and 12 tiles. The tiles locations are: tile_5 is to the right of tile_4, tile_3 is to the right of tile_2, tile_12 is to the right of tile_11, tile_11 is to the right of tile_10, tile_9 is to the right of tile_8, tile_6 is to the right of tile_5, tile_2 is to the right of tile_1, and tile_8 is to the right of tile_7. Further, tile_4 is down from tile_7, tile_8 is down from tile_11, tile_5 is down from tile_8, tile_9 is down from tile_12, tile_2 is down from tile_5, tile_6 is down from tile_9, tile_3 is down from tile_6, tile_7 is down from tile_10, and tile_1 is down from tile_4 Currently, robot robot2 is at tile_1 and holding color black and robot robot1 is at tile_11 and holding color white; tile_10, tile_7, tile_5, tile_2, tile_6, tile_4, tile_12, tile_3, tile_9, and tile_8 are clear. The goal is to reach a state where the following facts hold: Tile tile_7 is painted in black color, Tile tile_8 is painted in white color, Tile tile_10 is painted in white color, Tile tile_5 is painted in black color, Tile tile_11 is painted in black color, Tile tile_6 is painted in white color, Tile tile_9 is painted in black color, Tile tile_12 is painted in white color, and Tile tile_4 is painted in white color.",
+    "question": "Which of the following facts is a landmark (must hold at some point along any plan) for the current state? A. Tile tile_4 is painted in black color. B. tile_11 is clear. C. Tile tile_11 is painted in white color. D. Robot robot1 is at tile_10 location.",
+    "choices": {
+      "text": [
+        "Tile tile_4 is painted in black color",
+        "tile_11 is clear",
+        "Tile tile_11 is painted in white color",
+        "Robot robot1 is at tile_10 location"
+      ],
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    "query": "Which fact must hold at some point on any way to the goal from the current state?",
+    "answer": "B"
+  },
+  {
+    "id": 2210628225511974455,
+    "group": "landmarks_mcq",
+    "context": "A set of robots use different colors to paint patterns in floor tiles. The robots can move around the floor tiles in four directions (up, down, left and right). Robots paint with one color at a time, but can change their spray guns to any available color. However, robots can only paint the tile that is in front (up) and behind (down) them, and once a tile has been painted no robot can stand on it. Robots need to paint a grid with black and white, where the cell color is alternated always. There are 2 robots and 9 tiles. The tiles locations are: tile_5 is to the right of tile_4, tile_3 is to the right of tile_2, tile_9 is to the right of tile_8, tile_6 is to the right of tile_5, tile_2 is to the right of tile_1, and tile_8 is to the right of tile_7. Further, tile_4 is down from tile_7, tile_2 is down from tile_5, tile_5 is down from tile_8, tile_6 is down from tile_9, tile_3 is down from tile_6, and tile_1 is down from tile_4 Currently, robot robot2 is at tile_1 and holding color black and robot robot1 is at tile_3 and holding color white; tile_7, tile_2, tile_6, and tile_4 are clear; tile_8 is painted white, tile_5 is painted black, and tile_9 is painted black. The goal is to reach a state where the following facts hold: Tile tile_7 is painted in black color, Tile tile_8 is painted in white color, Tile tile_5 is painted in black color, Tile tile_6 is painted in white color, Tile tile_9 is painted in black color, and Tile tile_4 is painted in white color.",
+    "question": "Which of the following facts is a landmark (must hold at some point along any plan) for the current state? A. Tile tile_5 is painted in white color. B. Robot robot2 is at tile_7 location. C. Robot robot1 is at tile_4 location. D. Tile tile_6 is painted in white color.",
+    "choices": {
+      "text": [
+        "Tile tile_5 is painted in white color",
+        "Robot robot2 is at tile_7 location",
+        "Robot robot1 is at tile_4 location",
+        "Tile tile_6 is painted in white color"
+      ],
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    "query": "Which fact must hold at some point on any way to the goal from the current state?",
+    "answer": "D"
+  },
+  {
+    "id": -5203146508033736713,
+    "group": "landmarks_mcq",
+    "context": "A set of robots use different colors to paint patterns in floor tiles. The robots can move around the floor tiles in four directions (up, down, left and right). Robots paint with one color at a time, but can change their spray guns to any available color. However, robots can only paint the tile that is in front (up) and behind (down) them, and once a tile has been painted no robot can stand on it. Robots need to paint a grid with black and white, where the cell color is alternated always. There are 2 robots and 16 tiles. The tiles locations are: tile_4 is to the right of tile_3, tile_3 is to the right of tile_2, tile_7 is to the right of tile_6, tile_15 is to the right of tile_14, tile_12 is to the right of tile_11, tile_11 is to the right of tile_10, tile_14 is to the right of tile_13, tile_6 is to the right of tile_5, tile_10 is to the right of tile_9, tile_2 is to the right of tile_1, tile_16 is to the right of tile_15, and tile_8 is to the right of tile_7. Further, tile_8 is down from tile_12, tile_5 is down from tile_9, tile_2 is down from tile_6, tile_12 is down from tile_16, tile_4 is down from tile_8, tile_9 is down from tile_13, tile_10 is down from tile_14, tile_7 is down from tile_11, tile_3 is down from tile_7, tile_11 is down from tile_15, tile_6 is down from tile_10, and tile_1 is down from tile_5 Currently, robot robot2 is at tile_7 and holding color black and robot robot1 is at tile_1 and holding color white; tile_2, tile_15, tile_4, tile_12, tile_11, tile_3, and tile_8 are clear; tile_14 is painted black, tile_10 is painted white, tile_6 is painted black, tile_9 is painted black, tile_5 is painted white, tile_13 is painted white, and tile_16 is painted black. The goal is to reach a state where the following facts hold: Tile tile_15 is painted in white color, Tile tile_14 is painted in black color, Tile tile_8 is painted in black color, Tile tile_7 is painted in white color, Tile tile_10 is painted in white color, Tile tile_6 is painted in black color, Tile tile_11 is painted in black color, Tile tile_9 is painted in black color, Tile tile_5 is painted in white color, Tile tile_12 is painted in white color, Tile tile_13 is painted in white color, and Tile tile_16 is painted in black color.",
+    "question": "Which of the following facts is a landmark (must hold at some point along any plan) for the current state? A. Tile tile_1 is painted in white color. B. Robot robot1 is at tile_10 location. C. Tile tile_7 is painted in black color. D. tile_7 is clear.",
+    "choices": {
+      "text": [
+        "Tile tile_1 is painted in white color",
+        "Robot robot1 is at tile_10 location",
+        "Tile tile_7 is painted in black color",
+        "tile_7 is clear"
+      ],
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    "query": "Which fact must hold at some point on any way to the goal from the current state?",
+    "answer": "D"
+  },
+  {
+    "id": -5678293868374759713,
+    "group": "landmarks_mcq",
+    "context": "A set of robots use different colors to paint patterns in floor tiles. The robots can move around the floor tiles in four directions (up, down, left and right). Robots paint with one color at a time, but can change their spray guns to any available color. However, robots can only paint the tile that is in front (up) and behind (down) them, and once a tile has been painted no robot can stand on it. Robots need to paint a grid with black and white, where the cell color is alternated always. There are 2 robots and 16 tiles. The tiles locations are: tile_4 is to the right of tile_3, tile_3 is to the right of tile_2, tile_7 is to the right of tile_6, tile_15 is to the right of tile_14, tile_12 is to the right of tile_11, tile_11 is to the right of tile_10, tile_14 is to the right of tile_13, tile_6 is to the right of tile_5, tile_10 is to the right of tile_9, tile_2 is to the right of tile_1, tile_16 is to the right of tile_15, and tile_8 is to the right of tile_7. Further, tile_8 is down from tile_12, tile_5 is down from tile_9, tile_2 is down from tile_6, tile_12 is down from tile_16, tile_4 is down from tile_8, tile_9 is down from tile_13, tile_10 is down from tile_14, tile_7 is down from tile_11, tile_3 is down from tile_7, tile_11 is down from tile_15, tile_6 is down from tile_10, and tile_1 is down from tile_5 Currently, robot robot2 is at tile_7 and holding color black and robot robot1 is at tile_6 and holding color white; tile_5, tile_2, tile_1, tile_15, tile_4, tile_12, tile_11, tile_3, tile_9, and tile_8 are clear; tile_14 is painted black, tile_10 is painted white, tile_13 is painted white, and tile_16 is painted black. The goal is to reach a state where the following facts hold: Tile tile_15 is painted in white color, Tile tile_14 is painted in black color, Tile tile_8 is painted in black color, Tile tile_7 is painted in white color, Tile tile_10 is painted in white color, Tile tile_6 is painted in black color, Tile tile_11 is painted in black color, Tile tile_9 is painted in black color, Tile tile_5 is painted in white color, Tile tile_12 is painted in white color, Tile tile_13 is painted in white color, and Tile tile_16 is painted in black color.",
+    "question": "Which of the following facts is a landmark (must hold at some point along any plan) for the current state? A. Tile tile_4 is painted in black color. B. tile_7 is clear. C. Tile tile_11 is painted in white color. D. Tile tile_10 is painted in black color.",
+    "choices": {
+      "text": [
+        "Tile tile_4 is painted in black color",
+        "tile_7 is clear",
+        "Tile tile_11 is painted in white color",
+        "Tile tile_10 is painted in black color"
+      ],
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    "query": "Which fact must hold at some point on any way to the goal from the current state?",
+    "answer": "B"
+  },
+  {
+    "id": -8413916920799892465,
+    "group": "landmarks_mcq",
+    "context": "A set of robots use different colors to paint patterns in floor tiles. The robots can move around the floor tiles in four directions (up, down, left and right). Robots paint with one color at a time, but can change their spray guns to any available color. However, robots can only paint the tile that is in front (up) and behind (down) them, and once a tile has been painted no robot can stand on it. Robots need to paint a grid with black and white, where the cell color is alternated always. There are 2 robots and 9 tiles. The tiles locations are: tile_5 is to the right of tile_4, tile_3 is to the right of tile_2, tile_9 is to the right of tile_8, tile_6 is to the right of tile_5, tile_2 is to the right of tile_1, and tile_8 is to the right of tile_7. Further, tile_4 is down from tile_7, tile_2 is down from tile_5, tile_5 is down from tile_8, tile_6 is down from tile_9, tile_3 is down from tile_6, and tile_1 is down from tile_4 Currently, robot robot2 is at tile_2 and holding color black and robot robot1 is at tile_3 and holding color white; tile_5 and tile_1 are clear; tile_7 is painted black, tile_8 is painted white, tile_6 is painted white, tile_9 is painted black, and tile_4 is painted white. The goal is to reach a state where the following facts hold: Tile tile_7 is painted in black color, Tile tile_8 is painted in white color, Tile tile_5 is painted in black color, Tile tile_6 is painted in white color, Tile tile_9 is painted in black color, and Tile tile_4 is painted in white color.",
+    "question": "Which of the following facts is a landmark (must hold at some point along any plan) for the current state? A. Tile tile_1 is painted in white color. B. Robot robot2 is at tile_9 location. C. Tile tile_5 is painted in black color. D. tile_8 is clear.",
+    "choices": {
+      "text": [
+        "Tile tile_1 is painted in white color",
+        "Robot robot2 is at tile_9 location",
+        "Tile tile_5 is painted in black color",
+        "tile_8 is clear"
+      ],
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    "query": "Which fact must hold at some point on any way to the goal from the current state?",
+    "answer": "C"
+  },
+  {
+    "id": -2334878285180104091,
+    "group": "landmarks_mcq",
+    "context": "This is a grippers domain, where there is a robot with two grippers. The robot can carry a ball in each. The goal is to take the balls from one room to another. There are 1 robot, 5 rooms, and 4 balls, numbered consecutively. Currently, the robot robot1 is at room3, left gripper is carrying the ball ball2, and right gripper is carrying the ball ball1. Additionally, ball3 is at room3, ball4 is at room1. The goal is to reach a state where the following facts hold: Ball ball1 is at room1 location, Ball ball2 is in room room2, Ball ball4 is in room room1, and Ball ball3 is in room room3.",
+    "question": "Which of the following facts is a landmark (must hold at some point along any plan) for the current state? A. Ball ball3 is at room2 location. B. Ball ball1 is at room5 location. C. Robot robot1 is in room room2. D. Ball ball3 is at room1 location.",
+    "choices": {
+      "text": [
+        "Ball ball3 is at room2 location",
+        "Ball ball1 is at room5 location",
+        "Robot robot1 is in room room2",
+        "Ball ball3 is at room1 location"
+      ],
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    "query": "Which fact must hold at some point on any way to the goal from the current state?",
+    "answer": "C"
+  },
+  {
+    "id": -3963414711557454580,
+    "group": "landmarks_mcq",
+    "context": "This is a grippers domain, where there is a robot with two grippers. The robot can carry a ball in each. The goal is to take the balls from one room to another. There are 1 robot, 5 rooms, and 4 balls, numbered consecutively. Currently, the robot robot1 is at room1 and both grippers are free. Additionally, ball2 is at room2, ball3 is at room3, ball1 is at room4, ball4 is at room1. The goal is to reach a state where the following facts hold: Ball ball1 is in room room1, Ball ball2 is in room room2, Ball ball4 is at room1 location, and Ball ball3 is at room3 location.",
+    "question": "Which of the following facts is a landmark (must hold at some point along any plan) for the current state? A. Robot robot1 is at room4 location. B. Ball ball4 is at room2 location. C. Robot robot1 is in room room3. D. Robot robot1 is carrying the ball ball1 in the right gripper.",
+    "choices": {
+      "text": [
+        "Robot robot1 is at room4 location",
+        "Ball ball4 is at room2 location",
+        "Robot robot1 is in room room3",
+        "Robot robot1 is carrying the ball ball1 in the right gripper"
+      ],
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    "query": "Which fact must hold at some point on any way to the goal from the current state?",
+    "answer": "A"
+  },
+  {
+    "id": 8231539332995603905,
+    "group": "landmarks_mcq",
+    "context": "This is a grippers domain, where there is a robot with two grippers. The robot can carry a ball in each. The goal is to take the balls from one room to another. There are 1 robot, 7 rooms, and 4 balls, numbered consecutively. Currently, the robot robot1 is at room3, left gripper is carrying the ball ball3, and right gripper is carrying the ball ball1. Additionally, ball2 is at room2, ball4 is at room6. The goal is to reach a state where the following facts hold: Ball ball1 is at room1 location, Ball ball2 is in room room2, Ball ball4 is in room room1, and Ball ball3 is in room room3.",
+    "question": "Which of the following facts is a landmark (must hold at some point along any plan) for the current state? A. Ball ball3 is in room room7. B. Ball ball2 is at room7 location. C. Robot robot1 is at room6 location. D. Ball ball3 is in room room4.",
+    "choices": {
+      "text": [
+        "Ball ball3 is in room room7",
+        "Ball ball2 is at room7 location",
+        "Robot robot1 is at room6 location",
+        "Ball ball3 is in room room4"
+      ],
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    "query": "Which fact must hold at some point on any way to the goal from the current state?",
+    "answer": "C"
+  },
+  {
+    "id": 3301054370614288193,
+    "group": "landmarks_mcq",
+    "context": "This is a grippers domain, where there is a robot with two grippers. The robot can carry a ball in each. The goal is to take the balls from one room to another. There are 1 robot, 3 rooms, and 4 balls, numbered consecutively. Currently, the robot robot1 is at room1, left gripper is carrying the ball ball1, and right gripper is carrying the ball ball4. Additionally, ball2 is at room2, ball3 is at room3. The goal is to reach a state where the following facts hold: Ball ball1 is at room3 location, Ball ball4 is in room room3, Ball ball2 is at room2 location, and Ball ball3 is at room3 location.",
+    "question": "Which of the following facts is a landmark (must hold at some point along any plan) for the current state? A. Robot robot1 is in room room3. B. Robot robot1 is carrying the ball ball3 in the right gripper. C. Ball ball2 is in room room1. D. Robot robot1 is carrying the ball ball2 in the left gripper.",
+    "choices": {
+      "text": [
+        "Robot robot1 is in room room3",
+        "Robot robot1 is carrying the ball ball3 in the right gripper",
+        "Ball ball2 is in room room1",
+        "Robot robot1 is carrying the ball ball2 in the left gripper"
+      ],
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    "query": "Which fact must hold at some point on any way to the goal from the current state?",
+    "answer": "A"
+  },
+  {
+    "id": -8592780279916377910,
+    "group": "landmarks_mcq",
+    "context": "This is a grippers domain, where there is a robot with two grippers. The robot can carry a ball in each. The goal is to take the balls from one room to another. There are 1 robot, 3 rooms, and 4 balls, numbered consecutively. Currently, the robot robot1 is at room3, left gripper is carrying the ball ball3, and right gripper is carrying the ball ball4. Additionally, ball2 is at room1, ball1 is at room3. The goal is to reach a state where the following facts hold: Ball ball1 is at room3 location, Ball ball4 is in room room3, Ball ball2 is at room2 location, and Ball ball3 is in room room3.",
+    "question": "Which of the following facts is a landmark (must hold at some point along any plan) for the current state? A. Ball ball1 is in room room1. B. Robot robot1 is in room room2. C. Robot robot1 is carrying the ball ball2 in the left gripper. D. Ball ball3 is at room2 location.",
+    "choices": {
+      "text": [
+        "Ball ball1 is in room room1",
+        "Robot robot1 is in room room2",
+        "Robot robot1 is carrying the ball ball2 in the left gripper",
+        "Ball ball3 is at room2 location"
+      ],
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    "query": "Which fact must hold at some point on any way to the goal from the current state?",
+    "answer": "B"
+  },
+  {
+    "id": 1672726117546815303,
+    "group": "landmarks_mcq",
+    "context": "This is a Rovers domain where rovers must navigate between waypoints gathering data and transmitting it back to a lander. Rovers cannot navigate to all waypoints and this makes particular routes impassable to some of the rovers. Data transmission is also constrained by the visibility of the lander from the waypoints. There are 2 rovers, 3 waypoints, 2 stores, 3 cameras, 2 objectives numbered consecutively. Further, there is 1 lander and 3 modes for the camera namely colour, high resolution, and low resolution.  Rover(s) rover1 and rover0 are equipped for soil analysis. Rover(s) rover1 is equipped for rock analysis. Rover(s) rover1 and rover0 are equipped for imaging. Rover rover0 has store store0. Rover rover1 has store store1. Rover rover0 has camera0 and camera1 on board. Rover rover1 has camera2 on board. Camera camera2 can be calibrated on objective0. Camera camera1 can be calibrated on objective0. Camera camera0 can be calibrated on objective1. Camera camera2 supports high_res and colour. Camera camera0 supports colour. Camera camera1 supports low_res. Rover rover1 can traverse from waypoint2 to waypoint1, waypoint1 to waypoint2, waypoint0 to waypoint2, waypoint2 to waypoint0. Rover rover0 can traverse from waypoint0 to waypoint2, waypoint1 to waypoint0, waypoint2 to waypoint0, waypoint0 to waypoint1. Waypoint(s) are visible from waypoint1: waypoint2 and waypoint0. Waypoint(s) are visible from waypoint2: waypoint0 and waypoint1. Waypoint(s) are visible from waypoint0: waypoint1 and waypoint2. Objective objective0 is visible from waypoint1 and waypoint0. Objective objective1 is visible from waypoint2. Lander general is at waypoint waypoint1.  Currently, Rover rover0 is at waypoint0. Rover rover1 is at waypoint1. Rocks can be sampled at the following location(s): waypoint1. Soil can be sampled at the following location(s): waypoint1. Rovers rover0 and rover1 are available. Image objective0 was communicated in mode low_res. Rover rover0 has image objective0 in mode low_res. Store(s) store0 and store1 are empty. The goal is to reach a state where the following facts hold: Rock data was communicated from waypoint waypoint1;, Image objective0 was communicated in mode low_res, Image objective1 was communicated in mode colour, and Soil data was communicated from waypoint waypoint1;.",
+    "question": "Which of the following facts is a landmark (must hold at some point along any plan) for the current state? A. Rover rover0 is at waypoint1. B. Rover rover0 has image objective1 in mode colour. C. Rover rover1 has rock analyzed in waypoint waypoint1. D. Rover rover0 is at waypoint2.",
+    "choices": {
+      "text": [
+        "Rover rover0 is at waypoint1",
+        "Rover rover0 has image objective1 in mode colour",
+        "Rover rover1 has rock analyzed in waypoint waypoint1",
+        "Rover rover0 is at waypoint2"
+      ],
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    "query": "Which fact must hold at some point on any way to the goal from the current state?",
+    "answer": "C"
+  },
+  {
+    "id": -4890825063765272546,
+    "group": "landmarks_mcq",
+    "context": "This is a Rovers domain where rovers must navigate between waypoints gathering data and transmitting it back to a lander. Rovers cannot navigate to all waypoints and this makes particular routes impassable to some of the rovers. Data transmission is also constrained by the visibility of the lander from the waypoints. There are 2 rovers, 3 waypoints, 2 stores, 2 cameras, 3 objectives numbered consecutively. Further, there is 1 lander and 3 modes for the camera namely colour, high resolution, and low resolution.  Rover(s) rover0 is equipped for soil analysis. Rover(s) rover1 and rover0 are equipped for rock analysis. Rover(s) rover1 and rover0 are equipped for imaging. Rover rover0 has store store0. Rover rover1 has store store1. Rover rover1 has camera0 on board. Rover rover0 has camera1 on board. Camera camera1 can be calibrated on objective1. Camera camera0 can be calibrated on objective2. Camera camera1 supports high_res and low_res. Camera camera0 supports low_res. Rover rover1 can traverse from waypoint2 to waypoint1, waypoint1 to waypoint2, waypoint0 to waypoint2, waypoint2 to waypoint0. Rover rover0 can traverse from waypoint0 to waypoint2, waypoint1 to waypoint2, waypoint2 to waypoint0, waypoint2 to waypoint1. Waypoint(s) are visible from waypoint1: waypoint2 and waypoint0. Waypoint(s) are visible from waypoint2: waypoint0 and waypoint1. Waypoint(s) are visible from waypoint0: waypoint1 and waypoint2. Objective objective2 is visible from waypoint1. Objective objective1 is visible from waypoint1. Objective objective0 is visible from waypoint1 and waypoint0. Lander general is at waypoint waypoint1.  Currently, Rover rover0 is at waypoint0. Rover rover1 is at waypoint2. Rocks can be sampled at the following location(s): waypoint0 and waypoint2. Soil can be sampled at the following location(s): waypoint0. Rovers rover0 and rover1 are available. Image objective1 was communicated in mode low_res. Rover rover0 has soil analyzed in waypoint waypoint2. Rover rover0 has image objective1 in mode high_res. Rover rover0 has image objective1 in mode low_res. Rover rover0 has its camera camera1 calibrated. Store(s) store1 is empty. Store(s) store0 is full. The goal is to reach a state where the following facts hold: Soil data was communicated from waypoint waypoint0;, Rock data was communicated from waypoint waypoint0;, Soil data was communicated from waypoint waypoint2;, Image objective1 was communicated in mode low_res, Image objective1 was communicated in mode high_res, Rock data was communicated from waypoint waypoint2;, and Image objective0 was communicated in mode low_res.",
+    "question": "Which of the following facts is a landmark (must hold at some point along any plan) for the current state? A. Rover rover1 has its camera camera0 calibrated. B. Rover rover0 has soil analyzed in waypoint waypoint0. C. Rover rover0 is at waypoint2. D. Rover rover0 has image objective0 in mode high_res.",
+    "choices": {
+      "text": [
+        "Rover rover1 has its camera camera0 calibrated",
+        "Rover rover0 has soil analyzed in waypoint waypoint0",
+        "Rover rover0 is at waypoint2",
+        "Rover rover0 has image objective0 in mode high_res"
+      ],
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    "query": "Which fact must hold at some point on any way to the goal from the current state?",
+    "answer": "B"
+  },
+  {
+    "id": -483543385770336342,
+    "group": "landmarks_mcq",
+    "context": "This is a Rovers domain where rovers must navigate between waypoints gathering data and transmitting it back to a lander. Rovers cannot navigate to all waypoints and this makes particular routes impassable to some of the rovers. Data transmission is also constrained by the visibility of the lander from the waypoints. There are 2 rovers, 3 waypoints, 2 stores, 3 cameras, 3 objectives numbered consecutively. Further, there is 1 lander and 3 modes for the camera namely colour, high resolution, and low resolution.  Rover(s) rover1 and rover0 are equipped for soil analysis. Rover(s) rover0 is equipped for rock analysis. Rover(s) rover1 and rover0 are equipped for imaging. Rover rover0 has store store0. Rover rover1 has store store1. Rover rover1 has camera1 and camera0 on board. Rover rover0 has camera2 on board. Camera camera1 can be calibrated on objective0. Camera camera2 can be calibrated on objective2. Camera camera0 can be calibrated on objective0. Camera camera1 supports high_res. Camera camera2 supports high_res. Camera camera0 supports colour and low_res. Rover rover1 can traverse from waypoint2 to waypoint1, waypoint1 to waypoint2, waypoint1 to waypoint0, waypoint0 to waypoint1. Rover rover0 can traverse from waypoint1 to waypoint0, waypoint1 to waypoint2, waypoint0 to waypoint1, waypoint2 to waypoint1. Waypoint(s) are visible from waypoint1: waypoint2 and waypoint0. Waypoint(s) are visible from waypoint2: waypoint0 and waypoint1. Waypoint(s) are visible from waypoint0: waypoint1 and waypoint2. Objective objective1 is visible from waypoint1 and waypoint0. Objective objective2 is visible from waypoint0. Objective objective0 is visible from waypoint2. Lander general is at waypoint waypoint1.  Currently, Rover rover0 is at waypoint2. Rover rover1 is at waypoint1. Rocks can be sampled at the following location(s): waypoint0. Rovers rover0 and rover1 are available. Soil data was communicated from waypoint waypoint0; Image objective1 was communicated in mode low_res. Rover rover1 has soil analyzed in waypoint waypoint0. Rover rover1 has image objective1 in mode low_res. Rover rover1 has image objective1 in mode high_res. Store(s) store0 is empty. Store(s) store1 is full. The goal is to reach a state where the following facts hold: Soil data was communicated from waypoint waypoint0;, Rock data was communicated from waypoint waypoint0;, Image objective1 was communicated in mode high_res, and Image objective1 was communicated in mode low_res.",
+    "question": "Which of the following facts is a landmark (must hold at some point along any plan) for the current state? A. Rover rover0 has soil analyzed in waypoint waypoint0. B. Image objective2 was communicated in mode low_res. C. Rover rover0 has image objective0 in mode high_res. D. Rover rover0 has rock analyzed in waypoint waypoint0.",
+    "choices": {
+      "text": [
+        "Rover rover0 has soil analyzed in waypoint waypoint0",
+        "Image objective2 was communicated in mode low_res",
+        "Rover rover0 has image objective0 in mode high_res",
+        "Rover rover0 has rock analyzed in waypoint waypoint0"
+      ],
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    "query": "Which fact must hold at some point on any way to the goal from the current state?",
+    "answer": "D"
+  },
+  {
+    "id": 7994956755284539049,
+    "group": "landmarks_mcq",
+    "context": "This is a Rovers domain where rovers must navigate between waypoints gathering data and transmitting it back to a lander. Rovers cannot navigate to all waypoints and this makes particular routes impassable to some of the rovers. Data transmission is also constrained by the visibility of the lander from the waypoints. There are 2 rovers, 3 waypoints, 2 stores, 3 cameras, 5 objectives numbered consecutively. Further, there is 1 lander and 3 modes for the camera namely colour, high resolution, and low resolution.  Rover(s) rover1 and rover0 are equipped for soil analysis. Rover(s) rover0 is equipped for rock analysis. Rover(s) rover1 and rover0 are equipped for imaging. Rover rover0 has store store0. Rover rover1 has store store1. Rover rover1 has camera1 and camera0 on board. Rover rover0 has camera2 on board. Camera camera2 can be calibrated on objective4. Camera camera1 can be calibrated on objective0. Camera camera0 can be calibrated on objective0. Camera camera1 supports high_res. Camera camera2 supports high_res. Camera camera0 supports colour and low_res. Rover rover1 can traverse from waypoint2 to waypoint1, waypoint1 to waypoint2, waypoint1 to waypoint0, waypoint0 to waypoint1. Rover rover0 can traverse from waypoint1 to waypoint0, waypoint1 to waypoint2, waypoint0 to waypoint1, waypoint2 to waypoint1. Waypoint(s) are visible from waypoint1: waypoint2 and waypoint0. Waypoint(s) are visible from waypoint2: waypoint0 and waypoint1. Waypoint(s) are visible from waypoint0: waypoint1 and waypoint2. Objective objective4 is visible from waypoint1. Objective objective2 is visible from waypoint0. Objective objective1 is visible from waypoint1 and waypoint0. Objective objective3 is visible from waypoint0. Objective objective0 is visible from waypoint2. Lander general is at waypoint waypoint1.  Currently, Rover rover1 is at waypoint0. Rover rover0 is at waypoint2. Soil can be sampled at the following location(s): waypoint0. Rovers rover0 and rover1 are available. Rock data were communicated from the following waypoints: waypoint2, waypoint1. Soil data was communicated from waypoint waypoint2; Image objective0 was communicated in mode high_res. Rover rover0 has soil analyzed in waypoint waypoint2. Rover rover0 has rock analyzed in waypoint waypoint1. Rover rover0 has rock analyzed in waypoint waypoint2. Rover rover1 has image objective2 in mode high_res. Rover rover1 has image objective0 in mode high_res. Store(s) store0 and store1 are empty. The goal is to reach a state where the following facts hold: Soil data was communicated from waypoint waypoint0;, Soil data was communicated from waypoint waypoint2;, Image objective2 was communicated in mode high_res, Image objective0 was communicated in mode high_res, Rock data was communicated from waypoint waypoint2;, and Rock data was communicated from waypoint waypoint1;.",
+    "question": "Which of the following facts is a landmark (must hold at some point along any plan) for the current state? A. Rover rover0 is at waypoint0. B. Image objective3 was communicated in mode colour. C. Image objective4 was communicated in mode high_res. D. Image objective2 was communicated in mode high_res.",
+    "choices": {
+      "text": [
+        "Rover rover0 is at waypoint0",
+        "Image objective3 was communicated in mode colour",
+        "Image objective4 was communicated in mode high_res",
+        "Image objective2 was communicated in mode high_res"
+      ],
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    "query": "Which fact must hold at some point on any way to the goal from the current state?",
+    "answer": "D"
+  },
+  {
+    "id": 4773690407359984596,
+    "group": "landmarks_mcq",
+    "context": "This is a Rovers domain where rovers must navigate between waypoints gathering data and transmitting it back to a lander. Rovers cannot navigate to all waypoints and this makes particular routes impassable to some of the rovers. Data transmission is also constrained by the visibility of the lander from the waypoints. There are 2 rovers, 3 waypoints, 2 stores, 3 cameras, 5 objectives numbered consecutively. Further, there is 1 lander and 3 modes for the camera namely colour, high resolution, and low resolution.  Rover(s) rover1 and rover0 are equipped for soil analysis. Rover(s) rover0 is equipped for rock analysis. Rover(s) rover1 and rover0 are equipped for imaging. Rover rover0 has store store0. Rover rover1 has store store1. Rover rover1 has camera1 and camera0 on board. Rover rover0 has camera2 on board. Camera camera2 can be calibrated on objective4. Camera camera1 can be calibrated on objective0. Camera camera0 can be calibrated on objective0. Camera camera1 supports high_res. Camera camera2 supports high_res. Camera camera0 supports colour and low_res. Rover rover1 can traverse from waypoint2 to waypoint1, waypoint1 to waypoint2, waypoint1 to waypoint0, waypoint0 to waypoint1. Rover rover0 can traverse from waypoint1 to waypoint0, waypoint1 to waypoint2, waypoint0 to waypoint1, waypoint2 to waypoint1. Waypoint(s) are visible from waypoint1: waypoint2 and waypoint0. Waypoint(s) are visible from waypoint2: waypoint0 and waypoint1. Waypoint(s) are visible from waypoint0: waypoint1 and waypoint2. Objective objective4 is visible from waypoint1. Objective objective2 is visible from waypoint0. Objective objective1 is visible from waypoint1 and waypoint0. Objective objective3 is visible from waypoint0. Objective objective0 is visible from waypoint2. Lander general is at waypoint waypoint1.  Currently, Rover rover1 is at waypoint2. Rover rover0 is at waypoint2. Rocks can be sampled at the following location(s): waypoint2. Soil can be sampled at the following location(s): waypoint2 and waypoint0. Rovers rover0 and rover1 are available. Rover rover0 has rock analyzed in waypoint waypoint1. Rover rover1 has its camera camera1 calibrated. Rover rover1 has its camera camera0 calibrated. Store(s) store0 and store1 are empty. The goal is to reach a state where the following facts hold: Soil data was communicated from waypoint waypoint0;, Soil data was communicated from waypoint waypoint2;, Image objective2 was communicated in mode high_res, Image objective0 was communicated in mode high_res, Rock data was communicated from waypoint waypoint2;, and Rock data was communicated from waypoint waypoint1;.",
+    "question": "Which of the following facts is a landmark (must hold at some point along any plan) for the current state? A. Rover rover1 has image objective3 in mode low_res. B. Image objective0 was communicated in mode low_res. C. Image objective3 was communicated in mode high_res. D. Rover rover0 has rock analyzed in waypoint waypoint2.",
+    "choices": {
+      "text": [
+        "Rover rover1 has image objective3 in mode low_res",
+        "Image objective0 was communicated in mode low_res",
+        "Image objective3 was communicated in mode high_res",
+        "Rover rover0 has rock analyzed in waypoint waypoint2"
+      ],
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    "query": "Which fact must hold at some point on any way to the goal from the current state?",
+    "answer": "D"
+  },
+  {
+    "id": -8388408194794152300,
+    "group": "landmarks_mcq",
+    "context": "This is a visitall domain where a robot in a grid must visit all the cells or places in the grid. There are some unavailable places in the grid. The grid size is 4x4, and the location cell names are of the form loc-xi-yj (e.g., loc-x0-y2 or loc-x1-y1). The grid cells are connected to their available neighbors. The only unavailable cell is loc-x3-y1. Currently, the robot is in place loc-x1-y2.The following places have been visited: loc-x0-y1, loc-x2-y1, loc-x3-y0, loc-x1-y0, loc-x0-y3, loc-x0-y2, loc-x2-y0, loc-x0-y0, loc-x1-y1, and loc-x1-y2. The goal is to reach a state where the following facts hold: Place loc-x0-y1 has been visited, Place loc-x1-y3 has been visited, Place loc-x2-y1 has been visited, Place loc-x2-y2 has been visited, Place loc-x3-y0 has been visited, Place loc-x2-y3 has been visited, Place loc-x1-y0 has been visited, Place loc-x3-y3 has been visited, Place loc-x0-y3 has been visited, Place loc-x0-y2 has been visited, Place loc-x2-y0 has been visited, Place loc-x0-y0 has been visited, Place loc-x3-y2 has been visited, Place loc-x1-y1 has been visited, and Place loc-x1-y2 has been visited.",
+    "question": "Which of the following facts is a landmark (must hold at some point along any plan) for the current state? A. the robot is in place loc-x0-y1. B. the robot is in place loc-x0-y3. C. the robot is in place loc-x2-y1. D. Place loc-x1-y3 has been visited.",
+    "choices": {
+      "text": [
+        "the robot is in place loc-x0-y1",
+        "the robot is in place loc-x0-y3",
+        "the robot is in place loc-x2-y1",
+        "Place loc-x1-y3 has been visited"
+      ],
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    "query": "Which fact must hold at some point on any way to the goal from the current state?",
+    "answer": "D"
+  },
+  {
+    "id": -8991887225648119652,
+    "group": "landmarks_mcq",
+    "context": "This is a visitall domain where a robot in a grid must visit all the cells or places in the grid. There are some unavailable places in the grid. The grid size is 4x4, and the location cell names are of the form loc-xi-yj (e.g., loc-x0-y2 or loc-x1-y1). The grid cells are connected to their available neighbors. The unavailable cells are loc-x0-y3 and loc-x0-y0. Currently, the robot is in place loc-x0-y1.The following places have been visited: loc-x0-y1, loc-x1-y3, loc-x2-y1, loc-x2-y2, loc-x2-y3, loc-x3-y3, loc-x0-y2, loc-x1-y2, and loc-x3-y2. The goal is to reach a state where the following facts hold: Place loc-x0-y1 has been visited, Place loc-x1-y3 has been visited, Place loc-x2-y1 has been visited, Place loc-x2-y2 has been visited, Place loc-x3-y0 has been visited, Place loc-x2-y3 has been visited, Place loc-x1-y0 has been visited, Place loc-x3-y3 has been visited, Place loc-x0-y2 has been visited, Place loc-x2-y0 has been visited, Place loc-x3-y1 has been visited, Place loc-x3-y2 has been visited, Place loc-x1-y1 has been visited, and Place loc-x1-y2 has been visited.",
+    "question": "Which of the following facts is a landmark (must hold at some point along any plan) for the current state? A. Place loc-x1-y0 has been visited. B. the robot is in place loc-x1-y3. C. the robot is in place loc-x3-y3. D. the robot is in place loc-x0-y2.",
+    "choices": {
+      "text": [
+        "Place loc-x1-y0 has been visited",
+        "the robot is in place loc-x1-y3",
+        "the robot is in place loc-x3-y3",
+        "the robot is in place loc-x0-y2"
+      ],
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    "query": "Which fact must hold at some point on any way to the goal from the current state?",
+    "answer": "A"
+  },
+  {
+    "id": 8073549531935831821,
+    "group": "landmarks_mcq",
+    "context": "This is a visitall domain where a robot in a grid must visit all the cells or places in the grid. There are some unavailable places in the grid. The grid size is 4x4, and the location cell names are of the form loc-xi-yj (e.g., loc-x0-y2 or loc-x1-y1). The grid cells are connected to their available neighbors. The only unavailable cell is loc-x0-y0. Currently, the robot is in place loc-x2-y3.The following places have been visited: loc-x2-y1, loc-x2-y2, loc-x2-y3, loc-x3-y3, loc-x3-y1, and loc-x3-y2. The goal is to reach a state where the following facts hold: Place loc-x0-y1 has been visited, Place loc-x1-y3 has been visited, Place loc-x2-y1 has been visited, Place loc-x2-y2 has been visited, Place loc-x3-y0 has been visited, Place loc-x2-y3 has been visited, Place loc-x1-y0 has been visited, Place loc-x3-y3 has been visited, Place loc-x0-y3 has been visited, Place loc-x0-y2 has been visited, Place loc-x2-y0 has been visited, Place loc-x3-y1 has been visited, Place loc-x3-y2 has been visited, Place loc-x1-y1 has been visited, and Place loc-x1-y2 has been visited.",
+    "question": "Which of the following facts is a landmark (must hold at some point along any plan) for the current state? A. the robot is in place loc-x3-y3. B. the robot is in place loc-x3-y1. C. Place loc-x1-y1 has been visited. D. the robot is in place loc-x2-y2.",
+    "choices": {
+      "text": [
+        "the robot is in place loc-x3-y3",
+        "the robot is in place loc-x3-y1",
+        "Place loc-x1-y1 has been visited",
+        "the robot is in place loc-x2-y2"
+      ],
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    "query": "Which fact must hold at some point on any way to the goal from the current state?",
+    "answer": "C"
+  },
+  {
+    "id": 6119121004050946697,
+    "group": "landmarks_mcq",
+    "context": "This is a visitall domain where a robot in a grid must visit all the cells or places in the grid. There are some unavailable places in the grid. The grid size is 4x4, and the location cell names are of the form loc-xi-yj (e.g., loc-x0-y2 or loc-x1-y1). The grid cells are connected to their available neighbors. The only unavailable cell is loc-x0-y0. Currently, the robot is in place loc-x2-y0.The following places have been visited: loc-x0-y1, loc-x1-y3, loc-x2-y1, loc-x2-y2, loc-x2-y3, loc-x1-y0, loc-x3-y3, loc-x0-y3, loc-x0-y2, loc-x2-y0, loc-x3-y1, loc-x3-y2, loc-x1-y1, and loc-x1-y2. The goal is to reach a state where the following facts hold: Place loc-x0-y1 has been visited, Place loc-x1-y3 has been visited, Place loc-x2-y1 has been visited, Place loc-x2-y2 has been visited, Place loc-x3-y0 has been visited, Place loc-x2-y3 has been visited, Place loc-x1-y0 has been visited, Place loc-x3-y3 has been visited, Place loc-x0-y3 has been visited, Place loc-x0-y2 has been visited, Place loc-x2-y0 has been visited, Place loc-x3-y1 has been visited, Place loc-x3-y2 has been visited, Place loc-x1-y1 has been visited, and Place loc-x1-y2 has been visited.",
+    "question": "Which of the following facts is a landmark (must hold at some point along any plan) for the current state? A. the robot is in place loc-x2-y1. B. the robot is in place loc-x1-y1. C. the robot is in place loc-x3-y1. D. Place loc-x3-y0 has been visited.",
+    "choices": {
+      "text": [
+        "the robot is in place loc-x2-y1",
+        "the robot is in place loc-x1-y1",
+        "the robot is in place loc-x3-y1",
+        "Place loc-x3-y0 has been visited"
+      ],
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    "query": "Which fact must hold at some point on any way to the goal from the current state?",
+    "answer": "D"
+  },
+  {
+    "id": 68786876708054702,
+    "group": "landmarks_mcq",
+    "context": "This is a visitall domain where a robot in a grid must visit all the cells or places in the grid. There are some unavailable places in the grid. The grid size is 4x4, and the location cell names are of the form loc-xi-yj (e.g., loc-x0-y2 or loc-x1-y1). The grid cells are connected to their available neighbors. The only unavailable cell is loc-x0-y0. Currently, the robot is in place loc-x2-y0.The following places have been visited: loc-x2-y1, loc-x2-y2, loc-x3-y0, loc-x2-y3, loc-x3-y3, loc-x2-y0, loc-x3-y1, and loc-x3-y2. The goal is to reach a state where the following facts hold: Place loc-x0-y1 has been visited, Place loc-x1-y3 has been visited, Place loc-x2-y1 has been visited, Place loc-x2-y2 has been visited, Place loc-x3-y0 has been visited, Place loc-x2-y3 has been visited, Place loc-x1-y0 has been visited, Place loc-x3-y3 has been visited, Place loc-x0-y3 has been visited, Place loc-x0-y2 has been visited, Place loc-x2-y0 has been visited, Place loc-x3-y1 has been visited, Place loc-x3-y2 has been visited, Place loc-x1-y1 has been visited, and Place loc-x1-y2 has been visited.",
+    "question": "Which of the following facts is a landmark (must hold at some point along any plan) for the current state? A. the robot is in place loc-x2-y1. B. Place loc-x0-y2 has been visited. C. the robot is in place loc-x3-y1. D. the robot is in place loc-x3-y2.",
+    "choices": {
+      "text": [
+        "the robot is in place loc-x2-y1",
+        "Place loc-x0-y2 has been visited",
+        "the robot is in place loc-x3-y1",
+        "the robot is in place loc-x3-y2"
+      ],
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    "query": "Which fact must hold at some point on any way to the goal from the current state?",
+    "answer": "B"
+  }
+]

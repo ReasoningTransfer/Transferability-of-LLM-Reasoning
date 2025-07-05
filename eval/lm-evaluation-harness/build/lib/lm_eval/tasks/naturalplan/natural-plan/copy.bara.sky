@@ -1,0 +1,41 @@
+"""Copybara configuration for natural_plan.
+
+This copybara file should have been registered by
+mdb/deepmind-opensource-automation in the copybara config at
+google3/third_party/deepmind/copy.bara.sky.
+This can be verified with
+g3$ copybara info third_party/deepmind/copy.bara.sky \
+      natural_plan_postsubmit_piper_to_gob
+
+To export the code to a local directory (/tmp/natural_plan),
+e.g. for testing, run:
+
+alias copybara=/google/bin/releases/copybara/public/copybara/copybara
+copybara third_party/deepmind/natural_plan/copy.bara.sky \
+         natural_plan_local .. --folder-dir=/tmp/natural_plan
+"""
+
+load(
+    "//third_party/deepmind/automation_common",
+    "generate_local_workflow",
+    "generate_piper_sot_to_gerrit",
+)
+
+project_name = "natural_plan"
+
+# List of authors whose names are allowed to appear in Git commit history.
+project_authors = {
+    # TODO(b/349651951): Add all possible authors.
+    "stevenzheng": "Steven Zheng <stevenzheng@google.com>",
+    "swaroopmishra": "Swaroop Mishra <swaroopmishra@google.com>",
+    "xinyunchen": "Xinyun Chen <xinyunchen@google.com>",
+    "minminc": "Minmin Chen <minminc@google.com>",
+    "azade": "Azade Nova <azade@google.com>",
+}
+
+def define_natural_plan_piper_sot_to_gerrit():
+    """Imported by google3/third_party/deepmind/copy.bara.sky."""
+    generate_piper_sot_to_gerrit(project_name, project_authors)
+
+# Create workflow for local testing. To run this, see commands in the docstring.
+generate_local_workflow(project_name, project_authors)

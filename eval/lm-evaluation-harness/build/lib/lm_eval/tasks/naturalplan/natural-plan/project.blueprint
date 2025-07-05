@@ -1,0 +1,12 @@
+include "third_party/common_shared_3p_blueprint_information.ncl";
+include "devtools/blueprint/ncl/blueprint_file.ncl";
+
+blueprint_file = ::blueprint::BlueprintFile(
+  project_name = "third_party.deepmind.natural_plan",
+  teams_product_id = common::team_id,
+  tech_lead = ["stevenzheng"],
+  dev_mailing_list = "other-3p-community-maintainers+naturalplan@google.com",
+  mdb_groups = common::mdb_groups,
+  buganizer_component_ids = common::buganizer_component_ids,
+  owned_code_depotpaths = ["//depot/google3/third_party/deepmind/natural_plan/..."],
+);

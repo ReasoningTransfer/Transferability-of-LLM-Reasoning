@@ -1,0 +1,882 @@
+[
+  {
+    "id": 7931544803254567708,
+    "group": "reachable_atom_mc",
+    "context": "This is a ferry domain, where the task is to transport cars from their start to their goal locations, using a ferry. Each location is accessible by ferry from each other location. The cars can be debarked or boarded, and the ferry can carry only one car at a time. There are 2 locations and 10 cars, numbered consecutively. Currently, the ferry is at l0, with the car c3 on board. The cars are at locations as follows: c0, c1, c2, c6, c8, and c9 are at l0; c4, c7, and c5 are at l1.",
+    "question": "Which of the following options can hold in a state that can potentially be reached? A. Ferry has car l1 on board. B. Car c8 is at location l0 and Car c8 is on board the ferry. C. The ferry is at c5 location and Car c5 is at location l1. D. The ferry is at l1 location and Car c3 is at location l1.",
+    "choices": {
+      "text": [
+        "Ferry has car l1 on board",
+        "Car c8 is at location l0 and Car c8 is on board the ferry",
+        "The ferry is at c5 location and Car c5 is at location l1",
+        "The ferry is at l1 location and Car c3 is at location l1"
+      ],
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    "query": "Which fact is reachable from this state?",
+    "answer": "D"
+  },
+  {
+    "id": -6721318970102316394,
+    "group": "reachable_atom_mc",
+    "context": "This is a ferry domain, where the task is to transport cars from their start to their goal locations, using a ferry. Each location is accessible by ferry from each other location. The cars can be debarked or boarded, and the ferry can carry only one car at a time. There are 2 locations and 10 cars, numbered consecutively. Currently, the ferry is at l1, with the car c7 on board. The cars are at locations as follows: c0, c9, c1, c8, c6, and c4 are at l0; c3, c2, and c5 are at l1.",
+    "question": "Which of the following options can hold in a state that can potentially be reached? A. The ferry is at l0 location and The ferry is at l1 location. B. The ferry is at c3 location. C. The ferry is at c0 location. D. Ferry has car c2 on board and Car c7 is at location l1.",
+    "choices": {
+      "text": [
+        "The ferry is at l0 location and The ferry is at l1 location",
+        "The ferry is at c3 location",
+        "The ferry is at c0 location",
+        "Ferry has car c2 on board and Car c7 is at location l1"
+      ],
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    "query": "Which fact is reachable from this state?",
+    "answer": "D"
+  },
+  {
+    "id": 4495478564224564821,
+    "group": "reachable_atom_mc",
+    "context": "This is a ferry domain, where the task is to transport cars from their start to their goal locations, using a ferry. Each location is accessible by ferry from each other location. The cars can be debarked or boarded, and the ferry can carry only one car at a time. There are 2 locations and 20 cars, numbered consecutively. Currently, the ferry is at l1 location and it is empty. The cars are at locations as follows: c4, c19, c12, c18, c7, c6, c16, c5, c14, c2, c17, and c11 are at l1; c0, c1, c8, c10, c13, c3, c9, and c15 are at l0.",
+    "question": "Which of the following options can hold in a state that can potentially be reached? A. The ferry is at c5 location and Car c5 is at location l1. B. The ferry is at c2 location and Car c19 is at location l1. C. The ferry is at l1 location and The ferry is at l0 location. D. Car c13 is on board the ferry and The ferry is at l0 location.",
+    "choices": {
+      "text": [
+        "The ferry is at c5 location and Car c5 is at location l1",
+        "The ferry is at c2 location and Car c19 is at location l1",
+        "The ferry is at l1 location and The ferry is at l0 location",
+        "Car c13 is on board the ferry and The ferry is at l0 location"
+      ],
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    "query": "Which fact is reachable from this state?",
+    "answer": "D"
+  },
+  {
+    "id": -3265157701752701506,
+    "group": "reachable_atom_mc",
+    "context": "This is a ferry domain, where the task is to transport cars from their start to their goal locations, using a ferry. Each location is accessible by ferry from each other location. The cars can be debarked or boarded, and the ferry can carry only one car at a time. There are 2 locations and 10 cars, numbered consecutively. Currently, the ferry is at l0 location and it is empty. The cars are at locations as follows: c3, c0, c1, c8, c6, c4, and c7 are at l0; c9, c2, and c5 are at l1.",
+    "question": "Which of the following options can hold in a state that can potentially be reached? A. Car c9 is on the ferry and The ferry is at l1 location. B. Car c6 is at location l1 and Car c6 is at location l0. C. Car c7 is at location c3 and Car c6 is at location l0. D. Car l0 is on board the ferry and Car c9 is at location l1.",
+    "choices": {
+      "text": [
+        "Car c9 is on the ferry and The ferry is at l1 location",
+        "Car c6 is at location l1 and Car c6 is at location l0",
+        "Car c7 is at location c3 and Car c6 is at location l0",
+        "Car l0 is on board the ferry and Car c9 is at location l1"
+      ],
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    "query": "Which fact is reachable from this state?",
+    "answer": "A"
+  },
+  {
+    "id": 1925404182330370283,
+    "group": "reachable_atom_mc",
+    "context": "This is a ferry domain, where the task is to transport cars from their start to their goal locations, using a ferry. Each location is accessible by ferry from each other location. The cars can be debarked or boarded, and the ferry can carry only one car at a time. There are 2 locations and 10 cars, numbered consecutively. Currently, the ferry is at l0 location and it is empty. The cars are at locations as follows: c0, c9, c1, c8, c6, and c4 are at l0; c7, c3, c2, and c5 are at l1.",
+    "question": "Which of the following options can hold in a state that can potentially be reached? A. Ferry has car c8 on board and The ferry is at l1 location. B. Car c7 is at location c5. C. Car c9 is at location l1 and Car c9 is at location l0. D. Car c6 is at location c8 and Car c8 is at location l0.",
+    "choices": {
+      "text": [
+        "Ferry has car c8 on board and The ferry is at l1 location",
+        "Car c7 is at location c5",
+        "Car c9 is at location l1 and Car c9 is at location l0",
+        "Car c6 is at location c8 and Car c8 is at location l0"
+      ],
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    "query": "Which fact is reachable from this state?",
+    "answer": "A"
+  },
+  {
+    "id": 1871150045240731895,
+    "group": "reachable_atom_mc",
+    "context": "There are several cities, each containing several locations, some of which are airports. There are also trucks, which can drive within a single city, and airplanes, which can fly between airports. The goal is to get some packages from various locations to various new locations. There are 2 trucks and 1 airplane, as well as 4 packages. There are 6 locations across 2 cities. The locations are in cities as follows: l0-0, l0-2, and l0-1 are in c0; l1-1, l1-2, and l1-0 are in c1. Currently, t1 is at l1-2, p1 is at l1-1, a0 is at l1-0, t0 is at l0-0, p2, p0, and p3 are in a0.",
+    "question": "Which of the following options can hold in a state that can potentially be reached? A. p0 is in a0 and l1-0 is in a0. B. p0 is at l0-2 and p0 is at l1-1. C. l0-1 is in l0-0 and t1 is at l1-2. D. t1 is at l1-1.",
+    "choices": {
+      "text": [
+        "p0 is in a0 and l1-0 is in a0",
+        "p0 is at l0-2 and p0 is at l1-1",
+        "l0-1 is in l0-0 and t1 is at l1-2",
+        "t1 is at l1-1"
+      ],
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    "query": "Which fact is reachable from this state?",
+    "answer": "D"
+  },
+  {
+    "id": -7265145608264892452,
+    "group": "reachable_atom_mc",
+    "context": "There are several cities, each containing several locations, some of which are airports. There are also trucks, which can drive within a single city, and airplanes, which can fly between airports. The goal is to get some packages from various locations to various new locations. There are 3 trucks and 1 airplane, as well as 4 packages. There are 9 locations across 3 cities. The locations are in cities as follows: l2-0, l2-2, and l2-1 are in c2; l1-1, l1-2, and l1-0 are in c1; l0-0, l0-2, and l0-1 are in c0. Currently, p0 and t2 are at l2-1, t1 and a0 are at l1-0, t0 is at l0-1, p2 and p1 are in a0, p3 is in t2.",
+    "question": "Which of the following options can hold in a state that can potentially be reached? A. t1 is at l1-0 and l1-0 is in l2-1. B. c1 is at c0 and p0 is at l2-1. C. t2 is at l2-2. D. a0 is at l2-0 and a0 is at l1-0.",
+    "choices": {
+      "text": [
+        "t1 is at l1-0 and l1-0 is in l2-1",
+        "c1 is at c0 and p0 is at l2-1",
+        "t2 is at l2-2",
+        "a0 is at l2-0 and a0 is at l1-0"
+      ],
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    "query": "Which fact is reachable from this state?",
+    "answer": "C"
+  },
+  {
+    "id": -8807401709270363052,
+    "group": "reachable_atom_mc",
+    "context": "There are several cities, each containing several locations, some of which are airports. There are also trucks, which can drive within a single city, and airplanes, which can fly between airports. The goal is to get some packages from various locations to various new locations. There are 2 trucks and 1 airplane, as well as 4 packages. There are 4 locations across 2 cities. The locations are in cities as follows: l0-1 and l0-0 are in c0; l1-1 and l1-0 are in c1. Currently, a0 and p2 are at l0-0, t1 is at l1-1, t0 and p1 are at l0-1, p3 is in a0, p0 is in t0.",
+    "question": "Which of the following options can hold in a state that can potentially be reached? A. l0-0 is in p3. B. p3 is at l0-0 and p1 is in t0. C. p2 is at l1-0 and p2 is at l0-0. D. p1 is at c0 and p2 is at l0-0.",
+    "choices": {
+      "text": [
+        "l0-0 is in p3",
+        "p3 is at l0-0 and p1 is in t0",
+        "p2 is at l1-0 and p2 is at l0-0",
+        "p1 is at c0 and p2 is at l0-0"
+      ],
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    "query": "Which fact is reachable from this state?",
+    "answer": "B"
+  },
+  {
+    "id": 6424759326286407461,
+    "group": "reachable_atom_mc",
+    "context": "There are several cities, each containing several locations, some of which are airports. There are also trucks, which can drive within a single city, and airplanes, which can fly between airports. The goal is to get some packages from various locations to various new locations. There are 3 trucks and 1 airplane, as well as 4 packages. There are 9 locations across 3 cities. The locations are in cities as follows: l2-0, l2-2, and l2-1 are in c2; l1-1, l1-2, and l1-0 are in c1; l0-0, l0-2, and l0-1 are in c0. Currently, p0 is at l2-1, p2, p3, a0, t2, and p1 are at l2-0, t1 is at l1-0, t0 is at l0-1.",
+    "question": "Which of the following options can hold in a state that can potentially be reached? A. l2-0 is at l2-0. B. p0 is in t0 and p0 is in t2. C. p3 is in t2 and t0 is at l0-2. D. t0 is at p1 and p3 is at l2-0.",
+    "choices": {
+      "text": [
+        "l2-0 is at l2-0",
+        "p0 is in t0 and p0 is in t2",
+        "p3 is in t2 and t0 is at l0-2",
+        "t0 is at p1 and p3 is at l2-0"
+      ],
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    "query": "Which fact is reachable from this state?",
+    "answer": "C"
+  },
+  {
+    "id": -3035955752785235591,
+    "group": "reachable_atom_mc",
+    "context": "There are several cities, each containing several locations, some of which are airports. There are also trucks, which can drive within a single city, and airplanes, which can fly between airports. The goal is to get some packages from various locations to various new locations. There are 2 trucks and 1 airplane, as well as 4 packages. There are 4 locations across 2 cities. The locations are in cities as follows: l0-1 and l0-0 are in c0; l1-1 and l1-0 are in c1. Currently, p0, p1, and t0 are at l0-1, t1, p2, and a0 are at l1-0, p3 is at l0-0.",
+    "question": "Which of the following options can hold in a state that can potentially be reached? A. p1 is in t0 and p0 is in t0. B. l0-1 is in c1. C. t0 is at a0. D. p2 is at l1-0 and p2 is in t0.",
+    "choices": {
+      "text": [
+        "p1 is in t0 and p0 is in t0",
+        "l0-1 is in c1",
+        "t0 is at a0",
+        "p2 is at l1-0 and p2 is in t0"
+      ],
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    "query": "Which fact is reachable from this state?",
+    "answer": "A"
+  },
+  {
+    "id": -4078892956067116030,
+    "group": "reachable_atom_mc",
+    "context": "This is a blocksworld domain where blocks can be placed on top of each other or on the table. There is one robotic arm that can move the block. There are 5 blocks. Currently, the robotic arm is empty. The following block(s) are on the table: block_2 and block_1. The following block(s) are stacked on top of another block: block_3 is on block_5, block_5 is on block_2, and block_4 is on block_1.",
+    "question": "Which of the following options can hold in a state that can potentially be reached? A. The block block_1 is currently situated under the block block_1 and The block block_1 is on top of block block_4. B. The block block_3 is on top of block block_3 and The robotic arm is holding block_3. C. The block block_2 is currently being held by the robotic arm and The robotic arm is not holding anything. D. Block block_5 is clear and Block block_3 is placed on the table.",
+    "choices": {
+      "text": [
+        "The block block_1 is currently situated under the block block_1 and The block block_1 is on top of block block_4",
+        "The block block_3 is on top of block block_3 and The robotic arm is holding block_3",
+        "The block block_2 is currently being held by the robotic arm and The robotic arm is not holding anything",
+        "Block block_5 is clear and Block block_3 is placed on the table"
+      ],
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    "query": "Which fact is reachable from this state?",
+    "answer": "D"
+  },
+  {
+    "id": 967973761642248792,
+    "group": "reachable_atom_mc",
+    "context": "This is a blocksworld domain where blocks can be placed on top of each other or on the table. There is one robotic arm that can move the block. There are 5 blocks. Currently, the robotic arm is empty. The following block(s) are on the table: block_4, block_3, and block_2. The following block(s) are stacked on top of another block: block_1 is on block_5 and block_5 is on block_4.",
+    "question": "Which of the following options can hold in a state that can potentially be reached? A. The block block_4 is currently situated under the block block_1 and The robotic arm is holding block_4. B. The block block_3 is on top of block block_2. C. The block block_1 is currently being held by the robotic arm and The robotic arm is not holding anything. D. The robotic arm is holding block_5 and The robotic arm is empty.",
+    "choices": {
+      "text": [
+        "The block block_4 is currently situated under the block block_1 and The robotic arm is holding block_4",
+        "The block block_3 is on top of block block_2",
+        "The block block_1 is currently being held by the robotic arm and The robotic arm is not holding anything",
+        "The robotic arm is holding block_5 and The robotic arm is empty"
+      ],
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    "query": "Which fact is reachable from this state?",
+    "answer": "B"
+  },
+  {
+    "id": -6943404682678957601,
+    "group": "reachable_atom_mc",
+    "context": "This is a blocksworld domain where blocks can be placed on top of each other or on the table. There is one robotic arm that can move the block. There are 5 blocks. Currently, the robotic arm is holding block_3. The following block(s) are on the table: block_4, block_2, and block_1. The following block(s) is stacked on top of another block: block_5 is on block_1.",
+    "question": "Which of the following options can hold in a state that can potentially be reached? A. The block block_2 is currently situated above the block block_3 and Block block_2 is on the table. B. The block block_4 is currently situated above the block block_3 and The block block_1 is on top of block block_3. C. No blocks are placed on top of block_3 and The block block_2 is currently situated under the block block_3. D. The robotic arm is holding block_4 and The block block_2 is currently being held by the robotic arm.",
+    "choices": {
+      "text": [
+        "The block block_2 is currently situated above the block block_3 and Block block_2 is on the table",
+        "The block block_4 is currently situated above the block block_3 and The block block_1 is on top of block block_3",
+        "No blocks are placed on top of block_3 and The block block_2 is currently situated under the block block_3",
+        "The robotic arm is holding block_4 and The block block_2 is currently being held by the robotic arm"
+      ],
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    "query": "Which fact is reachable from this state?",
+    "answer": "C"
+  },
+  {
+    "id": -8065048182490831850,
+    "group": "reachable_atom_mc",
+    "context": "This is a blocksworld domain where blocks can be placed on top of each other or on the table. There is one robotic arm that can move the block. There are 5 blocks. Currently, the robotic arm is holding block_2. The following block(s) are on the table: block_5 and block_1. The following block(s) are stacked on top of another block: block_4 is on block_5 and block_3 is on block_1.",
+    "question": "Which of the following options can hold in a state that can potentially be reached? A. The block block_1 is currently situated under the block block_2 and The block block_2 is on top of block block_2. B. The block block_1 is on top of block block_1 and Block block_1 is placed on the table. C. The robotic arm is holding block_4 and Block block_2 is located on the table. D. The robotic arm is holding block_4 and The robotic arm is empty.",
+    "choices": {
+      "text": [
+        "The block block_1 is currently situated under the block block_2 and The block block_2 is on top of block block_2",
+        "The block block_1 is on top of block block_1 and Block block_1 is placed on the table",
+        "The robotic arm is holding block_4 and Block block_2 is located on the table",
+        "The robotic arm is holding block_4 and The robotic arm is empty"
+      ],
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    "query": "Which fact is reachable from this state?",
+    "answer": "C"
+  },
+  {
+    "id": 1703069710521058487,
+    "group": "reachable_atom_mc",
+    "context": "This is a blocksworld domain where blocks can be placed on top of each other or on the table. There is one robotic arm that can move the block. There are 5 blocks. Currently, the robotic arm is empty. The following block(s) are on the table: block_4 and block_2. The following block(s) are stacked on top of another block: block_1 is on block_5, block_3 is on block_4, and block_5 is on block_2.",
+    "question": "Which of the following options can hold in a state that can potentially be reached? A. The block block_3 is on top of block block_1 and No blocks are placed on top of block_4. B. The block block_5 is currently situated under the block block_1 and The block block_5 is currently situated under the block block_3. C. The block block_5 is currently situated above the block block_4 and Block block_5 is located on the table. D. The block block_4 is on top of block block_3 and Block block_3 is clear.",
+    "choices": {
+      "text": [
+        "The block block_3 is on top of block block_1 and No blocks are placed on top of block_4",
+        "The block block_5 is currently situated under the block block_1 and The block block_5 is currently situated under the block block_3",
+        "The block block_5 is currently situated above the block block_4 and Block block_5 is located on the table",
+        "The block block_4 is on top of block block_3 and Block block_3 is clear"
+      ],
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    "query": "Which fact is reachable from this state?",
+    "answer": "A"
+  },
+  {
+    "id": 3722695615200984129,
+    "group": "reachable_atom_mc",
+    "context": "A robot is in a grid and can only move to places that are connected to its current position. The grid size is 5x5, and the locations are of the form fi-jf (e.g., f3-2f or f0-1f). The grid cells are connected to their neighbors (e.g., f1-2f is connected to the four neighbors f0-2f, f2-2f, f1-1f, and f1-3f). Some positions on the grid are locked and can be opened with a key of a matching shape. The robot has an arm that can pick up a key when the key is in same location as the robot and the arm is empty.  There are 3 keys in 1 different shapes: Key key0-2 is of shape shape0, Key key0-1 is of shape shape0, Key key0-0 is of shape shape0.  Currently, the robot is at position f1-3f and its arm is empty. All the positions are open except the following: f2-1f has shape0 shaped lock, f0-1f has shape0 shaped lock, f2-2f has shape0 shaped lock. Key key0-1 is at position f2-4f. Key key0-0 is at position f1-0f. Key key0-2 is at position f1-3f.",
+    "question": "Which of the following options can hold in a state that can potentially be reached? A. Location f3-2f is locked. B. Key f4-1f is at f4-1f location. C. Robot is at f2-4f location. D. Robot is at f2-1f location and Robot is at f0-0f location.",
+    "choices": {
+      "text": [
+        "Location f3-2f is locked",
+        "Key f4-1f is at f4-1f location",
+        "Robot is at f2-4f location",
+        "Robot is at f2-1f location and Robot is at f0-0f location"
+      ],
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    "query": "Which fact is reachable from this state?",
+    "answer": "C"
+  },
+  {
+    "id": 7150444647310033162,
+    "group": "reachable_atom_mc",
+    "context": "A robot is in a grid and can only move to places that are connected to its current position. The grid size is 5x5, and the locations are of the form fi-jf (e.g., f3-2f or f0-1f). The grid cells are connected to their neighbors (e.g., f1-2f is connected to the four neighbors f0-2f, f2-2f, f1-1f, and f1-3f). Some positions on the grid are locked and can be opened with a key of a matching shape. The robot has an arm that can pick up a key when the key is in same location as the robot and the arm is empty.  There are 2 keys in 1 different shapes: Key key0-1 is of shape shape0, Key key0-0 is of shape shape0.  Currently, the robot is at position f3-3f and its arm is empty. All the positions are open except the following: f4-0f has shape0 shaped lock. Key key0-0 is at position f4-4f. Key key0-1 is at position f3-2f.",
+    "question": "Which of the following options can hold in a state that can potentially be reached? A. Key key0-1 is at f2-0f location and Key key0-1 is at f1-0f location. B. Robot is at f1-3f location. C. Location f0-0f is open and Location f3-2f is locked. D. Location f2-1f is open and Location key0-1 is open.",
+    "choices": {
+      "text": [
+        "Key key0-1 is at f2-0f location and Key key0-1 is at f1-0f location",
+        "Robot is at f1-3f location",
+        "Location f0-0f is open and Location f3-2f is locked",
+        "Location f2-1f is open and Location key0-1 is open"
+      ],
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    "query": "Which fact is reachable from this state?",
+    "answer": "B"
+  },
+  {
+    "id": 2961316145726088840,
+    "group": "reachable_atom_mc",
+    "context": "A robot is in a grid and can only move to places that are connected to its current position. The grid size is 5x5, and the locations are of the form fi-jf (e.g., f3-2f or f0-1f). The grid cells are connected to their neighbors (e.g., f1-2f is connected to the four neighbors f0-2f, f2-2f, f1-1f, and f1-3f). Some positions on the grid are locked and can be opened with a key of a matching shape. The robot has an arm that can pick up a key when the key is in same location as the robot and the arm is empty.  There are 2 keys in 1 different shapes: Key key0-1 is of shape shape0, Key key0-0 is of shape shape0.  Currently, the robot is at position f1-4f and is holding key0-0. All the positions are open except the following: f4-0f has shape0 shaped lock, f0-3f has shape0 shaped lock. Key key0-1 is at position f4-2f.",
+    "question": "Which of the following options can hold in a state that can potentially be reached? A. Key key0-0 is at f2-4f location and Robot is holding key0-0. B. Robot is holding shape0. C. Location f0-0f is locked. D. Robot is at f2-3f location.",
+    "choices": {
+      "text": [
+        "Key key0-0 is at f2-4f location and Robot is holding key0-0",
+        "Robot is holding shape0",
+        "Location f0-0f is locked",
+        "Robot is at f2-3f location"
+      ],
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    "query": "Which fact is reachable from this state?",
+    "answer": "D"
+  },
+  {
+    "id": 935628270425025889,
+    "group": "reachable_atom_mc",
+    "context": "A robot is in a grid and can only move to places that are connected to its current position. The grid size is 5x5, and the locations are of the form fi-jf (e.g., f3-2f or f0-1f). The grid cells are connected to their neighbors (e.g., f1-2f is connected to the four neighbors f0-2f, f2-2f, f1-1f, and f1-3f). Some positions on the grid are locked and can be opened with a key of a matching shape. The robot has an arm that can pick up a key when the key is in same location as the robot and the arm is empty.  There are 2 keys in 1 different shapes: Key key0-1 is of shape shape0, Key key0-0 is of shape shape0.  Currently, the robot is at position f3-1f and is holding key0-0. All the positions are open except the following: f4-2f has shape0 shaped lock. Key key0-1 is at position f1-3f.",
+    "question": "Which of the following options can hold in a state that can potentially be reached? A. Key f1-2f is at f1-3f location and Location f2-0f is open. B. Robot is at f4-1f location and Robot is not holding anything. C. Robot is at f2-4f location and Robot is at f1-3f location. D. Location f0-4f is locked.",
+    "choices": {
+      "text": [
+        "Key f1-2f is at f1-3f location and Location f2-0f is open",
+        "Robot is at f4-1f location and Robot is not holding anything",
+        "Robot is at f2-4f location and Robot is at f1-3f location",
+        "Location f0-4f is locked"
+      ],
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    "query": "Which fact is reachable from this state?",
+    "answer": "B"
+  },
+  {
+    "id": -4562131633541256367,
+    "group": "reachable_atom_mc",
+    "context": "A robot is in a grid and can only move to places that are connected to its current position. The grid size is 5x5, and the locations are of the form fi-jf (e.g., f3-2f or f0-1f). The grid cells are connected to their neighbors (e.g., f1-2f is connected to the four neighbors f0-2f, f2-2f, f1-1f, and f1-3f). Some positions on the grid are locked and can be opened with a key of a matching shape. The robot has an arm that can pick up a key when the key is in same location as the robot and the arm is empty.  There are 3 keys in 1 different shapes: Key key0-2 is of shape shape0, Key key0-1 is of shape shape0, Key key0-0 is of shape shape0.  Currently, the robot is at position f1-1f and its arm is empty. All the positions are open except the following: f2-1f has shape0 shaped lock, f0-1f has shape0 shaped lock, f2-2f has shape0 shaped lock. Key key0-1 is at position f2-4f. Key key0-2 is at position f1-2f. Key key0-0 is at position f2-0f.",
+    "question": "Which of the following options can hold in a state that can potentially be reached? A. Key key0-1 is at f4-0f location and Key key0-1 is at f0-0f location. B. Robot is at f2-0f location. C. Location f3-1f is open and Robot is at key0-2 location. D. Location f4-0f is locked and Location f2-0f is open.",
+    "choices": {
+      "text": [
+        "Key key0-1 is at f4-0f location and Key key0-1 is at f0-0f location",
+        "Robot is at f2-0f location",
+        "Location f3-1f is open and Robot is at key0-2 location",
+        "Location f4-0f is locked and Location f2-0f is open"
+      ],
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    "query": "Which fact is reachable from this state?",
+    "answer": "B"
+  },
+  {
+    "id": 5124033648768588183,
+    "group": "reachable_atom_mc",
+    "context": "A set of robots use different colors to paint patterns in floor tiles. The robots can move around the floor tiles in four directions (up, down, left and right). Robots paint with one color at a time, but can change their spray guns to any available color. However, robots can only paint the tile that is in front (up) and behind (down) them, and once a tile has been painted no robot can stand on it. Robots need to paint a grid with black and white, where the cell color is alternated always. There are 2 robots and 16 tiles. The tiles locations are: tile_8 is to the right of tile_7, tile_10 is to the right of tile_9, tile_2 is to the right of tile_1, tile_3 is to the right of tile_2, tile_11 is to the right of tile_10, tile_14 is to the right of tile_13, tile_6 is to the right of tile_5, tile_16 is to the right of tile_15, tile_7 is to the right of tile_6, tile_15 is to the right of tile_14, tile_12 is to the right of tile_11, and tile_4 is to the right of tile_3. Further, tile_1 is down from tile_5, tile_7 is down from tile_11, tile_6 is down from tile_10, tile_3 is down from tile_7, tile_8 is down from tile_12, tile_12 is down from tile_16, tile_4 is down from tile_8, tile_5 is down from tile_9, tile_10 is down from tile_14, tile_9 is down from tile_13, tile_2 is down from tile_6, and tile_11 is down from tile_15 Currently, robot robot1 is at tile_1 and holding color black and robot robot2 is at tile_3 and holding color black; tile_7, tile_2, tile_8, tile_9, tile_4, and tile_5 are clear; tile_14 is painted black, tile_15 is painted white, tile_12 is painted white, tile_13 is painted white, tile_6 is painted black, tile_11 is painted black, tile_10 is painted white, and tile_16 is painted black.",
+    "question": "Which of the following options can hold in a state that can potentially be reached? A. Robot robot2 is at tile_4 location and tile_3 is clear. B. Robot robot1 is at tile_6 location and Robot robot1 is at tile_8 location. C. Robot robot1 is holding black paint and Robot robot1 is holding white paint. D. Robot robot1 is at tile_14 location and tile_14 is clear.",
+    "choices": {
+      "text": [
+        "Robot robot2 is at tile_4 location and tile_3 is clear",
+        "Robot robot1 is at tile_6 location and Robot robot1 is at tile_8 location",
+        "Robot robot1 is holding black paint and Robot robot1 is holding white paint",
+        "Robot robot1 is at tile_14 location and tile_14 is clear"
+      ],
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    "query": "Which fact is reachable from this state?",
+    "answer": "A"
+  },
+  {
+    "id": 4941019333004178405,
+    "group": "reachable_atom_mc",
+    "context": "A set of robots use different colors to paint patterns in floor tiles. The robots can move around the floor tiles in four directions (up, down, left and right). Robots paint with one color at a time, but can change their spray guns to any available color. However, robots can only paint the tile that is in front (up) and behind (down) them, and once a tile has been painted no robot can stand on it. Robots need to paint a grid with black and white, where the cell color is alternated always. There are 2 robots and 16 tiles. The tiles locations are: tile_8 is to the right of tile_7, tile_10 is to the right of tile_9, tile_2 is to the right of tile_1, tile_3 is to the right of tile_2, tile_11 is to the right of tile_10, tile_14 is to the right of tile_13, tile_6 is to the right of tile_5, tile_16 is to the right of tile_15, tile_7 is to the right of tile_6, tile_15 is to the right of tile_14, tile_12 is to the right of tile_11, and tile_4 is to the right of tile_3. Further, tile_1 is down from tile_5, tile_7 is down from tile_11, tile_6 is down from tile_10, tile_3 is down from tile_7, tile_8 is down from tile_12, tile_12 is down from tile_16, tile_4 is down from tile_8, tile_5 is down from tile_9, tile_10 is down from tile_14, tile_9 is down from tile_13, tile_2 is down from tile_6, and tile_11 is down from tile_15 Currently, robot robot1 is at tile_1 and holding color white and robot robot2 is at tile_3 and holding color black; tile_6, tile_7, tile_2, tile_8, tile_4, and tile_10 are clear; tile_14 is painted black, tile_15 is painted white, tile_12 is painted white, tile_9 is painted black, tile_13 is painted white, tile_5 is painted white, tile_11 is painted black, and tile_16 is painted black.",
+    "question": "Which of the following options can hold in a state that can potentially be reached? A. Robot robot1 is at tile_9 location and Robot robot1 is at tile_5 location. B. tile_3 is clear and tile_1 is clear. C. Tile tile_9 is painted in black color and tile_9 is clear. D. Robot robot1 is at tile_13 location and Robot robot2 is at tile_13 location.",
+    "choices": {
+      "text": [
+        "Robot robot1 is at tile_9 location and Robot robot1 is at tile_5 location",
+        "tile_3 is clear and tile_1 is clear",
+        "Tile tile_9 is painted in black color and tile_9 is clear",
+        "Robot robot1 is at tile_13 location and Robot robot2 is at tile_13 location"
+      ],
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    "query": "Which fact is reachable from this state?",
+    "answer": "B"
+  },
+  {
+    "id": 1937771960810658367,
+    "group": "reachable_atom_mc",
+    "context": "A set of robots use different colors to paint patterns in floor tiles. The robots can move around the floor tiles in four directions (up, down, left and right). Robots paint with one color at a time, but can change their spray guns to any available color. However, robots can only paint the tile that is in front (up) and behind (down) them, and once a tile has been painted no robot can stand on it. Robots need to paint a grid with black and white, where the cell color is alternated always. There are 2 robots and 9 tiles. The tiles locations are: tile_8 is to the right of tile_7, tile_2 is to the right of tile_1, tile_9 is to the right of tile_8, tile_3 is to the right of tile_2, tile_5 is to the right of tile_4, and tile_6 is to the right of tile_5. Further, tile_4 is down from tile_7, tile_3 is down from tile_6, tile_6 is down from tile_9, tile_2 is down from tile_5, tile_5 is down from tile_8, and tile_1 is down from tile_4 Currently, robot robot1 is at tile_5 and holding color black and robot robot2 is at tile_2 and holding color black; tile_6, tile_7, tile_1, tile_4, and tile_3 are clear; tile_8 is painted white and tile_9 is painted black.",
+    "question": "Which of the following options can hold in a state that can potentially be reached? A. Robot robot2 is holding black paint and Robot robot2 is holding white paint. B. Robot robot2 is at tile_4 location and Robot robot1 is at tile_4 location. C. tile_5 is clear and Robot robot1 is at tile_6 location. D. Robot robot2 is holding white paint and Robot robot2 is holding black paint.",
+    "choices": {
+      "text": [
+        "Robot robot2 is holding black paint and Robot robot2 is holding white paint",
+        "Robot robot2 is at tile_4 location and Robot robot1 is at tile_4 location",
+        "tile_5 is clear and Robot robot1 is at tile_6 location",
+        "Robot robot2 is holding white paint and Robot robot2 is holding black paint"
+      ],
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    "query": "Which fact is reachable from this state?",
+    "answer": "C"
+  },
+  {
+    "id": -8439333813061281942,
+    "group": "reachable_atom_mc",
+    "context": "A set of robots use different colors to paint patterns in floor tiles. The robots can move around the floor tiles in four directions (up, down, left and right). Robots paint with one color at a time, but can change their spray guns to any available color. However, robots can only paint the tile that is in front (up) and behind (down) them, and once a tile has been painted no robot can stand on it. Robots need to paint a grid with black and white, where the cell color is alternated always. There are 2 robots and 16 tiles. The tiles locations are: tile_8 is to the right of tile_7, tile_10 is to the right of tile_9, tile_2 is to the right of tile_1, tile_3 is to the right of tile_2, tile_11 is to the right of tile_10, tile_14 is to the right of tile_13, tile_6 is to the right of tile_5, tile_16 is to the right of tile_15, tile_7 is to the right of tile_6, tile_15 is to the right of tile_14, tile_12 is to the right of tile_11, and tile_4 is to the right of tile_3. Further, tile_1 is down from tile_5, tile_7 is down from tile_11, tile_6 is down from tile_10, tile_3 is down from tile_7, tile_8 is down from tile_12, tile_12 is down from tile_16, tile_4 is down from tile_8, tile_5 is down from tile_9, tile_10 is down from tile_14, tile_9 is down from tile_13, tile_2 is down from tile_6, and tile_11 is down from tile_15 Currently, robot robot1 is at tile_2 and holding color black and robot robot2 is at tile_1 and holding color black; tile_7, tile_15, tile_11, tile_8, tile_9, tile_4, tile_3, tile_5, and tile_12 are clear; tile_14 is painted black, tile_13 is painted white, tile_6 is painted black, tile_10 is painted white, and tile_16 is painted black.",
+    "question": "Which of the following options can hold in a state that can potentially be reached? A. Robot robot2 is at tile_11 location and Robot robot1 is at tile_11 location. B. Robot robot2 is at tile_8 location and Robot robot1 is at tile_8 location. C. Robot robot2 is at tile_9 location and tile_1 is clear. D. Robot robot2 is at tile_5 location and Tile tile_5 is painted in white color.",
+    "choices": {
+      "text": [
+        "Robot robot2 is at tile_11 location and Robot robot1 is at tile_11 location",
+        "Robot robot2 is at tile_8 location and Robot robot1 is at tile_8 location",
+        "Robot robot2 is at tile_9 location and tile_1 is clear",
+        "Robot robot2 is at tile_5 location and Tile tile_5 is painted in white color"
+      ],
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    "query": "Which fact is reachable from this state?",
+    "answer": "C"
+  },
+  {
+    "id": -7219352806382590761,
+    "group": "reachable_atom_mc",
+    "context": "A set of robots use different colors to paint patterns in floor tiles. The robots can move around the floor tiles in four directions (up, down, left and right). Robots paint with one color at a time, but can change their spray guns to any available color. However, robots can only paint the tile that is in front (up) and behind (down) them, and once a tile has been painted no robot can stand on it. Robots need to paint a grid with black and white, where the cell color is alternated always. There are 2 robots and 9 tiles. The tiles locations are: tile_8 is to the right of tile_7, tile_2 is to the right of tile_1, tile_9 is to the right of tile_8, tile_3 is to the right of tile_2, tile_5 is to the right of tile_4, and tile_6 is to the right of tile_5. Further, tile_4 is down from tile_7, tile_3 is down from tile_6, tile_6 is down from tile_9, tile_2 is down from tile_5, tile_5 is down from tile_8, and tile_1 is down from tile_4 Currently, robot robot2 is at tile_3 and holding color white and robot robot1 is at tile_5 and holding color black; tile_2 and tile_1 are clear; tile_7 is painted black, tile_8 is painted white, tile_4 is painted white, tile_9 is painted black, and tile_6 is painted white.",
+    "question": "Which of the following options can hold in a state that can potentially be reached? A. Robot robot1 is at tile_6 location and tile_6 is clear. B. Robot robot2 is at tile_7 location and tile_7 is clear. C. Robot robot2 is holding black paint and Robot robot2 is holding white paint. D. tile_5 is clear and Robot robot2 is holding black paint.",
+    "choices": {
+      "text": [
+        "Robot robot1 is at tile_6 location and tile_6 is clear",
+        "Robot robot2 is at tile_7 location and tile_7 is clear",
+        "Robot robot2 is holding black paint and Robot robot2 is holding white paint",
+        "tile_5 is clear and Robot robot2 is holding black paint"
+      ],
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    "query": "Which fact is reachable from this state?",
+    "answer": "D"
+  },
+  {
+    "id": 4084225803706439743,
+    "group": "reachable_atom_mc",
+    "context": "This is a grippers domain, where there is a robot with two grippers. The robot can carry a ball in each. The goal is to take the balls from one room to another. There are 1 robot, 3 rooms, and 4 balls, numbered consecutively. Currently, the robot robot1 is at room3, left gripper is free, and right gripper is carrying the ball ball4. Additionally, ball1 and ball2 are at room2, ball3 is at room3.",
+    "question": "Which of the following options can hold in a state that can potentially be reached? A. Ball room2 is in room room1. B. Robot robot1 is carrying the ball ball3 in the right gripper and The right gripper of robot robot1 is free. C. Robot robot1 is in room room2. D. Ball robot1 is at room3 location and Ball ball3 is in room room3.",
+    "choices": {
+      "text": [
+        "Ball room2 is in room room1",
+        "Robot robot1 is carrying the ball ball3 in the right gripper and The right gripper of robot robot1 is free",
+        "Robot robot1 is in room room2",
+        "Ball robot1 is at room3 location and Ball ball3 is in room room3"
+      ],
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    "query": "Which fact is reachable from this state?",
+    "answer": "C"
+  },
+  {
+    "id": 4712623402002611588,
+    "group": "reachable_atom_mc",
+    "context": "This is a grippers domain, where there is a robot with two grippers. The robot can carry a ball in each. The goal is to take the balls from one room to another. There are 1 robot, 3 rooms, and 4 balls, numbered consecutively. Currently, the robot robot1 is at room3, left gripper is carrying the ball ball2, and right gripper is carrying the ball ball3. Additionally, ball4 is at room1, ball1 is at room3.",
+    "question": "Which of the following options can hold in a state that can potentially be reached? A. Robot robot1 is carrying the ball ball3 in the right gripper and Robot robot1 is carrying the ball left1 in the right gripper. B. Robot robot1 is carrying the ball ball1 in the right gripper and The right gripper of robot robot1 is free. C. Ball ball1 is in room room3 and Ball right1 is in room room2. D. The left gripper of robot robot1 is free and Ball ball2 is at room3 location.",
+    "choices": {
+      "text": [
+        "Robot robot1 is carrying the ball ball3 in the right gripper and Robot robot1 is carrying the ball left1 in the right gripper",
+        "Robot robot1 is carrying the ball ball1 in the right gripper and The right gripper of robot robot1 is free",
+        "Ball ball1 is in room room3 and Ball right1 is in room room2",
+        "The left gripper of robot robot1 is free and Ball ball2 is at room3 location"
+      ],
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    "query": "Which fact is reachable from this state?",
+    "answer": "D"
+  },
+  {
+    "id": -318977129426384211,
+    "group": "reachable_atom_mc",
+    "context": "This is a grippers domain, where there is a robot with two grippers. The robot can carry a ball in each. The goal is to take the balls from one room to another. There are 1 robot, 7 rooms, and 4 balls, numbered consecutively. Currently, the robot robot1 is at room1, right gripper is free, and left gripper is carrying the ball ball3. Additionally, ball2 is at room2, ball4 is at room6, ball1 is at room3.",
+    "question": "Which of the following options can hold in a state that can potentially be reached? A. Robot robot1 is carrying the ball ball1 in the left gripper and Ball ball1 is in room room5. B. Ball room4 is in room room2. C. Robot robot1 is in room room7. D. Ball room6 is in room room2.",
+    "choices": {
+      "text": [
+        "Robot robot1 is carrying the ball ball1 in the left gripper and Ball ball1 is in room room5",
+        "Ball room4 is in room room2",
+        "Robot robot1 is in room room7",
+        "Ball room6 is in room room2"
+      ],
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    "query": "Which fact is reachable from this state?",
+    "answer": "C"
+  },
+  {
+    "id": 3223438131136234839,
+    "group": "reachable_atom_mc",
+    "context": "This is a grippers domain, where there is a robot with two grippers. The robot can carry a ball in each. The goal is to take the balls from one room to another. There are 1 robot, 3 rooms, and 4 balls, numbered consecutively. Currently, the robot robot1 is at room2, left gripper is free, and right gripper is carrying the ball ball4. Additionally, ball2 is at room1, ball3 and ball1 are at room3.",
+    "question": "Which of the following options can hold in a state that can potentially be reached? A. Robot robot1 is carrying the ball robot1 in the left gripper and Ball ball3 is in room room3. B. Robot robot1 is in room room1. C. Robot robot1 is carrying the ball robot1 in the right gripper and Ball ball3 is in room room3. D. Ball ball3 is at room1 location and Ball ball3 is in room room3.",
+    "choices": {
+      "text": [
+        "Robot robot1 is carrying the ball robot1 in the left gripper and Ball ball3 is in room room3",
+        "Robot robot1 is in room room1",
+        "Robot robot1 is carrying the ball robot1 in the right gripper and Ball ball3 is in room room3",
+        "Ball ball3 is at room1 location and Ball ball3 is in room room3"
+      ],
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    "query": "Which fact is reachable from this state?",
+    "answer": "B"
+  },
+  {
+    "id": -5616401175555687182,
+    "group": "reachable_atom_mc",
+    "context": "This is a grippers domain, where there is a robot with two grippers. The robot can carry a ball in each. The goal is to take the balls from one room to another. There are 1 robot, 3 rooms, and 4 balls, numbered consecutively. Currently, the robot robot1 is at room1, left gripper is free, and right gripper is carrying the ball ball4. Additionally, ball3 is at room2, ball2 is at room1, ball1 is at room3.",
+    "question": "Which of the following options can hold in a state that can potentially be reached? A. Robot robot1 is carrying the ball ball2 in the left gripper. B. Ball ball2 is in room room1 and Ball room3 is in room room2. C. Robot robot1 is carrying the ball ball4 in the left gripper and Robot robot1 is carrying the ball ball4 in the right gripper. D. Robot robot1 is in room room1 and Robot robot1 is carrying the ball right1 in the left gripper.",
+    "choices": {
+      "text": [
+        "Robot robot1 is carrying the ball ball2 in the left gripper",
+        "Ball ball2 is in room room1 and Ball room3 is in room room2",
+        "Robot robot1 is carrying the ball ball4 in the left gripper and Robot robot1 is carrying the ball ball4 in the right gripper",
+        "Robot robot1 is in room room1 and Robot robot1 is carrying the ball right1 in the left gripper"
+      ],
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    "query": "Which fact is reachable from this state?",
+    "answer": "A"
+  },
+  {
+    "id": -5244094381470899807,
+    "group": "reachable_atom_mc",
+    "context": "This is a Rovers domain where rovers must navigate between waypoints gathering data and transmitting it back to a lander. Rovers cannot navigate to all waypoints and this makes particular routes impassable to some of the rovers. Data transmission is also constrained by the visibility of the lander from the waypoints. There are 2 rovers, 3 waypoints, 2 stores, 2 cameras, 3 objectives numbered consecutively. Further, there is 1 lander and 3 modes for the camera namely colour, high resolution, and low resolution.  Rover(s) rover0 is equipped for soil analysis. Rover(s) rover0 and rover1 are equipped for rock analysis. Rover(s) rover0 and rover1 are equipped for imaging. Rover rover0 has store store0. Rover rover1 has store store1. Rover rover0 has camera1 on board. Rover rover1 has camera0 on board. Camera camera0 can be calibrated on objective2. Camera camera1 can be calibrated on objective1. Camera camera0 supports low_res. Camera camera1 supports low_res and high_res. Rover rover0 can traverse from waypoint2 to waypoint1, waypoint1 to waypoint2, waypoint2 to waypoint0, waypoint0 to waypoint2. Rover rover1 can traverse from waypoint2 to waypoint0, waypoint2 to waypoint1, waypoint1 to waypoint2, waypoint0 to waypoint2. Waypoint(s) are visible from waypoint2: waypoint0 and waypoint1. Waypoint(s) are visible from waypoint1: waypoint0 and waypoint2. Waypoint(s) are visible from waypoint0: waypoint2 and waypoint1. Objective objective0 is visible from waypoint0 and waypoint1. Objective objective1 is visible from waypoint1. Objective objective2 is visible from waypoint1. Lander general is at waypoint waypoint1.  Currently, Rover rover1 is at waypoint2. Rover rover0 is at waypoint2. Rocks can be sampled at the following location(s): waypoint2 and waypoint0. Soil can be sampled at the following location(s): waypoint2 and waypoint0. Rovers rover0 and rover1 are available. Rover rover0 has image objective1 in mode low_res. Rover rover0 has image objective1 in mode high_res. Rover rover0 has its camera camera1 calibrated. Store(s) store0 and store1 are empty. ",
+    "question": "Which of the following options can hold in a state that can potentially be reached? A. Rover rover0 has soil analyzed in waypoint waypoint2 and Soil can be sampled at the following location(s): waypoint2. B. Rover rover1 has rock analyzed in waypoint waypoint1. C. Rocks can be sampled at the following location(s): waypoint1. D. Rover rover0 is at waypoint1 and Rover rover0 has soil analyzed in waypoint waypoint2.",
+    "choices": {
+      "text": [
+        "Rover rover0 has soil analyzed in waypoint waypoint2 and Soil can be sampled at the following location(s): waypoint2",
+        "Rover rover1 has rock analyzed in waypoint waypoint1",
+        "Rocks can be sampled at the following location(s): waypoint1",
+        "Rover rover0 is at waypoint1 and Rover rover0 has soil analyzed in waypoint waypoint2"
+      ],
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    "query": "Which fact is reachable from this state?",
+    "answer": "D"
+  },
+  {
+    "id": 4796978865687087238,
+    "group": "reachable_atom_mc",
+    "context": "This is a Rovers domain where rovers must navigate between waypoints gathering data and transmitting it back to a lander. Rovers cannot navigate to all waypoints and this makes particular routes impassable to some of the rovers. Data transmission is also constrained by the visibility of the lander from the waypoints. There are 2 rovers, 3 waypoints, 2 stores, 2 cameras, 3 objectives numbered consecutively. Further, there is 1 lander and 3 modes for the camera namely colour, high resolution, and low resolution.  Rover(s) rover0 is equipped for soil analysis. Rover(s) rover0 and rover1 are equipped for rock analysis. Rover(s) rover0 and rover1 are equipped for imaging. Rover rover0 has store store0. Rover rover1 has store store1. Rover rover0 has camera1 on board. Rover rover1 has camera0 on board. Camera camera0 can be calibrated on objective2. Camera camera1 can be calibrated on objective1. Camera camera0 supports low_res. Camera camera1 supports low_res and high_res. Rover rover0 can traverse from waypoint2 to waypoint1, waypoint1 to waypoint2, waypoint2 to waypoint0, waypoint0 to waypoint2. Rover rover1 can traverse from waypoint2 to waypoint0, waypoint2 to waypoint1, waypoint1 to waypoint2, waypoint0 to waypoint2. Waypoint(s) are visible from waypoint2: waypoint0 and waypoint1. Waypoint(s) are visible from waypoint1: waypoint0 and waypoint2. Waypoint(s) are visible from waypoint0: waypoint2 and waypoint1. Objective objective0 is visible from waypoint0 and waypoint1. Objective objective1 is visible from waypoint1. Objective objective2 is visible from waypoint1. Lander general is at waypoint waypoint1.  Currently, Rover rover1 is at waypoint2. Rover rover0 is at waypoint2. Rocks can be sampled at the following location(s): waypoint2 and waypoint0. Soil can be sampled at the following location(s): waypoint0. Rovers rover0 and rover1 are available. Image objective0 was communicated in mode low_res. Rover rover0 has soil analyzed in waypoint waypoint2. Rover rover0 has image objective1 in mode low_res. Rover rover0 has image objective1 in mode high_res. Rover rover0 has image objective0 in mode low_res. Store(s) store1 is empty. Store(s) store0 is full. ",
+    "question": "Which of the following options can hold in a state that can potentially be reached? A. Rover rover1 is at waypoint1 and Rover rover1 has its camera camera0 calibrated. B. Rover rover0 is at waypoint1 and Rover rover0 is at waypoint0. C. Rocks can be sampled at the following location(s): waypoint1. D. Rover rover1 has its camera camera1 calibrated.",
+    "choices": {
+      "text": [
+        "Rover rover1 is at waypoint1 and Rover rover1 has its camera camera0 calibrated",
+        "Rover rover0 is at waypoint1 and Rover rover0 is at waypoint0",
+        "Rocks can be sampled at the following location(s): waypoint1",
+        "Rover rover1 has its camera camera1 calibrated"
+      ],
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    "query": "Which fact is reachable from this state?",
+    "answer": "A"
+  },
+  {
+    "id": 6347990569667260018,
+    "group": "reachable_atom_mc",
+    "context": "This is a Rovers domain where rovers must navigate between waypoints gathering data and transmitting it back to a lander. Rovers cannot navigate to all waypoints and this makes particular routes impassable to some of the rovers. Data transmission is also constrained by the visibility of the lander from the waypoints. There are 2 rovers, 3 waypoints, 2 stores, 3 cameras, 2 objectives numbered consecutively. Further, there is 1 lander and 3 modes for the camera namely colour, high resolution, and low resolution.  Rover(s) rover0 and rover1 are equipped for soil analysis. Rover(s) rover1 is equipped for rock analysis. Rover(s) rover0 and rover1 are equipped for imaging. Rover rover0 has store store0. Rover rover1 has store store1. Rover rover1 has camera2 on board. Rover rover0 has camera0 and camera1 on board. Camera camera0 can be calibrated on objective1. Camera camera1 can be calibrated on objective0. Camera camera2 can be calibrated on objective0. Camera camera0 supports colour. Camera camera2 supports colour and high_res. Camera camera1 supports low_res. Rover rover1 can traverse from waypoint2 to waypoint0, waypoint2 to waypoint1, waypoint1 to waypoint2, waypoint0 to waypoint2. Rover rover0 can traverse from waypoint0 to waypoint1, waypoint1 to waypoint0, waypoint2 to waypoint0, waypoint0 to waypoint2. Waypoint(s) are visible from waypoint2: waypoint0 and waypoint1. Waypoint(s) are visible from waypoint1: waypoint0 and waypoint2. Waypoint(s) are visible from waypoint0: waypoint2 and waypoint1. Objective objective0 is visible from waypoint0 and waypoint1. Objective objective1 is visible from waypoint2. Lander general is at waypoint waypoint1.  Currently, Rover rover1 is at waypoint2. Rover rover0 is at waypoint2. Rovers rover0 and rover1 are available. Rock data was communicated from waypoint waypoint1; Soil data was communicated from waypoint waypoint1; Image objective1 was communicated in mode colour. Image objective0 was communicated in mode low_res. Rover rover1 has soil analyzed in waypoint waypoint1. Rover rover1 has rock analyzed in waypoint waypoint1. Rover rover0 has image objective0 in mode low_res. Rover rover1 has image objective0 in mode colour. Rover rover1 has image objective1 in mode colour. Store(s) store0 is empty. Store(s) store1 is full. ",
+    "question": "Which of the following options can hold in a state that can potentially be reached? A. Rover rover0 is at waypoint1 and Rover rover0 is at waypoint0. B. Rover rover0 is at waypoint0 and Rover rover1 is at waypoint0. C. Rocks can be sampled at the following location(s): waypoint2 and Rover rover0 is at waypoint2. D. Rock data was communicated from waypoint waypoint1; and Rover rover1 has its camera camera1 calibrated.",
+    "choices": {
+      "text": [
+        "Rover rover0 is at waypoint1 and Rover rover0 is at waypoint0",
+        "Rover rover0 is at waypoint0 and Rover rover1 is at waypoint0",
+        "Rocks can be sampled at the following location(s): waypoint2 and Rover rover0 is at waypoint2",
+        "Rock data was communicated from waypoint waypoint1; and Rover rover1 has its camera camera1 calibrated"
+      ],
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    "query": "Which fact is reachable from this state?",
+    "answer": "B"
+  },
+  {
+    "id": 4309717698291833104,
+    "group": "reachable_atom_mc",
+    "context": "This is a Rovers domain where rovers must navigate between waypoints gathering data and transmitting it back to a lander. Rovers cannot navigate to all waypoints and this makes particular routes impassable to some of the rovers. Data transmission is also constrained by the visibility of the lander from the waypoints. There are 2 rovers, 3 waypoints, 2 stores, 2 cameras, 3 objectives numbered consecutively. Further, there is 1 lander and 3 modes for the camera namely colour, high resolution, and low resolution.  Rover(s) rover0 is equipped for soil analysis. Rover(s) rover0 and rover1 are equipped for rock analysis. Rover(s) rover0 and rover1 are equipped for imaging. Rover rover0 has store store0. Rover rover1 has store store1. Rover rover0 has camera1 on board. Rover rover1 has camera0 on board. Camera camera0 can be calibrated on objective2. Camera camera1 can be calibrated on objective1. Camera camera0 supports low_res. Camera camera1 supports low_res and high_res. Rover rover0 can traverse from waypoint2 to waypoint1, waypoint1 to waypoint2, waypoint2 to waypoint0, waypoint0 to waypoint2. Rover rover1 can traverse from waypoint2 to waypoint0, waypoint2 to waypoint1, waypoint1 to waypoint2, waypoint0 to waypoint2. Waypoint(s) are visible from waypoint2: waypoint0 and waypoint1. Waypoint(s) are visible from waypoint1: waypoint0 and waypoint2. Waypoint(s) are visible from waypoint0: waypoint2 and waypoint1. Objective objective0 is visible from waypoint0 and waypoint1. Objective objective1 is visible from waypoint1. Objective objective2 is visible from waypoint1. Lander general is at waypoint waypoint1.  Currently, Rover rover1 is at waypoint2. Rover rover0 is at waypoint1. Rocks can be sampled at the following location(s): waypoint0. Soil can be sampled at the following location(s): waypoint2 and waypoint0. Rovers rover0 and rover1 are available. Rover rover1 has rock analyzed in waypoint waypoint2. Rover rover0 has image objective1 in mode low_res. Rover rover0 has image objective1 in mode high_res. Rover rover0 has its camera camera1 calibrated. Store(s) store0 is empty. Store(s) store1 is full. ",
+    "question": "Which of the following options can hold in a state that can potentially be reached? A. Rover rover0 has its camera camera1 calibrated and Rocks can be sampled at the following location(s): waypoint1. B. Rock data was communicated from waypoint waypoint2; and Rover rover0 has image objective0 in mode low_res. C. Rocks can be sampled at the following location(s): waypoint2. D. Rover rover1 is at waypoint2 and Rover rover1 is at waypoint1.",
+    "choices": {
+      "text": [
+        "Rover rover0 has its camera camera1 calibrated and Rocks can be sampled at the following location(s): waypoint1",
+        "Rock data was communicated from waypoint waypoint2; and Rover rover0 has image objective0 in mode low_res",
+        "Rocks can be sampled at the following location(s): waypoint2",
+        "Rover rover1 is at waypoint2 and Rover rover1 is at waypoint1"
+      ],
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    "query": "Which fact is reachable from this state?",
+    "answer": "B"
+  },
+  {
+    "id": 1833918989864714378,
+    "group": "reachable_atom_mc",
+    "context": "This is a Rovers domain where rovers must navigate between waypoints gathering data and transmitting it back to a lander. Rovers cannot navigate to all waypoints and this makes particular routes impassable to some of the rovers. Data transmission is also constrained by the visibility of the lander from the waypoints. There are 2 rovers, 3 waypoints, 2 stores, 3 cameras, 5 objectives numbered consecutively. Further, there is 1 lander and 3 modes for the camera namely colour, high resolution, and low resolution.  Rover(s) rover0 and rover1 are equipped for soil analysis. Rover(s) rover0 is equipped for rock analysis. Rover(s) rover0 and rover1 are equipped for imaging. Rover rover0 has store store0. Rover rover1 has store store1. Rover rover0 has camera2 on board. Rover rover1 has camera1 and camera0 on board. Camera camera1 can be calibrated on objective0. Camera camera2 can be calibrated on objective4. Camera camera0 can be calibrated on objective0. Camera camera0 supports colour and low_res. Camera camera1 supports high_res. Camera camera2 supports high_res. Rover rover0 can traverse from waypoint2 to waypoint1, waypoint0 to waypoint1, waypoint1 to waypoint2, waypoint1 to waypoint0. Rover rover1 can traverse from waypoint0 to waypoint1, waypoint2 to waypoint1, waypoint1 to waypoint2, waypoint1 to waypoint0. Waypoint(s) are visible from waypoint2: waypoint0 and waypoint1. Waypoint(s) are visible from waypoint1: waypoint0 and waypoint2. Waypoint(s) are visible from waypoint0: waypoint2 and waypoint1. Objective objective1 is visible from waypoint1 and waypoint0. Objective objective4 is visible from waypoint1. Objective objective3 is visible from waypoint0. Objective objective0 is visible from waypoint2. Objective objective2 is visible from waypoint0. Lander general is at waypoint waypoint1.  Currently, Rover rover1 is at waypoint1. Rover rover0 is at waypoint1. Rocks can be sampled at the following location(s): waypoint2. Soil can be sampled at the following location(s): waypoint2 and waypoint0. Rovers rover0 and rover1 are available. Rover rover0 has rock analyzed in waypoint waypoint1. Rover rover0 has image objective2 in mode high_res. Rover rover0 has its camera camera2 calibrated. Store(s) store1 is empty. Store(s) store0 is full. ",
+    "question": "Which of the following options can hold in a state that can potentially be reached? A. Rover rover0 has soil analyzed in waypoint waypoint0 and Rover rover1 has soil analyzed in waypoint waypoint0. B. Soil can be sampled at the following location(s): waypoint1. C. Rover rover0 has image objective2 in mode high_res and Soil data was communicated from waypoint waypoint1;. D. Rover rover1 is at waypoint2.",
+    "choices": {
+      "text": [
+        "Rover rover0 has soil analyzed in waypoint waypoint0 and Rover rover1 has soil analyzed in waypoint waypoint0",
+        "Soil can be sampled at the following location(s): waypoint1",
+        "Rover rover0 has image objective2 in mode high_res and Soil data was communicated from waypoint waypoint1;",
+        "Rover rover1 is at waypoint2"
+      ],
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    "query": "Which fact is reachable from this state?",
+    "answer": "D"
+  },
+  {
+    "id": -7257112633107301159,
+    "group": "reachable_atom_mc",
+    "context": "This is a visitall domain where a robot in a grid must visit all the cells or places in the grid. There are some unavailable places in the grid. The grid size is 4x4, and the location cell names are of the form loc-xi-yj (e.g., loc-x0-y2 or loc-x1-y1). The grid cells are connected to their available neighbors. The only unavailable cell is loc-x3-y1. Currently, the robot is in place loc-x1-y2.The following places have been visited: loc-x0-y3, loc-x3-y2, loc-x2-y3, loc-x1-y3, loc-x3-y3, loc-x1-y1, loc-x2-y2, loc-x1-y2, and loc-x2-y1.",
+    "question": "Which of the following options can hold in a state that can potentially be reached? A. the robot is in place loc-x1-y2 and the robot is in place loc-x1-y0. B. the robot is in place loc-x2-y0 and the robot is in place loc-x0-y3. C. the robot is in place loc-x1-y1 and the robot is in place loc-x0-y2. D. Place loc-x0-y2 has been visited.",
+    "choices": {
+      "text": [
+        "the robot is in place loc-x1-y2 and the robot is in place loc-x1-y0",
+        "the robot is in place loc-x2-y0 and the robot is in place loc-x0-y3",
+        "the robot is in place loc-x1-y1 and the robot is in place loc-x0-y2",
+        "Place loc-x0-y2 has been visited"
+      ],
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    "query": "Which fact is reachable from this state?",
+    "answer": "D"
+  },
+  {
+    "id": 1649431623751410392,
+    "group": "reachable_atom_mc",
+    "context": "This is a visitall domain where a robot in a grid must visit all the cells or places in the grid. There are some unavailable places in the grid. The grid size is 4x4, and the location cell names are of the form loc-xi-yj (e.g., loc-x0-y2 or loc-x1-y1). The grid cells are connected to their available neighbors. The unavailable cells are loc-x3-y3, loc-x0-y3, and loc-x0-y0. Currently, the robot is in place loc-x0-y2.The following places have been visited: loc-x3-y2, loc-x0-y2, loc-x1-y3, loc-x2-y2, and loc-x1-y2.",
+    "question": "Which of the following options can hold in a state that can potentially be reached? A. the robot is in place loc-x2-y3 and the robot is in place loc-x2-y0. B. the robot is in place loc-x0-y1 and the robot is in place loc-x2-y3. C. Place loc-x0-y1 has been visited. D. the robot is in place loc-x3-y2 and the robot is in place loc-x2-y1.",
+    "choices": {
+      "text": [
+        "the robot is in place loc-x2-y3 and the robot is in place loc-x2-y0",
+        "the robot is in place loc-x0-y1 and the robot is in place loc-x2-y3",
+        "Place loc-x0-y1 has been visited",
+        "the robot is in place loc-x3-y2 and the robot is in place loc-x2-y1"
+      ],
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    "query": "Which fact is reachable from this state?",
+    "answer": "C"
+  },
+  {
+    "id": -6082913568827927186,
+    "group": "reachable_atom_mc",
+    "context": "This is a visitall domain where a robot in a grid must visit all the cells or places in the grid. There are some unavailable places in the grid. The grid size is 4x4, and the location cell names are of the form loc-xi-yj (e.g., loc-x0-y2 or loc-x1-y1). The grid cells are connected to their available neighbors. There are no unavailable cells. Currently, the robot is in place loc-x0-y0.The following places have been visited: loc-x3-y0, loc-x0-y3, loc-x3-y2, loc-x0-y0, loc-x2-y0, loc-x2-y3, loc-x1-y3, loc-x3-y3, loc-x1-y0, and loc-x3-y1.",
+    "question": "Which of the following options can hold in a state that can potentially be reached? A. the robot is in place loc-x3-y3 and the robot is in place loc-x2-y1. B. Place loc-x0-y1 has been visited and the robot is in place loc-x1-y1. C. the robot is in place loc-x2-y1 and the robot is in place loc-x2-y3. D. the robot is in place loc-x0-y2 and the robot is in place loc-x1-y1.",
+    "choices": {
+      "text": [
+        "the robot is in place loc-x3-y3 and the robot is in place loc-x2-y1",
+        "Place loc-x0-y1 has been visited and the robot is in place loc-x1-y1",
+        "the robot is in place loc-x2-y1 and the robot is in place loc-x2-y3",
+        "the robot is in place loc-x0-y2 and the robot is in place loc-x1-y1"
+      ],
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    "query": "Which fact is reachable from this state?",
+    "answer": "B"
+  },
+  {
+    "id": 3326112655036367305,
+    "group": "reachable_atom_mc",
+    "context": "This is a visitall domain where a robot in a grid must visit all the cells or places in the grid. There are some unavailable places in the grid. The grid size is 4x4, and the location cell names are of the form loc-xi-yj (e.g., loc-x0-y2 or loc-x1-y1). The grid cells are connected to their available neighbors. The unavailable cells are loc-x0-y3 and loc-x0-y0. Currently, the robot is in place loc-x2-y2.The following places have been visited: loc-x3-y0, loc-x3-y2, loc-x0-y2, loc-x2-y0, loc-x2-y3, loc-x1-y3, loc-x3-y3, loc-x1-y1, loc-x2-y2, loc-x1-y2, loc-x0-y1, loc-x1-y0, and loc-x3-y1.",
+    "question": "Which of the following options can hold in a state that can potentially be reached? A. the robot is in place loc-x1-y1 and the robot is in place loc-x0-y1. B. the robot is in place loc-x2-y0 and Place loc-x2-y1 has been visited. C. the robot is in place loc-x1-y3 and the robot is in place loc-x3-y2. D. the robot is in place loc-x1-y3 and the robot is in place loc-x1-y0.",
+    "choices": {
+      "text": [
+        "the robot is in place loc-x1-y1 and the robot is in place loc-x0-y1",
+        "the robot is in place loc-x2-y0 and Place loc-x2-y1 has been visited",
+        "the robot is in place loc-x1-y3 and the robot is in place loc-x3-y2",
+        "the robot is in place loc-x1-y3 and the robot is in place loc-x1-y0"
+      ],
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    "query": "Which fact is reachable from this state?",
+    "answer": "B"
+  },
+  {
+    "id": 3020948462958187766,
+    "group": "reachable_atom_mc",
+    "context": "This is a visitall domain where a robot in a grid must visit all the cells or places in the grid. There are some unavailable places in the grid. The grid size is 4x4, and the location cell names are of the form loc-xi-yj (e.g., loc-x0-y2 or loc-x1-y1). The grid cells are connected to their available neighbors. The unavailable cells are loc-x0-y3 and loc-x0-y0. Currently, the robot is in place loc-x2-y0.The following places have been visited: loc-x3-y2, loc-x0-y2, loc-x2-y0, loc-x2-y3, loc-x1-y3, loc-x3-y1, loc-x3-y3, loc-x1-y1, loc-x2-y2, loc-x1-y2, loc-x0-y1, loc-x1-y0, and loc-x2-y1.",
+    "question": "Which of the following options can hold in a state that can potentially be reached? A. the robot is in place loc-x1-y2 and the robot is in place loc-x3-y3. B. the robot is in place loc-x3-y2 and the robot is in place loc-x2-y3. C. the robot is in place loc-x1-y2 and the robot is in place loc-x2-y1. D. the robot is in place loc-x3-y1.",
+    "choices": {
+      "text": [
+        "the robot is in place loc-x1-y2 and the robot is in place loc-x3-y3",
+        "the robot is in place loc-x3-y2 and the robot is in place loc-x2-y3",
+        "the robot is in place loc-x1-y2 and the robot is in place loc-x2-y1",
+        "the robot is in place loc-x3-y1"
+      ],
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    "query": "Which fact is reachable from this state?",
+    "answer": "D"
+  }
+]

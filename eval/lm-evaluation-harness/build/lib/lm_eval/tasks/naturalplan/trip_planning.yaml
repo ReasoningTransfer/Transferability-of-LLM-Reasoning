@@ -1,0 +1,34 @@
+task: trip_planning
+task_alias: "Trip Planning"
+
+
+dataset_path: "json"
+dataset_name: null
+dataset_kwargs:
+  data_files: "/map-vepfs/ziyu/reasoning_tr/lm-evaluation-math/lm_eval/tasks/naturalplan/data/calendar_scheduling_new.json" 
+
+test_split: "train"
+
+doc_to_text: "{{ prompt_5shot }}"
+doc_to_target: "{{ golden_plan }}"
+doc_to_choice: null
+
+description: "You are an expert at scheduling meetings. Given the constraints and existing schedules, generate a proposed meeting time."
+
+num_fewshot: 5
+fewshot_delimiter: "\n\n"
+target_delimiter: " "
+
+output_type: "generate_until"
+
+metric_list:
+  - "exact_str_match"
+  - "bleu"
+
+generation_kwargs:
+  max_length: 512
+  temperature: 0.7
+  top_p: 0.9
+
+metadata:
+  version: "1.0"

@@ -1,0 +1,24 @@
+#dataset_path: TIGER-Lab/MMLU-Pro # a copy of `cais/leaderboard_mmlu` with no auxiliary_train split
+task: mmlu_pro_1k
+test_split: test
+dataset_path: parquet
+dataset_kwargs:
+  trust_remote_code: true
+  data_files: 
+    validation: /map-vepfs/ziyu/reasoning_tr/lm-evaluation-math/lm_eval/tasks/leaderboard/mmlu_pro/validation-00000-of-00001.parquet
+    test: /map-vepfs/ziyu/reasoning_tr/lm-evaluation-math/lm_eval/tasks/leaderboard/mmlu_pro/1k_test.parquet
+
+fewshot_split: validation
+fewshot_config:
+  sampler: first_n
+output_type: multiple_choice
+doc_to_text: !function utils.doc_to_text
+doc_to_choice: !function utils.doc_to_choice
+doc_to_target: answer
+metric_list:
+  - metric: acc
+    aggregation: mean
+    higher_is_better: true
+num_fewshot: 5
+metadata:
+  version: 0.1
