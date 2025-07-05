@@ -9,18 +9,6 @@ This folder contains tools for analyzing token-level distribution shifts between
 3. **Automated Pipeline** (`token_level_logits_and_ranks.sh`)
 
 
-## Directory Structure
-analysis_token_distribution_shift/
-├── calculate_logits_and_ranks_token_level.py # Main calculation script
-├── calculate_KL.py # KL divergence calculator
-├── token_level_logits_and_ranks.sh # Automated pipeline
-├── README.md # This file
-├── ppl_data/ # Output directory for results
-└── finetuned_model_response/ # Input data directory
-├── UniReason-SFT_ifeval.jsonl
-├── UniReason-SFT_hendrycks_math_500.jsonl
-└── ...
-
 
 
 
